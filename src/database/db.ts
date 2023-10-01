@@ -101,12 +101,16 @@ TokenCalls.init({
   },
   athROI: {
     type: DataTypes.STRING,
-    defaultValue:"",
+    defaultValue:"0.0",
     allowNull: true,
   },
   chainId: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  url: {
+    type: DataTypes.STRING,
+    allowNull: true,
   },
   dex: {
     type: DataTypes.STRING,

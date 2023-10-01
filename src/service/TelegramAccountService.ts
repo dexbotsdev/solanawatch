@@ -192,7 +192,8 @@ class TelegramAccountService {
                             chainId: data.chainId,
                             dex: data.dex,
                             version: data.version,
-                            athROI: "0"
+                            athROI: "0",
+                            url:data.url
                         }
                         this.em.emit('newSignal', signal);
                     }

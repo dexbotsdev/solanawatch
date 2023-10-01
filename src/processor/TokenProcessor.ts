@@ -71,8 +71,11 @@ export const getPairData = async (address: any)=>{
 
     if(result && result.data && result.data.pairs){
 
+        console.log(result.data);
+
         const resp = {
             tokenAddress : result.data.pairs[0]?.baseToken.address,
+            url:result.data.pairs[0].url,
             tokenSymbol: result.data.pairs[0]?.baseToken.symbol,
             tokenName: result.data.pairs[0]?.baseToken.name,
             tokenAge: result.data.pairs[0]?.pairCreatedAt,
