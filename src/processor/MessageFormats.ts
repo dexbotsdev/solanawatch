@@ -18,7 +18,7 @@ $${commandDetail.tokenSymbol} <b>New Call :</b> <b> <a href="https://t.me/${comm
 📈 <a href="${commandDetail.url}">Chart</a>     
 🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
 
-Call Alerts from @marketingalerts
+Call Alerts from <b>@marketingalerts</b>
 `;
 }
 
@@ -74,7 +74,7 @@ ${await listoftgcalls(commandDetail,tokenLogs.calls)}
 📈 <a href="${commandDetail.url}">Chart</a>     
 🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
 
-Call Alerts from @marketingalerts
+Call Alerts from <b>@marketingalerts</b>
 `;
 } 
 
@@ -94,7 +94,7 @@ export const UpdateFromNewCall =(commandDetail: any,totalCallsCount:number)=>{
 📈 <a href="${commandDetail.url}">Chart</a>     
 🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
 
-Call Alerts from @marketingalerts
+Call Alerts from <b>@marketingalerts</b>
 `;
     }
     
@@ -118,7 +118,7 @@ $${commandDetail.tokenSymbol} <b>New Call :</b>  <b> <a href="https://t.me/${com
     
 ⭐ <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
  
-Call Alerts from @marketingalerts
+Call Alerts from <b>@marketingalerts</b>
     `;
     }
      
