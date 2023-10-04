@@ -56,13 +56,13 @@ const listoftgcalls=async (commandDetail:any,logs:any)=>{
 }
 
 
-export const AllCallsMessage =async (commandDetail: any, tokenLogs:any)=>{ 
+export const AllCallsMessage =async (commandDetail: any, tokenLogs:any,alphaCallsCount: number)=>{ 
     
     let cnt = tokenLogs.calls.length >0 ? tokenLogs.calls.length:1;
     return  `
 🚀 <b>$${commandDetail.tokenSymbol} TOTAL MARKETING : ${cnt} </b>
 
-💳 Alpha Calls : ${getAlphaCount(tokenLogs.calls)} ${getCallCountBalls(tokenLogs.calls)}            
+💳 Alpha Calls : ${alphaCallsCount} ${getCallCountBalls(alphaCallsCount)}            
 
 TOTAL CALLS || MCAP
 
@@ -90,9 +90,9 @@ export const UpdateFromNewCall =(commandDetail: any,totalCallsCount:number)=>{
  
 ⚠ CA : <code>${commandDetail.tokenAddress}</code>
 
-📈 <a href="${commandDetail.url}">Chart</a> 
-    
-⭐ <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
+
+📈 <a href="${commandDetail.url}">Chart</a>     
+🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
 
 Call Alerts from @marketingalerts
 `;
@@ -139,14 +139,12 @@ Call Alerts from @marketingalerts
         return disp;
     }
 
-  const  getCallCountBalls = (calls : any) => {
-
+  const  getCallCountBalls = (alphaCallsCount : any) => { 
         let disp = '';
-        for (var i = 0; i < calls.length; i++) {
-
-            if(calls[i].isAlpha){
+        for (var i = 0; i < alphaCallsCount; i++) {
+ 
             disp = disp + '🟢'
-            if ((i+1) % 3 === 0) disp = disp + '||';}
+            if ((i+1) % 3 === 0) disp = disp + '||'; 
         }
         return disp;
     }

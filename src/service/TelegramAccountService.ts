@@ -4,7 +4,7 @@ import { text } from 'input'
 import bigInt from "big-integer";
 import { EventEmitter } from 'emitter'
 
-import {  Channels, TokenCalls,UpdateLogs } from "../database/db";
+import { Channels, TokenCalls, UpdateLogs } from "../database/db";
 import { processMessage, parseAddress } from '../processor/TokenProcessor';
 import { getTokenStats } from "../database/CustomQuery";
 import { AllCallsMessage, NewMessageFormat, UpdateFromAddonCall, UpdateFromNewCall } from "../processor/MessageFormats";
@@ -39,7 +39,7 @@ class TelegramAccountService {
 
     }
 
-    disconnect = ()=>{
+    disconnect = () => {
 
         this.client.disconnect();
     }
@@ -50,15 +50,15 @@ class TelegramAccountService {
         try {
             const dialogs = await this.client.getDialogs();
 
- 
+
 
             dialogs.forEach((element: any) => {
 
-                if (element.entity?.className === 'Channel') { 
-                    if (Number(element.dialog.peer?.channelId) 
-                    &&( this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title) 
-                    ||   this.alphaChannels.includes(element?.entity?.username) || this.alphaChannels.includes(element?.entity?.title))
-                ) {
+                if (element.entity?.className === 'Channel') {
+                    if (Number(element.dialog.peer?.channelId)
+                        && (this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title)
+                            || this.alphaChannels.includes(element?.entity?.username) || this.alphaChannels.includes(element?.entity?.title))
+                    ) {
                         this.chatIds.push(Number(element.dialog?.peer?.channelId));
                         this.channelMaps.push({
                             name: element?.entity?.username,
@@ -66,10 +66,10 @@ class TelegramAccountService {
                             id: Number(element.dialog.peer?.channelId),
                             isAlpha: this.alphaChannels.includes(element?.name)
                         })
-                    }  
-                } else if (element.entity?.className === 'Chat'    &&( this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title) 
-                ||   this.alphaChannels.includes(element?.entity?.username) || this.alphaChannels.includes(element?.entity?.title))
-            ) {
+                    }
+                } else if (element.entity?.className === 'Chat' && (this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title)
+                    || this.alphaChannels.includes(element?.entity?.username) || this.alphaChannels.includes(element?.entity?.title))
+                ) {
                     this.chatIds.push(Number(element.entity?.id));
                     this.channelMaps.push({
                         name: element?.entity?.title,
@@ -79,7 +79,7 @@ class TelegramAccountService {
                     })
 
 
-                } 
+                }
 
                 if (this.publishChannel === element?.entity?.username || this.publishChannel === element?.entity?.title) {
 
@@ -95,7 +95,7 @@ class TelegramAccountService {
 
 
 
-          //console.log(this.channelMaps.length);
+            //console.log(this.channelMaps.length);
 
             if (this.channelMaps.length > 0) {
 
@@ -110,15 +110,15 @@ class TelegramAccountService {
 
                     const chnl = await Channels.upsert(cnl).then((result) => { console.log(result) });
                 });
- 
-                 await this.subscribe();
+
+                await this.subscribe();
 
             }
 
 
-           
+
         } catch (error) {
-          //console.log(error)
+            //console.log(error)
             throw new Error(`Group not found.`);
 
         } finally {
@@ -130,7 +130,7 @@ class TelegramAccountService {
     initClient = async () => {
 
 
-      //console.log("starting" );
+        //console.log("starting" );
 
 
         await this.client.start({
@@ -142,10 +142,10 @@ class TelegramAccountService {
         });
 
         const me = await this.client.getMe();
-      //console.log("starting me" );
+        //console.log("starting me" );
 
         if (me) {
-          //console.log("starting getGroupChatIdByName" );
+            //console.log("starting getGroupChatIdByName" );
 
             this.getGroupChatIdByName();
         }
@@ -153,27 +153,27 @@ class TelegramAccountService {
     }
 
 
-    subscribe = async () => { 
-      //console.log("starting   subscribe" ); 
+    subscribe = async () => {
+        //console.log("starting   subscribe" ); 
 
-         this.client.addEventHandler(async (event: any) => {
+        this.client.addEventHandler(async (event: any) => {
             if (event?.message) {
                 // 
-              ////console.log(this.chatIds); 
+                ////console.log(this.chatIds); 
 
                 const chatId = event.message?.peerId?.channelId ? event.message?.peerId?.channelId : event.message?.peerId?.chatId;
 
-                if (this.chatIds.includes(Number(chatId)) ) {
+                if (this.chatIds.includes(Number(chatId))) {
 
-                  //console.log('------------------------------------------------------');
-                  //console.log(' Message from ' + this.channelMaps.find((item) => item.id === Number(chatId)).title);
+                    //console.log('------------------------------------------------------');
+                    //console.log(' Message from ' + this.channelMaps.find((item) => item.id === Number(chatId)).title);
                     let data = await processMessage(event.message);
                     let signal = {};
-                  ////console.log(data);
-                  //console.log('------------------------------------------------------');
+                    ////console.log(data);
+                    //console.log('------------------------------------------------------');
 
 
-                    
+
 
                     if (data) {
                         signal = {
@@ -193,13 +193,11 @@ class TelegramAccountService {
                             dex: data.dex,
                             version: data.version,
                             athROI: "0",
-                            url:data.url
+                            url: data.url
                         }
                         this.em.emit('newSignal', signal);
                     }
-                } else
-
-                {
+                } else {
                     //console.log(event.message);
                 }
             }
@@ -208,149 +206,239 @@ class TelegramAccountService {
 
         })
     }
- 
+
+
+    sendCallersMessageToChannel = async (tradeSignal: string) => {
+
+        
+
+
+            const botlinkedchannel = await this.client.getInputEntity(this.publishChannel);
+
+            let tradingSignal = JSON.parse(tradeSignal);
+            this.client.setParseMode("html");
+
+            const tokenAddress = tradingSignal.tokenAddress;
+            const tokenStats = await getTokenStats(tradingSignal);
+            let totalCallsCount = tokenStats.callCount;
+
+
+            let channelsCallCount = 0;
+            let alphaCallsCount = 0;
+
+            tokenStats.calls.forEach(element => {
+                if (element.callerTG === tradingSignal.callerTG) {
+                    channelsCallCount = element.calls;
+                }
+                if (Number(element.isAlpha) === 1) {
+                    alphaCallsCount += element.calls;
+                }
+            });
+
+
+            let message = NewMessageFormat(tradingSignal, totalCallsCount);
+
+            console.log(message);
+
+
+            const tradeLogMessage = await AllCallsMessage(JSON.parse(tradeSignal), tokenStats,alphaCallsCount); 
+
+            
+                const oldLogsOpenData = await UpdateLogs.findOne({
+                    where: {
+                        tokenAddress: tokenAddress
+                    }
+                })
+
+
+                const oldMessageId = oldLogsOpenData?.dataValues?.lastMessageId ? oldLogsOpenData?.dataValues?.lastMessageId : 0;
+
+
+                console.log("oldLogsOpenData" + oldLogsOpenData); 
+                
+                if (oldMessageId === 0) {
+
+                    if(!tradingSignal.isAlpha)
+                    await this.client.sendMessage(botlinkedchannel, { message: message, parseMode: 'html', linkPreview: false });
+
+
+                    const resultLog = await this.client.sendMessage(botlinkedchannel, { message: tradeLogMessage, parseMode: 'html', linkPreview: false });
+
+                    const resultLogData = JSON.parse(JSON.stringify(resultLog)); 
+
+                    await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+                } else {
+
+                    if (!tradingSignal.isAlpha) {
+
+                        if (totalCallsCount === 1 && channelsCallCount === 1) {
+                            await this.client.sendMessage(botlinkedchannel, { 
+                                message: message, parseMode: 'html', linkPreview: false
+                            });
+                        }else
+                        await this.client.sendMessage(botlinkedchannel, {
+                            replyTo: oldMessageId,
+                            message: message, parseMode: 'html', linkPreview: false
+                        });
+                    }
+
+                    const resultLog = await this.client.editMessage(botlinkedchannel, { message: oldMessageId, text: tradeLogMessage, parseMode: 'html', linkPreview: false });
+
+                    const resultLogData = JSON.parse(JSON.stringify(resultLog));
+
+                    await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
+
+                    await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+
+
+                } 
+
+        
+    }
+
 
     sendTokenCallMessage = async (tradeSignal: string) => {
 
         const botlinkedchannel = await this.client.getInputEntity(this.publishChannel);
 
         let tradingSignal = JSON.parse(tradeSignal);
-        this.client.setParseMode("html"); 
+        this.client.setParseMode("html");
 
-        const tokenAddress = tradingSignal.tokenAddress; 
+        const tokenAddress = tradingSignal.tokenAddress;
         const tokenStats = await getTokenStats(tokenAddress);
 
         const callerTG = tradingSignal.callerTG;
-        let currTGCallsCount =0;
-        let totalCallsCount =tokenStats.callCount;
+        let currTGCallsCount = 0;
+        let totalCallsCount = tokenStats.callCount;
 
-      //console.log(tokenStats);
+        //console.log(tokenStats);
 
-        tokenStats.calls.forEach(element => { 
-            if(element.callerTG === callerTG){ 
-                currTGCallsCount = element.calls; 
+        tokenStats.calls.forEach(element => {
+            if (element.callerTG === callerTG) {
+                currTGCallsCount = element.calls;
                 //callerTG , tokenName,tokenSymbol, tokenAddress, min(tokenMC) as mcap,count(*) as calls 
 
             }
-            
+
         });
 
-       // console.log(tokenStats);
-      //console.log(totalCallsCount);
-      //console.log(currTGCallsCount);
+        // console.log(tokenStats);
+        //console.log(totalCallsCount);
+        //console.log(currTGCallsCount);
 
-        let message ='';
+        let message = '';
 
 
-        if(tokenStats.calls.length>0){
+        if (tokenStats.calls.length > 0) {
             tradingSignal.minCallerTG = tokenStats.calls[0].callerTG;
             tradingSignal.minCallerMcap = tokenStats.calls[0].mcap
             tradingSignal.minCallerChannelName = tokenStats.calls[0].channelName
             tradingSignal.minCallercallerPostId = tokenStats.calls[0].callerPostId
         }
-        if(totalCallsCount ===1 && currTGCallsCount===1 && !tradingSignal.isAlpha){
+        if (totalCallsCount === 1 && currTGCallsCount === 1 && !tradingSignal.isAlpha) {
 
-              //console.log('Calling NEW MESSAGE since only 1 Record ')
+            //console.log('Calling NEW MESSAGE since only 1 Record ')
 
-            message = NewMessageFormat(tradingSignal,totalCallsCount);
+            message = NewMessageFormat(tradingSignal, totalCallsCount);
         }
-        else if(totalCallsCount > 1 && currTGCallsCount === 1 && !tradingSignal.isAlpha){
-            
-          //console.log('Calling NEW MESSAGE after 1 Record ')
+        else if (totalCallsCount > 1 && currTGCallsCount === 1 && !tradingSignal.isAlpha) {
+
+            //console.log('Calling NEW MESSAGE after 1 Record ')
 
 
-            message = NewMessageFormat(tradingSignal,totalCallsCount);
+            message = NewMessageFormat(tradingSignal, totalCallsCount);
         }
 
-        if(totalCallsCount >1 && currTGCallsCount>1 && !tradingSignal.isAlpha)
-             {
-              //console.log('Calling AddOnCall MESSAGE after 1 Record ')
+        if (totalCallsCount > 1 && currTGCallsCount > 1 && !tradingSignal.isAlpha) {
+            //console.log('Calling AddOnCall MESSAGE after 1 Record ')
 
-                message = NewMessageFormat(tradingSignal,currTGCallsCount);
-            
-             
+            message = NewMessageFormat(tradingSignal, currTGCallsCount);
+
+
+        }
+
+        if (!tradingSignal.isAlpha)
+            await this.client.sendMessage(botlinkedchannel, { message: message, parseMode: 'html', linkPreview: false });
+
+
+        const tradeLogMessage = await AllCallsMessage(JSON.parse(tradeSignal), tokenStats,1);
+
+        const oldLogsOpenData = await UpdateLogs.findOne({
+            where: {
+                tokenAddress: tokenAddress
             }
+        })
 
-            if(!tradingSignal.isAlpha)
-            await this.client.sendMessage(botlinkedchannel,{message:message, parseMode:'html',linkPreview:false});
-
-
-            const tradeLogMessage = await AllCallsMessage(JSON.parse(tradeSignal),tokenStats);
-
-            const oldLogsOpenData = await UpdateLogs.findOne({
-                where :{
-                    tokenAddress: tokenAddress
-                }
-            })
-        
 
         const oldMessageId = oldLogsOpenData?.dataValues?.lastMessageId ? oldLogsOpenData?.dataValues?.lastMessageId : 0;
 
- 
-        if(oldMessageId ===0 ){
+
+        if (oldMessageId === 0) {
             // const resultLog  = await this.client.invoke(
             //     new Api.messages.SendMessage({
             //         peer: "botlinkedchannel",
             //         message: tradeLogMessage,
             //         noWebpage:true, 
             //         randomId: bigInt.fromArray([parseInt("" + Math.random() * 10 ** 10)]),
-                    
+
             //     })
             // );
 
-            const resultLog =await this.client.sendMessage(botlinkedchannel,{message:tradeLogMessage, parseMode:'html',linkPreview:false});
-    
+            const resultLog = await this.client.sendMessage(botlinkedchannel, { message: tradeLogMessage, parseMode: 'html', linkPreview: false });
+
             const resultLogData = JSON.parse(JSON.stringify(resultLog));
-           
-     
-         await UpdateLogs.create({lastMessageId : resultLogData.id, tokenAddress:tokenAddress});
-    
+
+
+            await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+
         } else {
-            try{
+            try {
 
 
-      //console.log(botlinkedchannel);
-         if(!tradingSignal.isAlpha){ 
-             await this.client.sendMessage(botlinkedchannel,{
-            replyTo:oldMessageId,
-            message:message, parseMode:'html',linkPreview:false});}
+                //console.log(botlinkedchannel);
+                if (!tradingSignal.isAlpha) {
+                    await this.client.sendMessage(botlinkedchannel, {
+                        replyTo: oldMessageId,
+                        message: message, parseMode: 'html', linkPreview: false
+                    });
+                }
 
-        // const resultX  = await this.client.invoke(
-        //     new Api.messages.SendMessage({
-        //         peer: "botlinkedchannel",
-        //         message: message,
-        //         noWebpage:true, 
-        //         randomId: bigInt.fromArray([parseInt("" + Math.random() * 10 ** 10)]),
-                
-        //     })
-        // );
+                // const resultX  = await this.client.invoke(
+                //     new Api.messages.SendMessage({
+                //         peer: "botlinkedchannel",
+                //         message: message,
+                //         noWebpage:true, 
+                //         randomId: bigInt.fromArray([parseInt("" + Math.random() * 10 ** 10)]),
 
-        
+                //     })
+                // );
 
-       const resultLog =await this.client.editMessage(botlinkedchannel,{message: oldMessageId,text:tradeLogMessage, parseMode:'html',linkPreview:false});
 
-            // const resultLog  = await this.client.invoke(
-            //     new Api.messages.EditMessage({
-            //         peer: "botlinkedchannel",
-            //         message: tradeLogMessage,
-            //         noWebpage:true,
-            //         id: oldMessageId
-            //      })
-            // );
-    
-            const resultLogData = JSON.parse(JSON.stringify(resultLog));
-           
- 
-             await UpdateLogs.destroy({where : { tokenAddress:tokenAddress}});
 
-           await UpdateLogs.create({lastMessageId : resultLogData.id, tokenAddress:tokenAddress});
-    
-        }catch(err){
-          //console.log(err);
+                const resultLog = await this.client.editMessage(botlinkedchannel, { message: oldMessageId, text: tradeLogMessage, parseMode: 'html', linkPreview: false });
+
+                // const resultLog  = await this.client.invoke(
+                //     new Api.messages.EditMessage({
+                //         peer: "botlinkedchannel",
+                //         message: tradeLogMessage,
+                //         noWebpage:true,
+                //         id: oldMessageId
+                //      })
+                // );
+
+                const resultLogData = JSON.parse(JSON.stringify(resultLog));
+
+
+                await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
+
+                await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+
+            } catch (err) {
+                //console.log(err);
+            }
         }
-        }
 
-        
+
 
 
     }

@@ -34,12 +34,8 @@ export const processMessage = async(message: { message: any })=>{
             if(addressInmessage){
 
                 const data = await getPairData(addressInmessage);
-                console.log(data);
-
-                if(data.tokenAddress && data.tokenAge && data.currPrice && data.tokenSymbol && data.tokenMC){
-
-                   
-
+ 
+                if(data.tokenAddress && data.tokenAge && data.currPrice && data.tokenSymbol && data.tokenMC){ 
                     return data;
                 }
             } else return null;

@@ -40,9 +40,12 @@ let config = null;
       if(oldSignal && oldSignal.dataValues && oldSignal.dataValues.tokenAddress){
         logger.error('skipping Duplicates')
       }else {
-        const newTrade = await TokenCalls.create(tradeSignal);
-
-        tsA.sendTokenCallMessage(JSON.stringify(tradeSignal)); 
+        await TokenCalls.create(tradeSignal);
+        try{
+        tsA.sendCallersMessageToChannel(JSON.stringify(tradeSignal)); 
+        }catch(error){
+          console.log(error)
+        }
       } 
 
     });

@@ -60,38 +60,38 @@ export const callUniqueTokens24HrsMoreThanOneCall=async (eventEmitter: EventEmit
 
 }
 
-export const getTokenStats=async (tokenAddress: string)=>{
+export const getTokenStats=async (tradingSignal:any)=>{
  
       let response={ 
           callCount:0,
           calls:[]  
       }
 
-      const result = await getPairData(tokenAddress);
-
-      
-      console.log(result);
+     
       
 
-      const tokenDetails = await sequelize.query(
+      const tokenDetails:any = await sequelize.query(
           `select callerTG ,channelName,isAlpha,athROI, callerPostId, tokenName,tokenSymbol,callerPostId, tokenAddress,currPrice,callTime, min(tokenMC) as mcap,count(*) as calls 
           from TokenCalls tc 
           group by callerTG ,tokenAddress
           having tokenAddress =? order by mcap `,
           {
-              replacements:[tokenAddress],
+              replacements:[tradingSignal.tokenAddress],
               type:QueryTypes.SELECT
           }
       )
+
+      tokenDetails.url = tradingSignal.url; 
+
 
       response.calls=tokenDetails; 
 
       tokenDetails.forEach((x:any)=>{
           response.callCount+=Number(x.calls); 
 
-          if(Number(result.currPrice)>Number(x.currPrice))
+          if(Number(tradingSignal.currPrice)>Number(x.currPrice))
             {
-                const roi= Number(((result.currPrice-x.currPrice)/x.currPrice)*100).toFixed(2)
+                const roi= Number(((tradingSignal.currPrice-x.currPrice)/x.currPrice)*100).toFixed(2)
                 x.athROI = roi;
 
                 TokenCalls.update({ athROI: roi }, {
