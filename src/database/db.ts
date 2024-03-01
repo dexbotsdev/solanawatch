@@ -47,6 +47,54 @@ UpdateLogs.init({
   class Channels extends Model {
 
   }; 
+
+
+class TokenPrice extends Model{
+
+   
+}
+
+
+TokenPrice.init({
+  id: {
+    type: DataTypes.INTEGER,
+    autoIncrement: true,
+    primaryKey: true
+  }, 
+  tokenAddress: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  price: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  priceInusd: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  }, 
+  side: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  amountInToken: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  }, 
+  amountInEth: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },  
+  tnxTime: {
+    type: DataTypes.DATE,
+    allowNull: false,
+  },
+},{ 
+  tableName: 'TokenPrice',
+  sequelize,
+
+});
+
     
 TokenCalls.init({
   // Model attributes are defined here

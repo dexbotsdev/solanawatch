@@ -178,9 +178,7 @@ class TelegramAccountService {
                     let signal = {};
                     ////console.log(data);
                     //console.log('------------------------------------------------------');
-
-
-
+ 
 
                     if (data) {
                         signal = {
