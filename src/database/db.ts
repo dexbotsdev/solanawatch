@@ -13,11 +13,14 @@ export const sequelize = new Sequelize({
 });
 
 
-class TokenCalls extends Model { 
+class TokenCalls extends Model {
+};
+class ChannelLogs extends Model {
+   
 };
 
 
-class UpdateLogs extends Model{ 
+class UpdateLogs extends Model {
 
 }
 
@@ -30,52 +33,37 @@ UpdateLogs.init({
     primaryKey: true
   },
   lastMessageId: {
-    type: DataTypes.INTEGER, 
-    unique:true,
+    type: DataTypes.INTEGER,
+    unique: true,
     allowNull: false
   },
   tokenAddress: {
     type: DataTypes.STRING,
     allowNull: true
-  }, 
+  },
 },
   {
     tableName: 'UpdateLogs',
     sequelize,
   });
 
-  class Channels extends Model {
+class Channels extends Model {
 
-  }; 
+};
 
- 
 
-    
+
+
 TokenCalls.init({
   // Model attributes are defined here
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true
-  },
-  callerPostId: {
-    type: DataTypes.INTEGER,
-    allowNull: true
-  },
-  callerTG: {
-    type: DataTypes.STRING,
-    allowNull: true,
-  },
-  channelName:{
-    type: DataTypes.STRING,
-    allowNull: true,
-  },
-  callTime: {
-    type: DataTypes.DATE,
-    allowNull: false,
-  },
+  }, 
   tokenAddress: {
     type: DataTypes.STRING,
+    unique: true,
     allowNull: true,
   },
   tokenSymbol: {
@@ -85,54 +73,112 @@ TokenCalls.init({
   tokenName: {
     type: DataTypes.STRING,
     allowNull: true,
-  },   
-  isAlpha: {
-    type: DataTypes.BOOLEAN,
-    defaultValue:false,
-    allowNull: true,
   }, 
+  dexUpdated: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
+  lpBurned: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
+  safeguarded: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
+  solTrending: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
 },
   {
     tableName: 'TokenCalls',
     sequelize,
   });
 
-  Channels.init({
+  ChannelLogs.init({
     // Model attributes are defined here
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true
     },
-    channelId: {
-      type: DataTypes.INTEGER, 
-      unique:true,
-      allowNull: false
+    callerPostId: {
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
+    callerTG: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     channelName: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
-    channelTitle: {
+    callTime: {
+      type: DataTypes.DATE,
+      allowNull: false,
+    },
+    tokenAddress: {
       type: DataTypes.STRING,
-      allowNull: true
-    },
-    enabled: {
-      type: DataTypes.BOOLEAN,
-      defaultValue:false,
       allowNull: true,
     }, 
-    isAlpha: {
-      type: DataTypes.BOOLEAN,
-      defaultValue:false,
+    priceChange24: {
+      type: DataTypes.FLOAT,
+      defaultValue: 0.0,
+      allowNull: true,
+    },
+    tokenMC: {
+      type: DataTypes.FLOAT,
+      defaultValue: 0,
       allowNull: true,
     }, 
   },
     {
-      tableName: 'Channels',
+      tableName: 'ChannelLogs',
       sequelize,
     });
-  
- 
-      
-export { TokenCalls, Channels ,UpdateLogs };
+
+Channels.init({
+  // Model attributes are defined here
+  id: {
+    type: DataTypes.INTEGER,
+    autoIncrement: true,
+    primaryKey: true
+  },
+  channelId: {
+    type: DataTypes.INTEGER,
+    unique: true,
+    allowNull: false
+  },
+  channelName: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  channelTitle: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  enabled: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
+  isAlpha: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    allowNull: true,
+  },
+},
+  {
+    tableName: 'Channels',
+    sequelize,
+  });
+
+
+
+export { TokenCalls, ChannelLogs,Channels, UpdateLogs };

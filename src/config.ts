@@ -10,6 +10,10 @@ export const metaplex = Metaplex.make(connection);
 export const quoteMint = new PublicKey('So11111111111111111111111111111111111111112')
 
 
+export const dexscreener_channel='dexup00';
+export const lpburned_channel='SolanaLiquidityBurns';
+export const soltrending_channel='soltrendingl';
+export const safeguard_channel='safeguardttt';
 
 export const OPENBOOK = new PublicKey("srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX")
 export const RAYDOIM =  MAINNET_PROGRAM_ID.AmmV4

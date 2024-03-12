@@ -1,110 +1,52 @@
 import { QueryTypes } from "sequelize";
-import { TokenCalls, sequelize } from "./db";
-import { EventEmitter } from 'emitter'
-import { getPairData } from "../processor/TokenProcessor";
+import { ChannelLogs, sequelize } from "./db";
 
-
-export const callUniqueTokens24HrsMoreThanOneCall=async (eventEmitter: EventEmitter)=>{
-
-    const result=[];
-   const data =  await sequelize.query(
-         `SELECT tokenAddress, count(tokenAddress) as tcx
-         from TokenCalls tc 
-         group by tokenAddress 
-         having createdAt >=datetime("now" , "-24 hours")  
-         and count(tokenAddress)>1`,
-        { 
-          type: QueryTypes.SELECT
+export const getMaxRoi = async (tokenAddress: any, tradeSignal: { tokenMC: number; }) => {
+    const result = [];
+    const data: any[] = await sequelize.query(
+        `SELECT min(tokenMC) as tokenMC from ChannelLogs where tokenAddress ='${tokenAddress}'`,
+        {
+            type: QueryTypes.SELECT
         }
-      );
-
-      console.log(JSON.stringify(data));
-
-      data.forEach(async (item : any)=>{
-
-        let response={
-
-            tokenName: item.tokenName,
-            tokenAddress:item.tokenAddress,
-            symbol:item.tokenSymbol,
-            callCount:0,
-            calls:[]
-
-
-        }
-        const tokenAddress = item.tokenAddress;
-
-        const tokenDetails = await sequelize.query(
-            `select callerTG , tokenName,tokenSymbol, tokenAddress, min(tokenMC) as mcap,count(*) as calls 
-            from TokenCalls tc 
-            group by callerTG ,tokenAddress
-            having tokenAddress =?`,
-            {
-                replacements:[tokenAddress],
-                type:QueryTypes.SELECT
-            }
-        )
-
-        response.calls=tokenDetails; 
-
-        tokenDetails.forEach((x:any)=>{
-            response.callCount+=Number(x.calls);
-        })
+    );
+    let maxROI = '0';
  
-        eventEmitter.emit('24hourlyStats',JSON.stringify(response));
+    if (data && data.length > 0) {
+        maxROI = Number(Number(tradeSignal.tokenMC - data[0].tokenMC)*100/ data[0].tokenMC).toFixed(2)
+    }
 
-
-      })
-
-
-
+    return maxROI;
 }
 
-export const getTokenStats=async (tradingSignal:any)=>{
+
+export const getPremarketingCalls = async (tokenAddress: any) => {
+    const result = [];
+    const data: ChannelLogs[] = await sequelize.query(
+        `SELECT distinct channelName from ChannelLogs where tokenAddress ='${tokenAddress}' and tokenMC=0`,
+        {
+            type: QueryTypes.SELECT
+        }
+    );
  
-      let response={ 
-          callCount:0,
-          calls:[]  
-      }
-
-     
-      
-
-      const tokenDetails:any = await sequelize.query(
-          `select callerTG ,channelName,isAlpha,  callerPostId, tokenName,tokenSymbol,callerPostId, tokenAddress,callTime,  count(*) as calls 
-          from TokenCalls tc 
-          group by callerTG ,tokenAddress
-          having tokenAddress =? order by callTime  `,
-          {
-              replacements:[tradingSignal.tokenAddress],
-              type:QueryTypes.SELECT
-          }
-      )
-
-      tokenDetails.url = tradingSignal.url; 
+    return data;
+}
 
 
-      response.calls=tokenDetails; 
+export const getKohlsStats = async (tokenAddress: any, tradeSignal: { tokenMC: number; }) => {
+    const result = [];
+    const data: ChannelLogs[] = await sequelize.query(
+        `SELECT   channelName ,tokenMC from ChannelLogs where tokenAddress ='${tokenAddress}'`,
+        {
+            type: QueryTypes.SELECT
+        }
+    );
+     data.forEach((item :any) => {
+        result.push({
+            channelName: item.channelName,
+            tokenMC: item.tokenMC,
+            callROI: Number(Number(tradeSignal.tokenMC - item.tokenMC) / item.tokenMC).toFixed(2)
+        });
+    })
 
-      tokenDetails.forEach((x:any)=>{
-          response.callCount+=Number(x.calls); 
-
-          if(Number(tradingSignal.currPrice)>Number(x.currPrice))
-            {
-                const roi= Number(((tradingSignal.currPrice-x.currPrice)/x.currPrice)*100).toFixed(2)
-                x.athROI = roi;
-
-                TokenCalls.update({ athROI: roi }, {
-                    where: {
-                        tokenAddress: x.tokenAddress,
-                    },
-                  });
-
-            }  
-      })
- 
-
-      return response;
-
-
+    return result;
 }

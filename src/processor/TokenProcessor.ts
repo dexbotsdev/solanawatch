@@ -38,57 +38,28 @@ export const processMessage = async (message: { message: any }) => {
 
   if (message && message.message) {
     const text = message.message;
-    const addressInmessage = parseAddress(text);
+    const addressInmessage = parseAddress(text); 
+    console.log(addressInmessage); 
+    if(!addressInmessage || addressInmessage == null) return;
+    const marketData = await getPairData(addressInmessage);
+    let data: any = {};
+    if (marketData && marketData != null) {
 
-    console.log(addressInmessage);
+      data = marketData
+    } else {
+      const token = new PublicKey(addressInmessage);  
 
-    const token = new PublicKey(addressInmessage);
-
-    const tokenMint = await getMint(connection, token, 'finalized', TOKEN_PROGRAM_ID);
-    const tokenStats = await metaplex.nfts().findByMint({ mintAddress: new PublicKey(token) });
-
-    let twitter: string, telegram: string, discord: any, poolOpenTime: any, lpdata: any;
-
-
-    if (tokenStats.json.description.indexOf('t.me') > 0) telegram = '';
-    if (tokenStats.json.description.indexOf('x.com') > 0) twitter = '';
-
-    // const marketId = await findMarketId(token); 
-    // 
-
-    const poolId = await findPoolId(token);
-
-
-    console.log(poolId)
-
-    if (poolId)
-      lpdata = LIQUIDITY_STATE_LAYOUT_V4.decode(poolId[0].account.data)
-
-
-
-
-    const data = {
-      baseMint: addressInmessage,
-      name: tokenStats.json.name,
-      symbol: tokenStats.json.symbol,
-      image: tokenStats.json.image,
-      twitter: tokenStats.json?.twitter,
-
-      telegram: tokenStats.json?.telegram,
-      mintAuthority: tokenMint.mintAuthority,
-      supply: tokenMint.supply.toString(),
-      decimals: tokenMint.decimals,
-      freezeAuthority: tokenMint.freezeAuthority,
-      marketId: lpdata?.marketId?.toString(),
-      owner: lpdata?.marketId?.toString(),
-      lpReserve: lpdata?.lpReserve?.toString(),
-      openTime: lpdata?.poolOpenTime?.toString()
-
+       const tokenStats = await metaplex.nfts().findByMint({ mintAddress: new PublicKey(token) });
+      data = {
+        tokenAddress: tokenStats.address.toBase58(), 
+        tokenSymbol: tokenStats.symbol,
+        tokenName: tokenStats.name,
+        tokenMC: 0.0,
+        priceChange24: 0.0,
+      }
     }
 
-
-    console.log(data);
-
+ 
     return data;
   }
 
@@ -99,8 +70,10 @@ export const processMessage = async (message: { message: any }) => {
 const solanaAddressRegex = /\b[A-Za-z0-9]{40,44}\b/g;
 function extractSolanaAddresses(text: string): string {
   const matches = text.match(solanaAddressRegex);
+
+  console.log(matches)
   if (matches) {
-    return matches.join('\n'); // Join the matches with newline characters
+    return matches[0]; // Join the matches with newline characters
   } else {
     return undefined;
   }
@@ -122,26 +95,26 @@ export const parseAddress = (text: any) => {
 export const getPairData = async (address: any) => {
 
   const url = `https://api.dexscreener.com/latest/dex/search?q=${address}`;
-  const result = await axios.get(url);
+  let result :any = await axios.get(url).then((res=>res));
 
-  if (result && result.data && result.data.pairs) {
+  console.log(result.data)
+  if (result && result.data && result.data.pairs.length>0) {
 
-    console.log(result.data);
+     result = JSON.parse(JSON.stringify(result.data));
+    console.log(result.pairs[0]?.priceChange?.h24) 
+
+    let pricechnge=0;
+     if(result.pairs[0]?.priceChange?.h24)pricechnge=Number(result.pairs[0]?.priceChange?.h24);
 
     const resp = {
-      tokenAddress: result.data.pairs[0]?.baseToken.address,
-      url: result.data.pairs[0].url,
-      tokenSymbol: result.data.pairs[0]?.baseToken.symbol,
-      tokenName: result.data.pairs[0]?.baseToken.name,
-      tokenAge: result.data.pairs[0]?.pairCreatedAt,
-      tokenMC: result.data.pairs[0]?.fdv,
-      liquiditySOL: result.data.pairs[0]?.liquidity.quote,
-      currPrice: result.data.pairs[0]?.priceUsd,
-      chainId: result.data.pairs[0]?.chainId,
-      dex: result.data.pairs[0]?.dexId,
-      version: result.data.pairs[0]?.labels[0]
+      tokenAddress: result.pairs[0]?.baseToken.address, 
+      tokenSymbol: result.pairs[0]?.baseToken.symbol,
+      tokenName: result.pairs[0]?.baseToken.name,
+      tokenMC: result.pairs[0]?.fdv,
+      priceChange24: Number(pricechnge),
     }
 
+    console.log('processed data is ', resp) 
 
     return resp;
   } else return null;
