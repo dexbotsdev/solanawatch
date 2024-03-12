@@ -6,19 +6,13 @@ let formatter = Intl.NumberFormat('en', { notation: 'compact' });
 export const NewMessageFormat =(commandDetail: any,totalCallsCount:number)=>{ 
     
 return `
-$${commandDetail.tokenSymbol} <b>New Call :</b> <b> <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">${commandDetail.callerTG}</a></b>
+$${commandDetail.tokenSymbol} <b>New ECA Call :</b> <b> <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">${commandDetail.callerTG}</a></b>
 
 🟢 Token : $${commandDetail.tokenSymbol} || ${commandDetail.tokenName}
 
-🚀 MCap:  $${formatter.format(commandDetail.tokenMC)}
 
-<code>${commandDetail.tokenAddress}</code>
-
-
-📈 <a href="${commandDetail.url}">Chart</a>     
-🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
-
-Call Alerts from <b>@marketingalerts</b>
+<code>${commandDetail.tokenAddress}</code>  
+Call Alerts from <b>@solanawatch</b>
 `;
 }
 
@@ -30,7 +24,7 @@ const listoftgcalls=async (commandDetail:any,logs:any)=>{
     if(logs.length === 0 && !commandDetail.isAlpha){
  
         out =out+`<b>${cnt++}. <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">${commandDetail.callerTG}</a></b>
-🟦 Market Cap : <b>${formatter.format(commandDetail.tokenMC)} || ROI: 0 %</b> `;
+🟦 Reserves : <b>${formatter.format(commandDetail.lpReserve)} || ROI: 0 %</b> `;
 
     }
     else 
@@ -70,11 +64,8 @@ ${await listoftgcalls(commandDetail,tokenLogs.calls)}
  
 <b>🚀 Token :</b>  $${commandDetail.tokenName} (${commandDetail.tokenSymbol})
 <code>${commandDetail.tokenAddress}</code>
-
-📈 <a href="${commandDetail.url}">Chart</a>     
-🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
-
-Call Alerts from <b>@marketingalerts</b>
+ 
+Call Alerts from <b>@solanawatch</b>
 `;
 } 
 
@@ -90,11 +81,8 @@ export const UpdateFromNewCall =(commandDetail: any,totalCallsCount:number)=>{
  
 ⚠ CA : <code>${commandDetail.tokenAddress}</code>
 
-
-📈 <a href="${commandDetail.url}">Chart</a>     
-🔫 <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
-
-Call Alerts from <b>@marketingalerts</b>
+ 
+Call Alerts from <b>@solanawatch</b>
 `;
     }
     
@@ -114,11 +102,8 @@ $${commandDetail.tokenSymbol} <b>New Call :</b>  <b> <a href="https://t.me/${com
 
 ⚠ CA : ${commandDetail.tokenAddress}
 
-📈 <a href="${commandDetail.url}">Chart</a> 
-    
-⭐ <a href="https://t.me/MaestroSniperBot?start=${commandDetail.tokenAddress}">Maestro</a>      🌟<a href="https://t.me/MaestroProBot?start=${commandDetail.tokenAddress}">MaestroPro</a> 
  
-Call Alerts from <b>@marketingalerts</b>
+Call Alerts from <b>@solanawatch</b>
     `;
     }
      

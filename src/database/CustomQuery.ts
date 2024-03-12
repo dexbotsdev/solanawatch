@@ -71,10 +71,10 @@ export const getTokenStats=async (tradingSignal:any)=>{
       
 
       const tokenDetails:any = await sequelize.query(
-          `select callerTG ,channelName,isAlpha,athROI, callerPostId, tokenName,tokenSymbol,callerPostId, tokenAddress,currPrice,callTime, min(tokenMC) as mcap,count(*) as calls 
+          `select callerTG ,channelName,isAlpha,  callerPostId, tokenName,tokenSymbol,callerPostId, tokenAddress,callTime,  count(*) as calls 
           from TokenCalls tc 
           group by callerTG ,tokenAddress
-          having tokenAddress =? order by mcap `,
+          having tokenAddress =? order by callTime  `,
           {
               replacements:[tradingSignal.tokenAddress],
               type:QueryTypes.SELECT

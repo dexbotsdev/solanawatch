@@ -17,7 +17,7 @@ let config = null;
     if (error) {
     //console.log(error);
       return;
-    }
+    } 
     config = JSON.parse(data);
 
     const tsA = new TelegramAccountService(config, eventEmitter); 

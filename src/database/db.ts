@@ -48,52 +48,7 @@ UpdateLogs.init({
 
   }; 
 
-
-class TokenPrice extends Model{
-
-   
-}
-
-
-TokenPrice.init({
-  id: {
-    type: DataTypes.INTEGER,
-    autoIncrement: true,
-    primaryKey: true
-  }, 
-  tokenAddress: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  price: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  priceInusd: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  }, 
-  side: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  amountInToken: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  }, 
-  amountInEth: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },  
-  tnxTime: {
-    type: DataTypes.DATE,
-    allowNull: false,
-  },
-},{ 
-  tableName: 'TokenPrice',
-  sequelize,
-
-});
+ 
 
     
 TokenCalls.init({
@@ -130,44 +85,7 @@ TokenCalls.init({
   tokenName: {
     type: DataTypes.STRING,
     allowNull: true,
-  },
-  tokenAge: {
-    type: DataTypes.DATE,
-    allowNull: false,
-  },
-  tokenMC: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  liquidityETH: {
-    type: DataTypes.FLOAT,
-    allowNull: false,
-  },
-  currPrice: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  athROI: {
-    type: DataTypes.STRING,
-    defaultValue:"0.0",
-    allowNull: true,
-  },
-  chainId: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  url: {
-    type: DataTypes.STRING,
-    allowNull: true,
-  },
-  dex: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  version: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  }, 
+  },   
   isAlpha: {
     type: DataTypes.BOOLEAN,
     defaultValue:false,
