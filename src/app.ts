@@ -14,8 +14,7 @@ async function start() {
 
 
   fs.readFile('./client.config.json', 'utf8', (error, data) => {
-    if (error) {
-      //console.log(error);
+    if (error) { 
       return;
     }
     config = JSON.parse(data);
