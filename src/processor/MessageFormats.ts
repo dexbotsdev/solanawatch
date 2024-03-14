@@ -1,4 +1,4 @@
-import { ChannelLogs, Channels } from "../database/db";
+import { ChannelLogs, Channels, TokenCalls } from "../database/db";
 import moment from "moment";
 
 let formatter = Intl.NumberFormat('en', { notation: 'compact' });
@@ -30,21 +30,31 @@ function formatNumber(num: number) {
 }
 
 
-export const NewMessageFormat = (commandDetail: any, totalCallsCount: number) => {
+export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
 
+    const roi = isNaN(Number(maxRoi))? 0 : Number(maxRoi)>0? '+'+maxRoi: maxRoi;
+    const oldSignal = await TokenCalls.findOne({
+        where: {
+          tokenAddress: commandDetail.tokenAddress 
+        }
+      })
+
+      
     return `
-<b>💳 <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">$${commandDetail.tokenSymbol}🚀 </a> ${commandDetail.priceChange24}% ROI</b>
+    <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
-${commandDetail.tokenMC > 0.0 ? '' : premarketData(commandDetail)} 
-<b>💳 BASICS</b>
+<b>💳 Pre-Marketing</b> 
+${preMarketingList(preMarketing)}
 
-🔥 LP-Burned : 🔴
-🌀 DexScreener Updated : 🔴
-🎰 Sol Trending : 🔴
-🏨 SafeGuard Trending : 🔴
+ <b>💳 BASICS</b>
+
+🔥 LP-Burned : ${oldSignal.dataValues.lpBurned ? '🟢':'🔴'}
+🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
+🎰 Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
+🏨 SafeGuard Trending :  ${oldSignal.dataValues.safeguarded ? '🟢':'🔴'}
 
 💳<b> KOLS PUSH | Mcap | ROI </b>
-${postLaunchCalls(commandDetail)} 
+${kohlList(kohlsStats)} 
 
 📈<b> TRADE</b> -- Links To bots
 
@@ -72,15 +82,16 @@ const kohlList = (kohlsStats) => {
 
     kohlsStats.forEach((item, index) => {
         ret += `
-<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName} | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X</a>`
+<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a> | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X`
     })
     return ret;
 }
 
 export const UpdatedMessageFormat = (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
+    const roi = isNaN(Number(maxRoi))? 0 : maxRoi;
 
     return `
-<b>💳 <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">$${commandDetail.tokenSymbol}🚀 </a> ${maxRoi}% ROI</b>
+<b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
 <b>💳 Pre-Marketing</b> 
 ${preMarketingList(preMarketing)}
@@ -104,85 +115,4 @@ ${kohlList(kohlsStats)}
 }
 
 
-
-
-
-export const UpdateFromNewCall = (commandDetail: any, totalCallsCount: number) => {
-
-    return `
-    $${commandDetail.tokenSymbol} <b>New Call :</b>  <b> <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">${commandDetail.callerTG}</a></b>
-
-🟢 Token : $${commandDetail.tokenSymbol} || ${commandDetail.tokenName}
-
-📊 Real-Time MCap:  $${formatter.format(commandDetail.tokenMC)}
  
-⚠ CA : <code>${commandDetail.tokenAddress}</code>
-
- 
-Call Alerts from <b>@solanawatch</b>
-`;
-}
-
-
-
-
-
-export const UpdateFromAddonCall = (commandDetail: any, totalCallsCount: number) => {
-
-    return `
-$${commandDetail.tokenSymbol} <b>New Call :</b>  <b> <a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">${commandDetail.callerTG}</a></b>
-
-
-🟢 Token : $${commandDetail.tokenSymbol} || ${commandDetail.tokenName}
-
-📊 Real-Time MCap:  $${formatter.format(commandDetail.tokenMC)}
-
-⚠ CA : ${commandDetail.tokenAddress}
-
- 
-Call Alerts from <b>@solanawatch</b>
-    `;
-}
-
-const getAlphaCount = (calls: any) => {
-
-
-    //console.log("********************* IN Get Alpha Count Method ")
-    let disp = 0;
-    for (var i = 0; i < calls.length; i++) {
-
-        if (Number(calls[i].isAlpha) === 1) {
-            disp = disp + 1
-
-        }
-    }
-
-
-    return disp;
-}
-
-const getCallCountBalls = (alphaCallsCount: any) => {
-    let disp = '';
-    for (var i = 0; i < alphaCallsCount; i++) {
-
-        disp = disp + '🟢'
-        if ((i + 1) % 3 === 0) disp = disp + '||';
-    }
-    return disp;
-}
-
-const getCallerLines = (calls: any) => {
-
-    let outcome = '     ';
-
-    for (var i = 0; i < calls.length; i++) {
-
-        outcome += `    <b><u>${i + 1}. ${calls[i].callerTG}</u></b>
-    
-            🟦 <b> Market Cap : $${formatter.format(calls[i].mcap)} || ROI: ${calls[i].athROI}%</b>
-    
-    `
-    }
-
-    return outcome;
-}

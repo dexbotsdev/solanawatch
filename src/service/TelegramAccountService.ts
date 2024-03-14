@@ -164,14 +164,14 @@ class TelegramAccountService {
                     //console.log('------------------------------------------------------');
                     //console.log(' Message from ' + this.channelMaps.find((item) => item.id === Number(chatId)).title);
                     let data = await processMessage(event.message);
-                    let signal: any = {};
+                    let tradeSignal: any = {};
                     ////console.log(data);
                     //console.log('------------------------------------------------------');
 
 
                     if (data && data.tokenAddress) {
 
-                        signal = {
+                        tradeSignal = {
                             callerPostId: event.message.id,
                             callerTG: this.channelMaps.find((item) => item.id === Number(chatId)).title,
                             channelName: this.channelMaps.find((item) => item.id === Number(chatId)).name,
@@ -184,7 +184,14 @@ class TelegramAccountService {
                             priceChange24: data.priceChange24
                         }
 
-                        this.em.emit('newSignal', signal);
+                        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+
+                        console.log(JSON.stringify(tradeSignal, null, 2));
+
+                        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+
+                    
+                        this.em.emit('newSignal', tradeSignal);
                     }
                 }
             }
@@ -201,16 +208,26 @@ class TelegramAccountService {
         let tradingSignal = JSON.parse(tradeSignal);
         this.client.setParseMode("html");
         const tokenAddress = tradingSignal.tokenAddress;
-        //const tokenStats = await getTokenStats(tradingSignal);
-        let message = NewMessageFormat(tradingSignal, 0);
+        if(tradingSignal.channelName== lpburned_channel)return;
+
+        const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal);
+        const tradeCommand = await TokenCalls.findAll({ where: { tokenAddress: tradingSignal.tokenAddress } })
+
+        const maxRoi = await getMaxRoi(tokenAddress, tradingSignal);
+        const preMarketing = await getPremarketingCalls(tokenAddress)
+        console.log(JSON.stringify(tradeCommand, null, 2));
+
+        let message = await NewMessageFormat(tradingSignal, maxRoi,preMarketing, kohlsStats);
 
         console.log(tradeSignal);
+        console.log(kohlsStats);
 
         const resultLog = await this.client.sendMessage(botlinkedchannel, { message: message, parseMode: 'html', linkPreview: false });
 
         const resultLogData = JSON.parse(JSON.stringify(resultLog));
 
         await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
+        console.log(resultLogData);
 
         await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
 
@@ -236,6 +253,10 @@ class TelegramAccountService {
         console.log(JSON.stringify(preMarketing, null, 2))
         console.log(JSON.stringify(kohlsStats, null, 2))
         const tradeCommand = await TokenCalls.findAll({ where: { tokenAddress: tradingSignal.tokenAddress } })
+
+        console.log(JSON.stringify(tradeCommand, null, 2));
+
+
         let message = UpdatedMessageFormat(tradeCommand[0].dataValues, maxRoi, preMarketing, kohlsStats);
 
         const resultLog = await this.client.editMessage(botlinkedchannel, { message: oldMsgId, text: message, parseMode: 'html', linkPreview: false });

@@ -11,7 +11,7 @@ export const quoteMint = new PublicKey('So11111111111111111111111111111111111111
 
 
 export const dexscreener_channel='dexup00';
-export const lpburned_channel='SolanaLiquidityBurns';
+export const lpburned_channel='solanaburns';
 export const soltrending_channel='soltrendingl';
 export const safeguard_channel='safeguardttt';
 

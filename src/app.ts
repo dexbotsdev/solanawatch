@@ -56,8 +56,7 @@ async function start() {
       const oldSignal = await ChannelLogs.findOne({
         where: {
           tokenAddress: tradeSignal.tokenAddress,
-          callerTG: tradeSignal.callerTG,
-          callerPostId: tradeSignal.callerPostId
+          channelName: tradeSignal.channelName, 
         }
       })
       const loggedSignal = await UpdateLogs.findOne({
@@ -69,50 +68,59 @@ async function start() {
       if (oldSignal && oldSignal.dataValues && oldSignal.dataValues.tokenAddress) {
         logger.error('skipping Duplicates')
       } else {
+
+        logger.error('TokenCalls.upsert ')
+
+
         await TokenCalls.upsert(tradeSignal);
+
+        logger.error('ChannelLogs.create  ')
+
         await ChannelLogs.create(tradeSignal);
         try {
-
-
           if (tradeSignal.channelName == dexscreener_channel) {
             TokenCalls.update({
-              dedexUpdated: true
+              dexUpdated: true
             }, {
-              where: {
-                tokenAddress: tradeSignal.tokenAddress,
-              },
+                where: {
+                    tokenAddress: tradeSignal.tokenAddress,
+                },
             })
 
-          } else
+        } else
             if (tradeSignal.channelName == safeguard_channel) {
-              TokenCalls.update({
-                safeguarded: true
-              }, {
-                where: {
-                  tokenAddress: tradeSignal.tokenAddress,
-                },
-              })
-
-            } else
-              if (tradeSignal.channelName == lpburned_channel) {
                 TokenCalls.update({
-                  lpBurned: true
+                    safeguarded: true
                 }, {
-                  where: {
-                    tokenAddress: tradeSignal.tokenAddress,
-                  },
+                    where: {
+                        tokenAddress: tradeSignal.tokenAddress,
+                    },
                 })
 
-              } else
-                if (tradeSignal.channelName == soltrending_channel) {
-                  TokenCalls.update({
-                    solTrending: true
-                  }, {
-                    where: {
-                      tokenAddress: tradeSignal.tokenAddress,
-                    },
-                  })
-                }  
+            } else
+                if (tradeSignal.channelName == lpburned_channel) {
+                    TokenCalls.update({
+                        lpBurned: true
+                    }, {
+                        where: {
+                            tokenAddress: tradeSignal.tokenAddress,
+                        },
+                    })
+
+                } else
+                    if (tradeSignal.channelName == soltrending_channel) {
+
+                        console.log('@@@@@@@@@@@@@@@@@@@@@@@soltrending_channel@@@@@@@@@@@@@@@@@@@@@@');
+
+                        TokenCalls.update({
+                            solTrending: true
+                        }, {
+                            where: {
+                                tokenAddress: tradeSignal.tokenAddress,
+                            },
+                        })
+                    }
+
                    if (loggedSignal && loggedSignal.dataValues && loggedSignal.dataValues.tokenAddress) {
                     tsA.sendUpdatedMessageToChannel(JSON.stringify(tradeSignal), loggedSignal);
                   } else {
