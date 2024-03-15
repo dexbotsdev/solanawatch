@@ -69,9 +69,20 @@ async function start() {
       } else {
 
         logger.error('TokenCalls.upsert ')
+        const oldTokenSignal = await TokenCalls.findOne({
+          where: {
+            tokenAddress: tradeSignal.tokenAddress 
+          }
+        })
+  
 
+        if(!oldTokenSignal.dataValues.tokenAddress)
+        await TokenCalls.create(tradeSignal);
 
+        else 
         await TokenCalls.upsert(tradeSignal);
+
+
 
         logger.error('ChannelLogs.create  ')
 
