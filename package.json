@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c \"blue,green\" \"tsc --watch\" \"nodemon dist/index.js\" && tslint",
     "lint": "tslint --project tsconfig.json --force",
-    "start": "tsc && node dist/app.js"
+    "start": "ts-node src/app.ts"
   },
   "author": "dexbotdev",
   "license": "ISC",
