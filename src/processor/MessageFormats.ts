@@ -51,7 +51,6 @@ ${preMarketingList(preMarketing)}
 🔥 LP-Burned : ${oldSignal.dataValues.lpBurned ? '🟢':'🔴'}
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
 🎰 Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
-🏨 SafeGuard Trending :  ${oldSignal.dataValues.safeguarded ? '🟢':'🔴'}
 
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
@@ -101,7 +100,6 @@ ${preMarketingList(preMarketing)}
 🔥 LP-Burned : ${commandDetail.lpBurned ? '🟢':'🔴'}
 🌀 DexScreener Updated : ${commandDetail.dexUpdated ? '🟢':'🔴'}
 🎰 Sol Trending :  ${commandDetail.solTrending ? '🟢':'🔴'}
-🏨 SafeGuard Trending :  ${commandDetail.safeguarded ? '🟢':'🔴'}
 
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
