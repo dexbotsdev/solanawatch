@@ -44,10 +44,8 @@ export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMa
     <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
 <b>💳 Pre-Marketing</b> 
-${preMarketingList(preMarketing)}
-
- <b>💳 BASICS</b>
-
+${preMarketingList(preMarketing)}  
+ <b>💳 BASICS</b> 
 🔥 LP-Burned : ${oldSignal.dataValues.lpBurned ? '🟢':'🔴'}
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
 🎰 Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
@@ -68,8 +66,8 @@ const preMarketingList = (premarketData) => {
     let ret = '';
     let i=1;
     premarketData.forEach((item, index) => {
-        ret += `
-<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a>`
+        ret += `<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a>
+`
     })
     return ret;
 }
@@ -80,8 +78,8 @@ const kohlList = (kohlsStats) => {
     let i=1;
 
     kohlsStats.forEach((item, index) => {
-        ret += `
-<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a> | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X`
+        ret += `<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a> | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X
+`
     })
     return ret;
 }
