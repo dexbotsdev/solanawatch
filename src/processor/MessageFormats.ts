@@ -53,7 +53,7 @@ ${preMarketingList(preMarketing)}
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
 
-📈<b> TRADE</b> -- Links To bots
+📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
 
 <code>${commandDetail.tokenAddress}</code>  
 
