@@ -57,7 +57,7 @@ ${kohlList(kohlsStats)}
 
 <code>${commandDetail.tokenAddress}</code>  
 
-🎯<b>Ad</b>buy auto ads
+🎯<b>Ad-Buy</b> auto ads
 `;
 }
 
