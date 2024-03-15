@@ -40,7 +40,7 @@ export const processMessage = async (message: { message: any }) => {
     const text = message.message;
     const addressInmessage = parseAddress(text); 
     console.log(addressInmessage); 
-    if(!addressInmessage || addressInmessage == null) return;
+    if(!addressInmessage || addressInmessage == null || addressInmessage.startsWith('0x')) return;
     const marketData = await getPairData(addressInmessage);
     let data: any = {};
     if (marketData && marketData != null) {
