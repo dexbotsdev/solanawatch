@@ -73,9 +73,7 @@ async function start() {
           where: {
             tokenAddress: tradeSignal.tokenAddress 
           }
-        })
-  
-
+        }) 
         if(!oldTokenSignal.dataValues.tokenAddress)
         await TokenCalls.create(tradeSignal);
 
