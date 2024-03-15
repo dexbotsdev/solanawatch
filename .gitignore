@@ -1,13 +1,9 @@
 node_modules
-sample.client.config.json
-#  "nomsgems",
-#                 "gEmsgAmbleseth",
-#                 "mad_apes_gambles",
-#                 "Knightgamble",
-#                 "LuffyChanCalls",
+sample.client.config.json 
 yarn.lock
 package-lock.json
 CallTracker_w21092023_joo_tgbot_clone.code-workspace
+data/account
 dist/app.js
 dist/database/CustomQuery.js
 dist/database/db.js
