@@ -60,8 +60,7 @@ ${kohlList(kohlsStats)}
 🎯<b>Ad-Buy</b> auto ads
 `;
 }
-
-
+ 
 const preMarketingList = (premarketData) => {
     let ret = '';
     let i=1;

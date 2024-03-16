@@ -26,14 +26,9 @@ const getAsset = async (tokenAddress: any) => {
     }),
   });
   const result = await response.data;
-  console.log("Asset: ", result);
-
-
-  return result;
-
-};
-
-
+  console.log("Asset: ", result); 
+  return result; 
+}; 
 export const processMessage = async (message: { message: any }) => {
 
   if (message && message.message) {
