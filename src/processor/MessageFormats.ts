@@ -32,7 +32,10 @@ function formatNumber(num: number) {
 
 export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
 
-    const roi = isNaN(Number(maxRoi))? 0 : Number(maxRoi)>0? '+'+maxRoi: maxRoi;
+    let roi = isNaN(Number(maxRoi))? 0 : Number(maxRoi)>0? maxRoi: maxRoi;
+
+    if(Number(roi) > Number.MAX_VALUE)roi='+0';
+
     const oldSignal = await TokenCalls.findOne({
         where: {
           tokenAddress: commandDetail.tokenAddress 
@@ -84,7 +87,9 @@ const kohlList = (kohlsStats) => {
 }
 
 export const UpdatedMessageFormat = (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
-    const roi = isNaN(Number(maxRoi))? 0 : maxRoi;
+    let roi = isNaN(Number(maxRoi))? 0 : maxRoi;
+    if(Number(roi) > Number.MAX_VALUE)roi='+0';
+
 
     return `
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
