@@ -21,3 +21,11 @@ dist/service/parsers/nomsgems.js
 dist/types/type.js
 dist/utils/index.js
 local.config.json
+dist
+logs/*
+data/*
+archivefolder
+archivefolder.zip
+logs/errors.log
+logs/debug.log
+database.sqlite

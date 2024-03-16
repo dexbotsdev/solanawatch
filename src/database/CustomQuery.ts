@@ -23,7 +23,7 @@ export const getMaxRoi = async (tokenAddress: any, tradeSignal: { tokenMC: numbe
 export const getPremarketingCalls = async (tokenAddress: any) => {
     const result = [];
     const data: ChannelLogs[] = await sequelize.query(
-        `SELECT distinct channelName from ChannelLogs where tokenAddress ='${tokenAddress}' and tokenMC=0   and  channelName not in (
+        `SELECT distinct  channelName,callerPostId ,tokenMC ,priceChange24 from ChannelLogs where tokenAddress ='${tokenAddress}' and tokenMC=0   and  channelName not in (
             '${dexscreener_channel}','${soltrending_channel}','${safeguard_channel}','${lpburned_channel}') `,
         {
             type: QueryTypes.SELECT
@@ -37,9 +37,9 @@ export const getPremarketingCalls = async (tokenAddress: any) => {
 export const getKohlsStats = async (tokenAddress: any, tradeSignal: { tokenMC: number; }) => {
     const result = [];
     const data: ChannelLogs[] = await sequelize.query(
-        `SELECT   channelName ,tokenMC from ChannelLogs where tokenAddress ='${tokenAddress}'  and  channelName not in (
+        `SELECT  distinct channelName,callerPostId ,tokenMC ,priceChange24 from ChannelLogs where tokenAddress ='${tokenAddress}'  and  channelName not in (
             '${dexscreener_channel}','${soltrending_channel}','${safeguard_channel}','${lpburned_channel}'
-        )  and tokenMC>0`,
+        )   `,
         {
             type: QueryTypes.SELECT
         }
@@ -47,7 +47,9 @@ export const getKohlsStats = async (tokenAddress: any, tradeSignal: { tokenMC: n
      data.forEach((item :any) => {
         result.push({
             channelName: item.channelName,
+            callerPostId: item.callerPostId,
             tokenMC: item.tokenMC,
+            priceChange24: item.priceChange24,
             callROI: Number(Number(tradeSignal.tokenMC - item.tokenMC) / item.tokenMC).toFixed(2)
         });
     })

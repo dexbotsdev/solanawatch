@@ -4,12 +4,13 @@ import { text } from 'input'
 import bigInt from "big-integer";
 import { EventEmitter } from 'emitter'
 
-import { Channels, TokenCalls, UpdateLogs } from "../database/db";
+import { ChannelLogs, Channels, TokenCalls, UpdateLogs } from "../database/db";
 import { processMessage, parseAddress } from '../processor/TokenProcessor';
 import { getKohlsStats, getMaxRoi, getPremarketingCalls } from "../database/CustomQuery";
 import { NewMessageFormat, UpdatedMessageFormat } from "../processor/MessageFormats";
 import { dexscreener_channel, lpburned_channel, safeguard_channel, soltrending_channel } from "../config";
 import { where } from "sequelize";
+import logger from "./Logger";
 
 class TelegramAccountService {
 
@@ -184,13 +185,8 @@ class TelegramAccountService {
                             priceChange24: data.priceChange24
                         }
 
-                        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
 
-                        console.log(JSON.stringify(tradeSignal, null, 2));
 
-                        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
-
-                    
                         this.em.emit('newSignal', tradeSignal);
                     }
                 }
@@ -208,29 +204,25 @@ class TelegramAccountService {
         let tradingSignal = JSON.parse(tradeSignal);
         this.client.setParseMode("html");
         const tokenAddress = tradingSignal.tokenAddress;
-        if(tradingSignal.channelName== lpburned_channel)return;
+        if (tradingSignal.channelName == lpburned_channel) return;
 
         const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal);
+
         const tradeCommand = await TokenCalls.findAll({ where: { tokenAddress: tradingSignal.tokenAddress } })
 
         const maxRoi = await getMaxRoi(tokenAddress, tradingSignal);
         const preMarketing = await getPremarketingCalls(tokenAddress)
-        console.log(JSON.stringify(tradeCommand, null, 2));
-
-        let message = await NewMessageFormat(tradingSignal, maxRoi,preMarketing, kohlsStats);
-
-        console.log(tradeSignal);
+        logger.error('NEW MESSAGE SENDING NOW ')
+        console.log(tradingSignal);
+        console.log(preMarketing);
         console.log(kohlsStats);
+        console.log(maxRoi);
 
+        let message = await NewMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);
         const resultLog = await this.client.sendMessage(botlinkedchannel, { message: message, parseMode: 'html', linkPreview: false });
-
         const resultLogData = JSON.parse(JSON.stringify(resultLog));
-
         await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
-        console.log(resultLogData);
-
         await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
-
 
     }
 
@@ -249,22 +241,42 @@ class TelegramAccountService {
         const preMarketing = await getPremarketingCalls(tokenAddress)
         const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal);
 
-        console.log(JSON.stringify(maxRoi, null, 2))
-        console.log(JSON.stringify(preMarketing, null, 2))
-        console.log(JSON.stringify(kohlsStats, null, 2))
-        const tradeCommand = await TokenCalls.findAll({ where: { tokenAddress: tradingSignal.tokenAddress } })
+        
 
-        console.log(JSON.stringify(tradeCommand, null, 2));
+        let message = UpdatedMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);
 
+        logger.error('EDITED MESSAGE SENDING NOW ')
+        console.log(tradingSignal);
+        console.log(preMarketing);
+        console.log(kohlsStats);
+         const client = this.client;
+        const resultLog = await sendModifiedMessage(client);
 
-        let message = UpdatedMessageFormat(tradeCommand[0].dataValues, maxRoi, preMarketing, kohlsStats);
+        if (resultLog) {
+            const resultLogData = JSON.parse(JSON.stringify(resultLog));
+            console.log(resultLogData)
 
-        const resultLog = await this.client.editMessage(botlinkedchannel, { message: oldMsgId, text: message, parseMode: 'html', linkPreview: false });
-        const resultLogData = JSON.parse(JSON.stringify(resultLog));
+            await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
 
-        await UpdateLogs.destroy({ where: { tokenAddress: tokenAddress } });
+            await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+        } else {
 
-        await UpdateLogs.create({ lastMessageId: resultLogData.id, tokenAddress: tokenAddress });
+            logger.error('ERROR IN EDITED MESSAGE SENDING ')
+
+        }
+
+        async function sendModifiedMessage(client: TelegramClient) {
+            try {
+                return await client.editMessage(botlinkedchannel, {
+                    message: oldMsgId, text: message + `
+ `, parseMode: 'html', linkPreview: false
+                });
+
+            } catch (err) {
+                console.log(err)
+                return undefined;
+            }
+        }
     }
 
 

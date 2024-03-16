@@ -64,7 +64,7 @@ TokenCalls.init({
   tokenAddress: {
     type: DataTypes.STRING,
     unique: true,
-    allowNull: true,
+    allowNull: false,
   },
   tokenSymbol: {
     type: DataTypes.STRING,
@@ -113,6 +113,7 @@ TokenCalls.init({
     },
     callerTG: {
       type: DataTypes.STRING,
+      unique: true,
       allowNull: true,
     },
     channelName: {

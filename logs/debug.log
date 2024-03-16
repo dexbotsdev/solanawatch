@@ -3259,3 +3259,1587 @@
 [2024-03-14 17:46:18] [INFO] Recieved 
 [2024-03-14 17:46:19] [ERROR] TokenCalls.upsert 
 [2024-03-14 17:46:19] [ERROR] ChannelLogs.create  
+[2024-03-16 06:54:52] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 06:54:52] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 06:54:52] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 06:54:52] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 06:55:17] [INFO] Recieved 
+[2024-03-16 06:55:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:55:17] [ERROR] ChannelLogs.create  
+[2024-03-16 06:56:14] [INFO] Recieved 
+[2024-03-16 06:56:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:56:14] [ERROR] ChannelLogs.create  
+[2024-03-16 06:57:19] [INFO] Recieved 
+[2024-03-16 06:57:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:57:19] [ERROR] ChannelLogs.create  
+[2024-03-16 06:57:30] [INFO] Recieved 
+[2024-03-16 06:57:30] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:57:30] [ERROR] ChannelLogs.create  
+[2024-03-16 06:58:14] [INFO] Recieved 
+[2024-03-16 06:58:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:58:14] [ERROR] ChannelLogs.create  
+[2024-03-16 06:58:44] [INFO] Recieved 
+[2024-03-16 06:58:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:58:44] [ERROR] ChannelLogs.create  
+[2024-03-16 06:59:49] [INFO] Recieved 
+[2024-03-16 06:59:49] [ERROR] TokenCalls.upsert 
+[2024-03-16 06:59:49] [ERROR] ChannelLogs.create  
+[2024-03-16 07:00:04] [INFO] Recieved 
+[2024-03-16 07:00:04] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:00:04] [ERROR] ChannelLogs.create  
+[2024-03-16 07:00:44] [INFO] Recieved 
+[2024-03-16 07:00:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:00:44] [ERROR] ChannelLogs.create  
+[2024-03-16 07:01:42] [INFO] Recieved 
+[2024-03-16 07:01:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:01:42] [ERROR] ChannelLogs.create  
+[2024-03-16 07:02:21] [INFO] Recieved 
+[2024-03-16 07:02:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:02:21] [ERROR] ChannelLogs.create  
+[2024-03-16 07:02:29] [INFO] Recieved 
+[2024-03-16 07:02:29] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:02:29] [ERROR] ChannelLogs.create  
+[2024-03-16 07:03:17] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 07:03:17] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 07:03:17] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 07:03:17] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 07:05:43] [INFO] Recieved 
+[2024-03-16 07:05:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:05:43] [ERROR] ChannelLogs.create  
+[2024-03-16 07:07:45] [INFO] Recieved 
+[2024-03-16 07:07:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:07:45] [ERROR] ChannelLogs.create  
+[2024-03-16 07:08:46] [INFO] Recieved 
+[2024-03-16 07:08:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:08:46] [ERROR] ChannelLogs.create  
+[2024-03-16 07:08:53] [INFO] Recieved 
+[2024-03-16 07:08:53] [ERROR] skipping Duplicates
+[2024-03-16 07:09:15] [INFO] Recieved 
+[2024-03-16 07:09:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:09:15] [ERROR] ChannelLogs.create  
+[2024-03-16 07:10:07] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 07:10:07] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 07:10:07] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 07:10:07] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 07:10:27] [INFO] Recieved 
+[2024-03-16 07:10:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:10:27] [ERROR] ChannelLogs.create  
+[2024-03-16 07:25:41] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 07:25:41] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 07:25:41] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 07:25:41] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 07:25:49] [INFO] Recieved 
+[2024-03-16 07:25:49] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:25:49] [ERROR] ChannelLogs.create  
+[2024-03-16 07:26:16] [INFO] Recieved 
+[2024-03-16 07:26:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:26:16] [ERROR] ChannelLogs.create  
+[2024-03-16 07:26:46] [INFO] Recieved 
+[2024-03-16 07:26:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:26:46] [ERROR] ChannelLogs.create  
+[2024-03-16 07:27:19] [INFO] Recieved 
+[2024-03-16 07:27:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:27:19] [ERROR] ChannelLogs.create  
+[2024-03-16 07:30:57] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 07:30:57] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 07:30:57] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 07:30:57] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 07:31:21] [INFO] Recieved 
+[2024-03-16 07:31:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:31:21] [ERROR] ChannelLogs.create  
+[2024-03-16 07:32:39] [INFO] Recieved 
+[2024-03-16 07:32:39] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:32:39] [ERROR] ChannelLogs.create  
+[2024-03-16 07:33:16] [INFO] Recieved 
+[2024-03-16 07:33:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:33:16] [ERROR] ChannelLogs.create  
+[2024-03-16 07:33:42] [INFO] Recieved 
+[2024-03-16 07:33:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:33:42] [ERROR] ChannelLogs.create  
+[2024-03-16 07:33:50] [INFO] Recieved 
+[2024-03-16 07:33:50] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:33:50] [ERROR] ChannelLogs.create  
+[2024-03-16 07:37:14] [INFO] Recieved 
+[2024-03-16 07:37:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:37:14] [ERROR] ChannelLogs.create  
+[2024-03-16 07:38:12] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 07:38:12] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 07:38:12] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 07:38:12] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 07:38:42] [INFO] Recieved 
+[2024-03-16 07:38:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:38:42] [ERROR] ChannelLogs.create  
+[2024-03-16 07:41:03] [INFO] Recieved 
+[2024-03-16 07:41:03] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:41:03] [ERROR] ChannelLogs.create  
+[2024-03-16 07:42:32] [INFO] Recieved 
+[2024-03-16 07:42:32] [ERROR] TokenCalls.upsert 
+[2024-03-16 07:42:33] [ERROR] ChannelLogs.create  
+[2024-03-16 08:39:40] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 08:39:40] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 08:39:40] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 08:39:40] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 08:43:10] [INFO] Recieved 
+[2024-03-16 08:43:10] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:43:10] [ERROR] ChannelLogs.create  
+[2024-03-16 08:43:48] [INFO] Recieved 
+[2024-03-16 08:43:48] [ERROR] skipping Duplicates
+[2024-03-16 08:43:57] [INFO] Recieved 
+[2024-03-16 08:43:57] [ERROR] skipping Duplicates
+[2024-03-16 08:44:40] [INFO] Recieved 
+[2024-03-16 08:44:40] [ERROR] skipping Duplicates
+[2024-03-16 08:44:44] [INFO] Recieved 
+[2024-03-16 08:44:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:44:44] [ERROR] ChannelLogs.create  
+[2024-03-16 08:45:45] [INFO] Recieved 
+[2024-03-16 08:45:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:45:45] [ERROR] ChannelLogs.create  
+[2024-03-16 08:46:33] [INFO] Recieved 
+[2024-03-16 08:46:33] [ERROR] skipping Duplicates
+[2024-03-16 08:47:43] [INFO] Recieved 
+[2024-03-16 08:47:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:47:43] [ERROR] ChannelLogs.create  
+[2024-03-16 08:48:50] [INFO] Recieved 
+[2024-03-16 08:48:50] [ERROR] skipping Duplicates
+[2024-03-16 08:50:20] [INFO] Recieved 
+[2024-03-16 08:50:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:50:20] [ERROR] ChannelLogs.create  
+[2024-03-16 08:51:15] [INFO] Recieved 
+[2024-03-16 08:51:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:51:15] [ERROR] ChannelLogs.create  
+[2024-03-16 08:54:29] [INFO] Recieved 
+[2024-03-16 08:54:29] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:54:29] [ERROR] ChannelLogs.create  
+[2024-03-16 08:54:38] [INFO] Recieved 
+[2024-03-16 08:54:38] [ERROR] skipping Duplicates
+[2024-03-16 08:54:44] [INFO] Recieved 
+[2024-03-16 08:54:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:54:44] [ERROR] ChannelLogs.create  
+[2024-03-16 08:55:43] [INFO] Recieved 
+[2024-03-16 08:55:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:55:43] [ERROR] ChannelLogs.create  
+[2024-03-16 08:55:52] [INFO] Recieved 
+[2024-03-16 08:55:52] [ERROR] skipping Duplicates
+[2024-03-16 08:58:12] [INFO] Recieved 
+[2024-03-16 08:58:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:58:12] [ERROR] ChannelLogs.create  
+[2024-03-16 08:58:28] [INFO] Recieved 
+[2024-03-16 08:58:28] [ERROR] skipping Duplicates
+[2024-03-16 08:59:09] [INFO] Recieved 
+[2024-03-16 08:59:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 08:59:09] [ERROR] ChannelLogs.create  
+[2024-03-16 09:01:44] [INFO] Recieved 
+[2024-03-16 09:01:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:01:44] [ERROR] ChannelLogs.create  
+[2024-03-16 09:01:47] [INFO] Recieved 
+[2024-03-16 09:01:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:01:47] [ERROR] ChannelLogs.create  
+[2024-03-16 09:02:43] [INFO] Recieved 
+[2024-03-16 09:02:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:02:43] [ERROR] ChannelLogs.create  
+[2024-03-16 09:02:43] [INFO] Recieved 
+[2024-03-16 09:02:43] [ERROR] skipping Duplicates
+[2024-03-16 09:03:23] [INFO] Recieved 
+[2024-03-16 09:03:23] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:03:23] [ERROR] ChannelLogs.create  
+[2024-03-16 09:03:28] [INFO] Recieved 
+[2024-03-16 09:03:28] [ERROR] skipping Duplicates
+[2024-03-16 09:03:38] [INFO] Recieved 
+[2024-03-16 09:03:38] [ERROR] skipping Duplicates
+[2024-03-16 09:04:37] [INFO] Recieved 
+[2024-03-16 09:04:37] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:04:37] [ERROR] ChannelLogs.create  
+[2024-03-16 09:06:21] [INFO] Recieved 
+[2024-03-16 09:06:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:06:21] [ERROR] ChannelLogs.create  
+[2024-03-16 09:09:47] [INFO] Recieved 
+[2024-03-16 09:09:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:09:47] [ERROR] ChannelLogs.create  
+[2024-03-16 09:10:48] [INFO] Added Signal Repeater Server UPDATESIGNAL listener.
+[2024-03-16 09:10:48] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:10:48] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:10:48] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:11:48] [INFO] Recieved 
+[2024-03-16 09:11:48] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:11:48] [ERROR] ChannelLogs.create  
+[2024-03-16 09:11:49] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:17:35] [INFO] Recieved 
+[2024-03-16 09:17:35] [ERROR] skipping Duplicates
+[2024-03-16 09:17:46] [INFO] Recieved 
+[2024-03-16 09:17:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:17:46] [ERROR] ChannelLogs.create  
+[2024-03-16 09:17:46] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:18:11] [INFO] Recieved 
+[2024-03-16 09:18:11] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:18:11] [ERROR] ChannelLogs.create  
+[2024-03-16 09:18:12] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:18:14] [INFO] Recieved 
+[2024-03-16 09:18:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:18:14] [ERROR] ChannelLogs.create  
+[2024-03-16 09:18:14] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:18:44] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:18:44] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:18:44] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:19:17] [INFO] Recieved 
+[2024-03-16 09:19:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:19:17] [ERROR] ChannelLogs.create  
+[2024-03-16 09:19:17] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:19:18] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:19:22] [INFO] Recieved 
+[2024-03-16 09:19:22] [ERROR] skipping Duplicates
+[2024-03-16 09:19:39] [INFO] Recieved 
+[2024-03-16 09:19:39] [ERROR] skipping Duplicates
+[2024-03-16 09:19:42] [INFO] Recieved 
+[2024-03-16 09:19:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:19:42] [ERROR] ChannelLogs.create  
+[2024-03-16 09:19:42] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:19:54] [INFO] Recieved 
+[2024-03-16 09:19:54] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:19:54] [ERROR] ChannelLogs.create  
+[2024-03-16 09:19:54] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:19:55] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:19:57] [INFO] Recieved 
+[2024-03-16 09:19:57] [ERROR] skipping Duplicates
+[2024-03-16 09:23:14] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:23:14] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:23:14] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:24:16] [INFO] Recieved 
+[2024-03-16 09:24:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:24:16] [ERROR] ChannelLogs.create  
+[2024-03-16 09:24:16] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:24:17] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:24:49] [INFO] Recieved 
+[2024-03-16 09:24:49] [ERROR] skipping Duplicates
+[2024-03-16 09:25:05] [INFO] Recieved 
+[2024-03-16 09:25:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:25:05] [ERROR] ChannelLogs.create  
+[2024-03-16 09:25:05] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:25:16] [INFO] Recieved 
+[2024-03-16 09:25:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:25:16] [ERROR] ChannelLogs.create  
+[2024-03-16 09:25:16] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:25:42] [INFO] Recieved 
+[2024-03-16 09:25:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:25:42] [ERROR] ChannelLogs.create  
+[2024-03-16 09:25:42] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:26:13] [INFO] Recieved 
+[2024-03-16 09:26:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:26:14] [ERROR] ChannelLogs.create  
+[2024-03-16 09:26:14] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:26:45] [INFO] Recieved 
+[2024-03-16 09:26:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:26:45] [ERROR] ChannelLogs.create  
+[2024-03-16 09:26:46] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:26:48] [INFO] Recieved 
+[2024-03-16 09:26:48] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:26:48] [ERROR] ChannelLogs.create  
+[2024-03-16 09:26:48] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:27:11] [INFO] Recieved 
+[2024-03-16 09:27:11] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:27:11] [ERROR] ChannelLogs.create  
+[2024-03-16 09:27:11] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:27:12] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:28:14] [INFO] Recieved 
+[2024-03-16 09:28:14] [ERROR] skipping Duplicates
+[2024-03-16 09:29:02] [INFO] Recieved 
+[2024-03-16 09:29:02] [ERROR] skipping Duplicates
+[2024-03-16 09:31:01] [INFO] Recieved 
+[2024-03-16 09:31:01] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:31:01] [ERROR] ChannelLogs.create  
+[2024-03-16 09:31:02] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:31:07] [INFO] Recieved 
+[2024-03-16 09:31:07] [ERROR] skipping Duplicates
+[2024-03-16 09:31:44] [INFO] Recieved 
+[2024-03-16 09:31:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:31:44] [ERROR] ChannelLogs.create  
+[2024-03-16 09:31:44] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:34:11] [INFO] Recieved 
+[2024-03-16 09:34:11] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:34:11] [ERROR] ChannelLogs.create  
+[2024-03-16 09:34:11] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:34:12] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:34:14] [INFO] Recieved 
+[2024-03-16 09:34:14] [ERROR] skipping Duplicates
+[2024-03-16 09:34:22] [INFO] Recieved 
+[2024-03-16 09:34:22] [ERROR] skipping Duplicates
+[2024-03-16 09:34:39] [INFO] Recieved 
+[2024-03-16 09:34:39] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:34:39] [ERROR] ChannelLogs.create  
+[2024-03-16 09:34:40] [INFO] Recieved 
+[2024-03-16 09:34:40] [ERROR] skipping Duplicates
+[2024-03-16 09:34:40] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:37:13] [INFO] Recieved 
+[2024-03-16 09:37:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:37:13] [ERROR] ChannelLogs.create  
+[2024-03-16 09:37:13] [INFO] Recieved 
+[2024-03-16 09:37:13] [ERROR] skipping Duplicates
+[2024-03-16 09:37:13] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:37:14] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:37:21] [INFO] Recieved 
+[2024-03-16 09:37:21] [ERROR] skipping Duplicates
+[2024-03-16 09:37:50] [INFO] Recieved 
+[2024-03-16 09:37:50] [ERROR] skipping Duplicates
+[2024-03-16 09:37:51] [INFO] Recieved 
+[2024-03-16 09:37:51] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:37:51] [ERROR] ChannelLogs.create  
+[2024-03-16 09:37:51] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:38:08] [INFO] Recieved 
+[2024-03-16 09:38:08] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:38:08] [ERROR] ChannelLogs.create  
+[2024-03-16 09:38:08] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:38:49] [INFO] Recieved 
+[2024-03-16 09:38:49] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:38:49] [ERROR] ChannelLogs.create  
+[2024-03-16 09:38:49] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:38:51] [INFO] Recieved 
+[2024-03-16 09:38:51] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:38:51] [ERROR] ChannelLogs.create  
+[2024-03-16 09:38:51] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:38:51] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:39:05] [INFO] Recieved 
+[2024-03-16 09:39:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:39:05] [ERROR] ChannelLogs.create  
+[2024-03-16 09:39:05] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:39:06] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:39:07] [INFO] Recieved 
+[2024-03-16 09:39:07] [ERROR] skipping Duplicates
+[2024-03-16 09:39:21] [INFO] Recieved 
+[2024-03-16 09:39:21] [ERROR] skipping Duplicates
+[2024-03-16 09:40:16] [INFO] Recieved 
+[2024-03-16 09:40:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:40:16] [ERROR] ChannelLogs.create  
+[2024-03-16 09:40:16] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:40:19] [INFO] Recieved 
+[2024-03-16 09:40:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:40:19] [ERROR] ChannelLogs.create  
+[2024-03-16 09:40:19] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:40:29] [INFO] Recieved 
+[2024-03-16 09:40:29] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:40:29] [ERROR] ChannelLogs.create  
+[2024-03-16 09:40:29] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:40:29] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:40:31] [INFO] Recieved 
+[2024-03-16 09:40:31] [ERROR] skipping Duplicates
+[2024-03-16 09:40:54] [INFO] Recieved 
+[2024-03-16 09:40:54] [ERROR] skipping Duplicates
+[2024-03-16 09:41:07] [INFO] Recieved 
+[2024-03-16 09:41:07] [ERROR] skipping Duplicates
+[2024-03-16 09:42:14] [INFO] Recieved 
+[2024-03-16 09:42:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:42:14] [ERROR] ChannelLogs.create  
+[2024-03-16 09:42:15] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:47:08] [INFO] Recieved 
+[2024-03-16 09:47:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:47:09] [ERROR] ChannelLogs.create  
+[2024-03-16 09:47:09] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:50:17] [INFO] Recieved 
+[2024-03-16 09:50:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:50:17] [ERROR] ChannelLogs.create  
+[2024-03-16 09:50:17] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:50:18] [INFO] Recieved 
+[2024-03-16 09:50:18] [ERROR] skipping Duplicates
+[2024-03-16 09:50:19] [INFO] Recieved 
+[2024-03-16 09:50:19] [ERROR] skipping Duplicates
+[2024-03-16 09:50:34] [INFO] Recieved 
+[2024-03-16 09:50:34] [ERROR] skipping Duplicates
+[2024-03-16 09:50:44] [INFO] Recieved 
+[2024-03-16 09:50:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:50:44] [ERROR] ChannelLogs.create  
+[2024-03-16 09:50:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:51:21] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:51:21] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:51:21] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:51:46] [INFO] Recieved 
+[2024-03-16 09:51:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:51:46] [ERROR] ChannelLogs.create  
+[2024-03-16 09:51:47] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:51:47] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:52:17] [INFO] Recieved 
+[2024-03-16 09:52:17] [ERROR] skipping Duplicates
+[2024-03-16 09:52:26] [INFO] Recieved 
+[2024-03-16 09:52:26] [ERROR] skipping Duplicates
+[2024-03-16 09:53:31] [INFO] Recieved 
+[2024-03-16 09:53:31] [ERROR] skipping Duplicates
+[2024-03-16 09:53:58] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:53:58] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:53:58] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:54:13] [INFO] Recieved 
+[2024-03-16 09:54:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:54:13] [ERROR] ChannelLogs.create  
+[2024-03-16 09:54:14] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:54:14] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:54:36] [INFO] Recieved 
+[2024-03-16 09:54:36] [ERROR] skipping Duplicates
+[2024-03-16 09:55:36] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:55:36] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:55:36] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 09:55:46] [INFO] Recieved 
+[2024-03-16 09:55:46] [ERROR] skipping Duplicates
+[2024-03-16 09:56:04] [INFO] Recieved 
+[2024-03-16 09:56:04] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:56:04] [ERROR] ChannelLogs.create  
+[2024-03-16 09:56:04] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:56:05] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:57:45] [INFO] Recieved 
+[2024-03-16 09:57:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:57:45] [ERROR] ChannelLogs.create  
+[2024-03-16 09:57:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:59:00] [INFO] Recieved 
+[2024-03-16 09:59:00] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:59:00] [ERROR] ChannelLogs.create  
+[2024-03-16 09:59:00] [INFO] Recieved 
+[2024-03-16 09:59:00] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 09:59:00] [ERROR] TokenCalls.upsert 
+[2024-03-16 09:59:00] [ERROR] ChannelLogs.create  
+[2024-03-16 09:59:01] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:59:01] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 09:59:29] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 09:59:29] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 09:59:29] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:00:04] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:00:04] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:00:04] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:00:29] [INFO] Recieved 
+[2024-03-16 10:00:29] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:00:29] [ERROR] ChannelLogs.create  
+[2024-03-16 10:00:30] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:01:25] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:01:25] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:01:25] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:03:00] [INFO] Recieved 
+[2024-03-16 10:03:00] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:03:00] [ERROR] ChannelLogs.create  
+[2024-03-16 10:03:00] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:10:15] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:10:15] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:10:15] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:11:30] [INFO] Recieved 
+[2024-03-16 10:11:30] [ERROR] skipping Duplicates
+[2024-03-16 10:11:47] [INFO] Recieved 
+[2024-03-16 10:11:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:11:47] [ERROR] ChannelLogs.create  
+[2024-03-16 10:11:47] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:16:24] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:16:24] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:16:24] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:16:34] [INFO] Recieved 
+[2024-03-16 10:16:34] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:16:34] [ERROR] ChannelLogs.create  
+[2024-03-16 10:16:34] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:16:38] [INFO] Recieved 
+[2024-03-16 10:16:38] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:16:38] [ERROR] ChannelLogs.create  
+[2024-03-16 10:16:39] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:16:39] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:17:02] [INFO] Recieved 
+[2024-03-16 10:17:02] [ERROR] skipping Duplicates
+[2024-03-16 10:17:36] [INFO] Recieved 
+[2024-03-16 10:17:36] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:17:36] [ERROR] ChannelLogs.create  
+[2024-03-16 10:17:36] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:18:08] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:18:08] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:18:08] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:18:18] [INFO] Recieved 
+[2024-03-16 10:18:18] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:18:18] [ERROR] ChannelLogs.create  
+[2024-03-16 10:18:19] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:18:44] [INFO] Recieved 
+[2024-03-16 10:18:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:18:44] [ERROR] ChannelLogs.create  
+[2024-03-16 10:18:45] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:18:45] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:20:27] [INFO] Recieved 
+[2024-03-16 10:20:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:20:27] [ERROR] ChannelLogs.create  
+[2024-03-16 10:20:27] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:20:28] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:20:41] [INFO] Recieved 
+[2024-03-16 10:20:41] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:20:41] [ERROR] ChannelLogs.create  
+[2024-03-16 10:20:41] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:24:06] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:24:06] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:24:06] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:24:16] [INFO] Recieved 
+[2024-03-16 10:24:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:24:16] [ERROR] ChannelLogs.create  
+[2024-03-16 10:24:16] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:24:21] [INFO] Recieved 
+[2024-03-16 10:24:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:24:21] [ERROR] ChannelLogs.create  
+[2024-03-16 10:24:22] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:24:27] [INFO] Recieved 
+[2024-03-16 10:24:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:24:27] [ERROR] ChannelLogs.create  
+[2024-03-16 10:24:27] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:24:35] [INFO] Recieved 
+[2024-03-16 10:24:35] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:24:35] [ERROR] ChannelLogs.create  
+[2024-03-16 10:24:35] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:24:54] [INFO] Recieved 
+[2024-03-16 10:24:54] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:24:54] [ERROR] ChannelLogs.create  
+[2024-03-16 10:24:54] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:25:22] [INFO] Recieved 
+[2024-03-16 10:25:22] [ERROR] skipping Duplicates
+[2024-03-16 10:25:26] [INFO] Recieved 
+[2024-03-16 10:25:26] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:25:26] [ERROR] ChannelLogs.create  
+[2024-03-16 10:25:27] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:26:24] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:26:24] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:26:24] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:27:14] [INFO] Recieved 
+[2024-03-16 10:27:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:27:14] [ERROR] ChannelLogs.create  
+[2024-03-16 10:27:15] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:27:20] [INFO] Recieved 
+[2024-03-16 10:27:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:27:20] [ERROR] ChannelLogs.create  
+[2024-03-16 10:27:20] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:27:27] [INFO] Recieved 
+[2024-03-16 10:27:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:27:27] [ERROR] ChannelLogs.create  
+[2024-03-16 10:27:27] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:27:40] [INFO] Recieved 
+[2024-03-16 10:27:40] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:27:40] [ERROR] ChannelLogs.create  
+[2024-03-16 10:27:41] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:29:14] [INFO] Recieved 
+[2024-03-16 10:29:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:29:14] [ERROR] ChannelLogs.create  
+[2024-03-16 10:29:14] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:29:31] [INFO] Recieved 
+[2024-03-16 10:29:31] [ERROR] skipping Duplicates
+[2024-03-16 10:31:45] [INFO] Recieved 
+[2024-03-16 10:31:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:31:45] [ERROR] ChannelLogs.create  
+[2024-03-16 10:31:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:31:59] [INFO] Recieved 
+[2024-03-16 10:31:59] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:31:59] [ERROR] ChannelLogs.create  
+[2024-03-16 10:31:59] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:32:10] [INFO] Recieved 
+[2024-03-16 10:32:10] [ERROR] skipping Duplicates
+[2024-03-16 10:32:26] [INFO] Recieved 
+[2024-03-16 10:32:26] [ERROR] skipping Duplicates
+[2024-03-16 10:32:26] [INFO] Recieved 
+[2024-03-16 10:32:26] [ERROR] skipping Duplicates
+[2024-03-16 10:32:27] [INFO] Recieved 
+[2024-03-16 10:32:27] [ERROR] skipping Duplicates
+[2024-03-16 10:33:17] [INFO] Recieved 
+[2024-03-16 10:33:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:33:17] [ERROR] ChannelLogs.create  
+[2024-03-16 10:33:17] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:33:32] [INFO] Recieved 
+[2024-03-16 10:33:32] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:33:32] [ERROR] ChannelLogs.create  
+[2024-03-16 10:33:32] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:34:21] [INFO] Recieved 
+[2024-03-16 10:34:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:34:21] [ERROR] ChannelLogs.create  
+[2024-03-16 10:34:21] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:34:50] [INFO] Recieved 
+[2024-03-16 10:34:50] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:34:50] [ERROR] ChannelLogs.create  
+[2024-03-16 10:34:51] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:35:03] [INFO] Recieved 
+[2024-03-16 10:35:03] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:35:03] [ERROR] ChannelLogs.create  
+[2024-03-16 10:35:03] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:35:18] [INFO] Recieved 
+[2024-03-16 10:35:18] [ERROR] skipping Duplicates
+[2024-03-16 10:35:41] [INFO] Recieved 
+[2024-03-16 10:35:41] [ERROR] skipping Duplicates
+[2024-03-16 10:36:07] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:36:07] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:36:07] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:36:34] [INFO] Recieved 
+[2024-03-16 10:36:34] [ERROR] skipping Duplicates
+[2024-03-16 10:37:10] [INFO] Recieved 
+[2024-03-16 10:37:10] [ERROR] skipping Duplicates
+[2024-03-16 10:37:21] [INFO] Recieved 
+[2024-03-16 10:37:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:37:21] [ERROR] ChannelLogs.create  
+[2024-03-16 10:37:22] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:37:22] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 10:37:45] [INFO] Recieved 
+[2024-03-16 10:37:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:37:45] [ERROR] ChannelLogs.create  
+[2024-03-16 10:37:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:38:30] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:38:30] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:38:30] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:39:38] [INFO] Recieved 
+[2024-03-16 10:39:39] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:39:39] [ERROR] ChannelLogs.create  
+[2024-03-16 10:39:39] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:39:50] [INFO] Recieved 
+[2024-03-16 10:39:50] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:39:50] [ERROR] ChannelLogs.create  
+[2024-03-16 10:39:51] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:39:51] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 10:40:17] [INFO] Recieved 
+[2024-03-16 10:40:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:40:17] [ERROR] ChannelLogs.create  
+[2024-03-16 10:40:18] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:40:18] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 10:42:29] [INFO] Recieved 
+[2024-03-16 10:42:29] [ERROR] skipping Duplicates
+[2024-03-16 10:44:07] [INFO] Recieved 
+[2024-03-16 10:44:07] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:44:07] [ERROR] ChannelLogs.create  
+[2024-03-16 10:44:07] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:44:21] [INFO] Recieved 
+[2024-03-16 10:44:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:44:21] [ERROR] ChannelLogs.create  
+[2024-03-16 10:44:21] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:44:23] [INFO] Recieved 
+[2024-03-16 10:44:23] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:44:23] [ERROR] ChannelLogs.create  
+[2024-03-16 10:44:24] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:47:07] [INFO] Recieved 
+[2024-03-16 10:47:07] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:47:07] [ERROR] ChannelLogs.create  
+[2024-03-16 10:47:07] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:47:14] [INFO] Recieved 
+[2024-03-16 10:47:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:47:14] [ERROR] ChannelLogs.create  
+[2024-03-16 10:47:14] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:47:36] [INFO] Recieved 
+[2024-03-16 10:47:36] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:47:36] [ERROR] ChannelLogs.create  
+[2024-03-16 10:47:37] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:51:46] [INFO] Recieved 
+[2024-03-16 10:51:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:51:46] [ERROR] ChannelLogs.create  
+[2024-03-16 10:51:46] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 10:51:46] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 10:52:21] [INFO] Recieved 
+[2024-03-16 10:52:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:52:21] [ERROR] ChannelLogs.create  
+[2024-03-16 10:52:21] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:54:20] [INFO] Recieved 
+[2024-03-16 10:54:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:54:20] [ERROR] ChannelLogs.create  
+[2024-03-16 10:54:20] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:54:20] [INFO] Recieved 
+[2024-03-16 10:54:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:54:20] [ERROR] ChannelLogs.create  
+[2024-03-16 10:54:20] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:56:20] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:56:20] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:56:20] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:57:28] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:57:28] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:57:28] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:57:47] [INFO] Recieved 
+[2024-03-16 10:57:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:57:47] [ERROR] ChannelLogs.create  
+[2024-03-16 10:58:09] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 10:58:09] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 10:58:09] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 10:58:39] [INFO] Recieved 
+[2024-03-16 10:58:39] [ERROR] skipping Duplicates
+[2024-03-16 10:58:45] [INFO] Recieved 
+[2024-03-16 10:58:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:58:45] [ERROR] ChannelLogs.create  
+[2024-03-16 10:58:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:59:43] [INFO] Recieved 
+[2024-03-16 10:59:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:59:43] [ERROR] ChannelLogs.create  
+[2024-03-16 10:59:43] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 10:59:47] [INFO] Recieved 
+[2024-03-16 10:59:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 10:59:47] [ERROR] ChannelLogs.create  
+[2024-03-16 10:59:47] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:02:36] [INFO] Recieved 
+[2024-03-16 11:02:36] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:02:36] [ERROR] ChannelLogs.create  
+[2024-03-16 11:02:36] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:02:36] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:05:02] [INFO] Recieved 
+[2024-03-16 11:05:02] [ERROR] skipping Duplicates
+[2024-03-16 11:05:57] [INFO] Recieved 
+[2024-03-16 11:05:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:05:57] [ERROR] ChannelLogs.create  
+[2024-03-16 11:05:57] [INFO] Recieved 
+[2024-03-16 11:05:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:05:57] [ERROR] ChannelLogs.create  
+[2024-03-16 11:05:58] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:05:58] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:05:58] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:05:58] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:07:47] [INFO] Recieved 
+[2024-03-16 11:07:47] [ERROR] skipping Duplicates
+[2024-03-16 11:07:56] [INFO] Recieved 
+[2024-03-16 11:07:56] [ERROR] skipping Duplicates
+[2024-03-16 11:08:13] [INFO] Recieved 
+[2024-03-16 11:08:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:08:13] [ERROR] ChannelLogs.create  
+[2024-03-16 11:08:13] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:15:22] [INFO] Recieved 
+[2024-03-16 11:15:22] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:15:22] [ERROR] ChannelLogs.create  
+[2024-03-16 11:15:22] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:17:05] [INFO] Recieved 
+[2024-03-16 11:17:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:17:05] [ERROR] ChannelLogs.create  
+[2024-03-16 11:17:05] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:17:05] [INFO] Recieved 
+[2024-03-16 11:17:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:17:05] [ERROR] ChannelLogs.create  
+[2024-03-16 11:17:05] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:22:19] [INFO] Recieved 
+[2024-03-16 11:22:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:19] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:19] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:19] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:20] [INFO] Recieved 
+[2024-03-16 11:22:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:20] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:20] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:20] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:34] [INFO] Recieved 
+[2024-03-16 11:22:34] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:34] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:35] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:35] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:40] [INFO] Recieved 
+[2024-03-16 11:22:40] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:40] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:40] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:40] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:40] [INFO] Recieved 
+[2024-03-16 11:22:40] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:40] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:41] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:41] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:41] [INFO] Recieved 
+[2024-03-16 11:22:41] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:41] [ERROR] ChannelLogs.create  
+[2024-03-16 11:22:41] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:22:41] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:22:59] [INFO] Recieved 
+[2024-03-16 11:22:59] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:22:59] [ERROR] ChannelLogs.create  
+[2024-03-16 11:23:00] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:23:00] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:23:14] [INFO] Recieved 
+[2024-03-16 11:23:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:23:14] [ERROR] ChannelLogs.create  
+[2024-03-16 11:23:14] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:23:52] [INFO] Recieved 
+[2024-03-16 11:23:52] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:23:52] [ERROR] ChannelLogs.create  
+[2024-03-16 11:23:53] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:23:53] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:24:17] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:24:17] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:24:17] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:24:48] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:24:48] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:24:48] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:28:33] [INFO] Recieved 
+[2024-03-16 11:28:33] [ERROR] skipping Duplicates
+[2024-03-16 11:29:07] [INFO] Recieved 
+[2024-03-16 11:29:07] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:29:07] [ERROR] ChannelLogs.create  
+[2024-03-16 11:29:07] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:29:07] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:31:16] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:31:16] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:31:16] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:31:37] [INFO] Recieved 
+[2024-03-16 11:31:38] [ERROR] skipping Duplicates
+[2024-03-16 11:31:57] [INFO] Recieved 
+[2024-03-16 11:31:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:31:57] [ERROR] ChannelLogs.create  
+[2024-03-16 11:31:57] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:32:08] [INFO] Recieved 
+[2024-03-16 11:32:08] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:32:08] [ERROR] ChannelLogs.create  
+[2024-03-16 11:32:08] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:33:33] [INFO] Recieved 
+[2024-03-16 11:33:33] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:33:33] [ERROR] ChannelLogs.create  
+[2024-03-16 11:33:34] [INFO] Recieved 
+[2024-03-16 11:33:34] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:33:34] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:33:35] [ERROR] ChannelLogs.create  
+[2024-03-16 11:33:36] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:33:40] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:36:24] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:36:24] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:36:24] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:37:08] [INFO] Recieved 
+[2024-03-16 11:37:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:37:09] [ERROR] ChannelLogs.create  
+[2024-03-16 11:37:09] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:37:14] [INFO] Recieved 
+[2024-03-16 11:37:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:37:14] [ERROR] ChannelLogs.create  
+[2024-03-16 11:43:03] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:43:03] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:43:03] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:44:21] [INFO] Recieved 
+[2024-03-16 11:44:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:44:21] [ERROR] ChannelLogs.create  
+[2024-03-16 11:44:21] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:44:27] [INFO] Recieved 
+[2024-03-16 11:44:27] [ERROR] skipping Duplicates
+[2024-03-16 11:44:36] [INFO] Recieved 
+[2024-03-16 11:44:36] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:44:36] [ERROR] ChannelLogs.create  
+[2024-03-16 11:44:37] [ERROR] O
+[2024-03-16 11:45:58] [INFO] Recieved 
+[2024-03-16 11:45:58] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:45:58] [ERROR] ChannelLogs.create  
+[2024-03-16 11:45:58] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:46:49] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:46:49] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:46:49] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:47:02] [INFO] Recieved 
+[2024-03-16 11:47:02] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:47:02] [ERROR] ChannelLogs.create  
+[2024-03-16 11:47:02] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:47:11] [INFO] Recieved 
+[2024-03-16 11:47:11] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:47:11] [ERROR] ChannelLogs.create  
+[2024-03-16 11:47:11] [ERROR] O
+[2024-03-16 11:47:54] [INFO] Recieved 
+[2024-03-16 11:47:54] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:47:54] [ERROR] ChannelLogs.create  
+[2024-03-16 11:47:54] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:48:05] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:48:05] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:48:05] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:48:33] [INFO] Recieved 
+[2024-03-16 11:48:33] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:48:33] [ERROR] ChannelLogs.create  
+[2024-03-16 11:50:13] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:50:13] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:50:13] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:51:07] [INFO] Recieved 
+[2024-03-16 11:51:07] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:51:07] [ERROR] ChannelLogs.create  
+[2024-03-16 11:51:07] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:51:15] [INFO] Recieved 
+[2024-03-16 11:51:15] [ERROR] skipping Duplicates
+[2024-03-16 11:51:21] [INFO] Recieved 
+[2024-03-16 11:51:21] [ERROR] skipping Duplicates
+[2024-03-16 11:51:27] [INFO] Recieved 
+[2024-03-16 11:51:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:51:27] [ERROR] ChannelLogs.create  
+[2024-03-16 11:51:27] [ERROR] O
+[2024-03-16 11:53:20] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:53:20] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:53:20] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:53:35] [INFO] Recieved 
+[2024-03-16 11:53:35] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:53:35] [ERROR] ChannelLogs.create  
+[2024-03-16 11:53:51] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:53:51] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:53:51] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:54:09] [INFO] Recieved 
+[2024-03-16 11:54:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:54:09] [ERROR] ChannelLogs.create  
+[2024-03-16 11:54:09] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:54:13] [INFO] Recieved 
+[2024-03-16 11:54:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:54:13] [ERROR] ChannelLogs.create  
+[2024-03-16 11:54:13] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:54:21] [INFO] Recieved 
+[2024-03-16 11:54:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:54:21] [ERROR] ChannelLogs.create  
+[2024-03-16 11:54:21] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:54:21] [ERROR] ERROR IN EDITED MESSAGE SENDING 
+[2024-03-16 11:54:47] [INFO] Recieved 
+[2024-03-16 11:54:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:54:47] [ERROR] ChannelLogs.create  
+[2024-03-16 11:54:47] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:54:57] [INFO] Recieved 
+[2024-03-16 11:54:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:54:57] [ERROR] ChannelLogs.create  
+[2024-03-16 11:55:19] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:55:19] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:55:19] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:55:55] [INFO] Recieved 
+[2024-03-16 11:55:55] [ERROR] skipping Duplicates
+[2024-03-16 11:56:27] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 11:56:27] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:56:27] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:56:43] [INFO] Recieved 
+[2024-03-16 11:56:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:56:43] [ERROR] ChannelLogs.create  
+[2024-03-16 11:56:43] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 11:56:52] [INFO] Recieved 
+[2024-03-16 11:56:52] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:56:52] [ERROR] ChannelLogs.create  
+[2024-03-16 11:56:52] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:57:05] [INFO] Recieved 
+[2024-03-16 11:57:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:57:05] [ERROR] ChannelLogs.create  
+[2024-03-16 11:57:05] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:57:19] [INFO] Recieved 
+[2024-03-16 11:57:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 11:57:19] [ERROR] ChannelLogs.create  
+[2024-03-16 11:57:19] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 11:57:23] [INFO] Recieved 
+[2024-03-16 11:57:23] [ERROR] skipping Duplicates
+[2024-03-16 11:58:27] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 11:58:27] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 11:58:27] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 12:00:40] [INFO] Recieved 
+[2024-03-16 12:00:40] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:00:40] [ERROR] ChannelLogs.create  
+[2024-03-16 12:00:40] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:00:52] [INFO] Recieved 
+[2024-03-16 12:00:52] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:00:52] [ERROR] ChannelLogs.create  
+[2024-03-16 12:00:52] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 12:00:54] [INFO] Recieved 
+[2024-03-16 12:00:54] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:00:54] [ERROR] ChannelLogs.create  
+[2024-03-16 12:00:54] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 12:01:15] [INFO] Recieved 
+[2024-03-16 12:01:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:01:15] [ERROR] ChannelLogs.create  
+[2024-03-16 12:01:15] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:03:08] [INFO] Recieved 
+[2024-03-16 12:03:08] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:03:08] [ERROR] ChannelLogs.create  
+[2024-03-16 12:03:08] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:03:12] [INFO] Recieved 
+[2024-03-16 12:03:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:03:12] [ERROR] ChannelLogs.create  
+[2024-03-16 12:03:12] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 12:03:21] [INFO] Recieved 
+[2024-03-16 12:03:21] [ERROR] skipping Duplicates
+[2024-03-16 12:08:46] [INFO] Recieved 
+[2024-03-16 12:08:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:08:47] [ERROR] ChannelLogs.create  
+[2024-03-16 12:08:47] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:09:13] [INFO] Recieved 
+[2024-03-16 12:09:13] [ERROR] skipping Duplicates
+[2024-03-16 12:09:18] [INFO] Recieved 
+[2024-03-16 12:09:18] [ERROR] skipping Duplicates
+[2024-03-16 12:09:26] [INFO] Recieved 
+[2024-03-16 12:09:26] [ERROR] skipping Duplicates
+[2024-03-16 12:09:32] [INFO] Recieved 
+[2024-03-16 12:09:32] [ERROR] skipping Duplicates
+[2024-03-16 12:11:15] [INFO] Recieved 
+[2024-03-16 12:11:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:11:15] [ERROR] ChannelLogs.create  
+[2024-03-16 12:11:15] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:12:18] [INFO] Recieved 
+[2024-03-16 12:12:18] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:12:18] [ERROR] ChannelLogs.create  
+[2024-03-16 12:12:18] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:18:00] [INFO] Recieved 
+[2024-03-16 12:18:00] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:18:00] [ERROR] ChannelLogs.create  
+[2024-03-16 12:18:00] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:18:12] [INFO] Recieved 
+[2024-03-16 12:18:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:18:12] [ERROR] ChannelLogs.create  
+[2024-03-16 12:18:12] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 12:18:17] [INFO] Recieved 
+[2024-03-16 12:18:17] [ERROR] skipping Duplicates
+[2024-03-16 12:18:17] [INFO] Recieved 
+[2024-03-16 12:18:17] [ERROR] skipping Duplicates
+[2024-03-16 12:19:21] [INFO] Recieved 
+[2024-03-16 12:19:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:19:21] [ERROR] ChannelLogs.create  
+[2024-03-16 12:19:21] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:19:44] [INFO] Recieved 
+[2024-03-16 12:19:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:19:44] [ERROR] ChannelLogs.create  
+[2024-03-16 12:19:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:25:16] [INFO] Recieved 
+[2024-03-16 12:25:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:25:16] [ERROR] ChannelLogs.create  
+[2024-03-16 12:25:16] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:30:13] [INFO] Recieved 
+[2024-03-16 12:30:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:30:13] [ERROR] ChannelLogs.create  
+[2024-03-16 12:30:13] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:31:44] [INFO] Recieved 
+[2024-03-16 12:31:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:31:45] [ERROR] ChannelLogs.create  
+[2024-03-16 12:31:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:31:59] [INFO] Recieved 
+[2024-03-16 12:31:59] [ERROR] skipping Duplicates
+[2024-03-16 12:32:29] [INFO] Recieved 
+[2024-03-16 12:32:29] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:32:29] [ERROR] ChannelLogs.create  
+[2024-03-16 12:32:29] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:32:45] [INFO] Recieved 
+[2024-03-16 12:32:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:32:45] [ERROR] ChannelLogs.create  
+[2024-03-16 12:32:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:32:56] [INFO] Recieved 
+[2024-03-16 12:32:56] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:32:56] [ERROR] ChannelLogs.create  
+[2024-03-16 12:32:56] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:32:57] [INFO] Recieved 
+[2024-03-16 12:32:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:32:57] [ERROR] ChannelLogs.create  
+[2024-03-16 12:32:57] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:33:09] [INFO] Recieved 
+[2024-03-16 12:33:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:33:09] [ERROR] ChannelLogs.create  
+[2024-03-16 12:33:09] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:33:14] [INFO] Recieved 
+[2024-03-16 12:33:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:33:15] [ERROR] ChannelLogs.create  
+[2024-03-16 12:33:15] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:33:41] [INFO] Recieved 
+[2024-03-16 12:33:41] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:33:41] [ERROR] ChannelLogs.create  
+[2024-03-16 12:33:41] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:34:10] [INFO] Recieved 
+[2024-03-16 12:34:10] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:34:10] [ERROR] ChannelLogs.create  
+[2024-03-16 12:34:11] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:34:14] [INFO] Recieved 
+[2024-03-16 12:34:14] [ERROR] skipping Duplicates
+[2024-03-16 12:34:16] [INFO] Recieved 
+[2024-03-16 12:34:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:34:16] [ERROR] ChannelLogs.create  
+[2024-03-16 12:34:16] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:35:50] [INFO] Recieved 
+[2024-03-16 12:35:50] [ERROR] skipping Duplicates
+[2024-03-16 12:36:16] [INFO] Recieved 
+[2024-03-16 12:36:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:36:16] [ERROR] ChannelLogs.create  
+[2024-03-16 12:36:16] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:36:45] [INFO] Recieved 
+[2024-03-16 12:36:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:36:45] [ERROR] ChannelLogs.create  
+[2024-03-16 12:36:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:37:22] [INFO] Recieved 
+[2024-03-16 12:37:22] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:37:22] [ERROR] ChannelLogs.create  
+[2024-03-16 12:37:22] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:37:22] [INFO] Recieved 
+[2024-03-16 12:37:22] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:37:22] [ERROR] ChannelLogs.create  
+[2024-03-16 12:37:22] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:37:31] [INFO] Recieved 
+[2024-03-16 12:37:31] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:37:31] [ERROR] ChannelLogs.create  
+[2024-03-16 12:37:31] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:37:43] [INFO] Recieved 
+[2024-03-16 12:37:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:37:43] [ERROR] ChannelLogs.create  
+[2024-03-16 12:37:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:38:44] [INFO] Recieved 
+[2024-03-16 12:38:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:38:44] [ERROR] ChannelLogs.create  
+[2024-03-16 12:38:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:38:54] [INFO] Recieved 
+[2024-03-16 12:38:54] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:38:54] [ERROR] ChannelLogs.create  
+[2024-03-16 12:38:54] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 12:38:57] [INFO] Recieved 
+[2024-03-16 12:38:57] [ERROR] skipping Duplicates
+[2024-03-16 12:38:57] [INFO] Recieved 
+[2024-03-16 12:38:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:38:57] [ERROR] ChannelLogs.create  
+[2024-03-16 12:38:57] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:42:24] [INFO] Recieved 
+[2024-03-16 12:42:24] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:42:24] [ERROR] ChannelLogs.create  
+[2024-03-16 12:42:25] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 12:42:27] [INFO] Recieved 
+[2024-03-16 12:42:27] [ERROR] skipping Duplicates
+[2024-03-16 12:42:42] [INFO] Recieved 
+[2024-03-16 12:42:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:42:43] [ERROR] ChannelLogs.create  
+[2024-03-16 12:42:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:54:38] [INFO] Recieved 
+[2024-03-16 12:54:38] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:54:38] [ERROR] ChannelLogs.create  
+[2024-03-16 12:54:39] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:54:46] [INFO] Recieved 
+[2024-03-16 12:54:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:54:46] [ERROR] ChannelLogs.create  
+[2024-03-16 12:54:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:54:47] [INFO] Recieved 
+[2024-03-16 12:54:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:54:47] [ERROR] ChannelLogs.create  
+[2024-03-16 12:54:47] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:55:12] [INFO] Recieved 
+[2024-03-16 12:55:12] [INFO] Recieved 
+[2024-03-16 12:55:12] [ERROR] skipping Duplicates
+[2024-03-16 12:55:12] [ERROR] skipping Duplicates
+[2024-03-16 12:55:13] [INFO] Recieved 
+[2024-03-16 12:55:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:55:13] [ERROR] ChannelLogs.create  
+[2024-03-16 12:55:13] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 12:55:31] [INFO] Recieved 
+[2024-03-16 12:55:31] [ERROR] skipping Duplicates
+[2024-03-16 12:55:39] [INFO] Recieved 
+[2024-03-16 12:55:39] [ERROR] skipping Duplicates
+[2024-03-16 12:55:58] [INFO] Recieved 
+[2024-03-16 12:55:58] [ERROR] skipping Duplicates
+[2024-03-16 12:59:14] [INFO] Recieved 
+[2024-03-16 12:59:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 12:59:14] [ERROR] ChannelLogs.create  
+[2024-03-16 12:59:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:03:18] [INFO] Recieved 
+[2024-03-16 13:03:18] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:03:18] [ERROR] ChannelLogs.create  
+[2024-03-16 13:03:18] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:03:46] [INFO] Recieved 
+[2024-03-16 13:03:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:03:46] [ERROR] ChannelLogs.create  
+[2024-03-16 13:03:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:04:16] [INFO] Recieved 
+[2024-03-16 13:04:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:04:17] [ERROR] ChannelLogs.create  
+[2024-03-16 13:04:17] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:07:45] [INFO] Recieved 
+[2024-03-16 13:07:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:07:45] [ERROR] ChannelLogs.create  
+[2024-03-16 13:07:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:08:46] [INFO] Recieved 
+[2024-03-16 13:08:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:08:46] [ERROR] ChannelLogs.create  
+[2024-03-16 13:08:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:10:45] [INFO] Recieved 
+[2024-03-16 13:10:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:10:45] [ERROR] ChannelLogs.create  
+[2024-03-16 13:10:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:13:22] [INFO] Recieved 
+[2024-03-16 13:13:22] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:13:22] [ERROR] ChannelLogs.create  
+[2024-03-16 13:13:22] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:13:31] [INFO] Recieved 
+[2024-03-16 13:13:31] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:13:31] [ERROR] ChannelLogs.create  
+[2024-03-16 13:13:31] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:13:40] [INFO] Recieved 
+[2024-03-16 13:13:40] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:13:40] [ERROR] ChannelLogs.create  
+[2024-03-16 13:13:40] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:14:08] [INFO] Recieved 
+[2024-03-16 13:14:08] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:14:08] [ERROR] ChannelLogs.create  
+[2024-03-16 13:14:08] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:14:14] [INFO] Recieved 
+[2024-03-16 13:14:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:14:14] [ERROR] ChannelLogs.create  
+[2024-03-16 13:14:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:14:24] [INFO] Recieved 
+[2024-03-16 13:14:24] [ERROR] skipping Duplicates
+[2024-03-16 13:14:44] [INFO] Recieved 
+[2024-03-16 13:14:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:14:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:14:44] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:14:52] [INFO] Recieved 
+[2024-03-16 13:14:52] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:14:52] [ERROR] ChannelLogs.create  
+[2024-03-16 13:14:52] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:14:55] [INFO] Recieved 
+[2024-03-16 13:14:55] [ERROR] skipping Duplicates
+[2024-03-16 13:15:17] [INFO] Recieved 
+[2024-03-16 13:15:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:15:17] [ERROR] ChannelLogs.create  
+[2024-03-16 13:15:17] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:16:04] [INFO] Recieved 
+[2024-03-16 13:16:04] [ERROR] skipping Duplicates
+[2024-03-16 13:16:46] [INFO] Recieved 
+[2024-03-16 13:16:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:16:46] [ERROR] ChannelLogs.create  
+[2024-03-16 13:16:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:17:46] [INFO] Recieved 
+[2024-03-16 13:17:46] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:17:46] [ERROR] ChannelLogs.create  
+[2024-03-16 13:17:46] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:19:05] [INFO] Recieved 
+[2024-03-16 13:19:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:19:05] [ERROR] ChannelLogs.create  
+[2024-03-16 13:19:05] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:20:33] [INFO] Recieved 
+[2024-03-16 13:20:33] [ERROR] skipping Duplicates
+[2024-03-16 13:20:34] [INFO] Recieved 
+[2024-03-16 13:20:34] [ERROR] skipping Duplicates
+[2024-03-16 13:22:20] [INFO] Recieved 
+[2024-03-16 13:22:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:22:20] [ERROR] ChannelLogs.create  
+[2024-03-16 13:22:20] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:22:22] [INFO] Recieved 
+[2024-03-16 13:22:22] [ERROR] skipping Duplicates
+[2024-03-16 13:22:27] [INFO] Recieved 
+[2024-03-16 13:22:27] [ERROR] skipping Duplicates
+[2024-03-16 13:22:50] [INFO] Recieved 
+[2024-03-16 13:22:50] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:22:50] [ERROR] ChannelLogs.create  
+[2024-03-16 13:22:50] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:22:59] [INFO] Recieved 
+[2024-03-16 13:22:59] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:22:59] [ERROR] ChannelLogs.create  
+[2024-03-16 13:22:59] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:23:44] [INFO] Recieved 
+[2024-03-16 13:23:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:23:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:23:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:23:53] [INFO] Recieved 
+[2024-03-16 13:23:53] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:23:53] [ERROR] ChannelLogs.create  
+[2024-03-16 13:23:53] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:23:55] [INFO] Recieved 
+[2024-03-16 13:23:55] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:23:55] [ERROR] ChannelLogs.create  
+[2024-03-16 13:23:55] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:24:09] [INFO] Recieved 
+[2024-03-16 13:24:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:24:09] [ERROR] ChannelLogs.create  
+[2024-03-16 13:24:09] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:24:21] [INFO] Recieved 
+[2024-03-16 13:24:21] [INFO] Recieved 
+[2024-03-16 13:24:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:24:21] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:24:21] [ERROR] ChannelLogs.create  
+[2024-03-16 13:24:21] [ERROR] ChannelLogs.create  
+[2024-03-16 13:24:21] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:24:21] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:24:30] [INFO] Recieved 
+[2024-03-16 13:24:30] [ERROR] skipping Duplicates
+[2024-03-16 13:24:37] [INFO] Recieved 
+[2024-03-16 13:24:37] [ERROR] skipping Duplicates
+[2024-03-16 13:24:43] [INFO] Recieved 
+[2024-03-16 13:24:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:24:43] [ERROR] ChannelLogs.create  
+[2024-03-16 13:24:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:26:42] [INFO] Recieved 
+[2024-03-16 13:26:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:26:42] [ERROR] ChannelLogs.create  
+[2024-03-16 13:26:42] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:26:57] [INFO] Recieved 
+[2024-03-16 13:26:57] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:26:57] [ERROR] ChannelLogs.create  
+[2024-03-16 13:26:57] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:27:05] [INFO] Recieved 
+[2024-03-16 13:27:05] [ERROR] skipping Duplicates
+[2024-03-16 13:27:07] [INFO] Recieved 
+[2024-03-16 13:27:07] [ERROR] skipping Duplicates
+[2024-03-16 13:27:36] [INFO] Recieved 
+[2024-03-16 13:27:36] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:27:36] [ERROR] ChannelLogs.create  
+[2024-03-16 13:27:36] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:27:43] [INFO] Recieved 
+[2024-03-16 13:27:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:27:43] [ERROR] ChannelLogs.create  
+[2024-03-16 13:27:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:27:44] [INFO] Recieved 
+[2024-03-16 13:27:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:27:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:27:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:27:53] [INFO] Recieved 
+[2024-03-16 13:27:53] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:27:53] [ERROR] ChannelLogs.create  
+[2024-03-16 13:27:53] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:28:02] [INFO] Recieved 
+[2024-03-16 13:28:02] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:28:02] [ERROR] ChannelLogs.create  
+[2024-03-16 13:28:02] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:28:02] [INFO] Recieved 
+[2024-03-16 13:28:02] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:28:02] [ERROR] ChannelLogs.create  
+[2024-03-16 13:28:02] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:28:03] [INFO] Recieved 
+[2024-03-16 13:28:03] [ERROR] skipping Duplicates
+[2024-03-16 13:28:23] [INFO] Recieved 
+[2024-03-16 13:28:23] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:28:23] [ERROR] ChannelLogs.create  
+[2024-03-16 13:28:23] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:29:35] [INFO] Recieved 
+[2024-03-16 13:29:35] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:29:35] [ERROR] ChannelLogs.create  
+[2024-03-16 13:29:36] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:29:38] [INFO] Recieved 
+[2024-03-16 13:29:38] [ERROR] skipping Duplicates
+[2024-03-16 13:29:44] [INFO] Recieved 
+[2024-03-16 13:29:44] [ERROR] skipping Duplicates
+[2024-03-16 13:30:18] [INFO] Recieved 
+[2024-03-16 13:30:18] [ERROR] skipping Duplicates
+[2024-03-16 13:30:56] [INFO] Recieved 
+[2024-03-16 13:30:56] [ERROR] skipping Duplicates
+[2024-03-16 13:30:58] [INFO] Recieved 
+[2024-03-16 13:30:58] [ERROR] skipping Duplicates
+[2024-03-16 13:31:20] [INFO] Recieved 
+[2024-03-16 13:31:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:31:20] [ERROR] ChannelLogs.create  
+[2024-03-16 13:31:20] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:31:50] [INFO] Recieved 
+[2024-03-16 13:31:50] [ERROR] skipping Duplicates
+[2024-03-16 13:32:14] [INFO] Recieved 
+[2024-03-16 13:32:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:32:14] [ERROR] ChannelLogs.create  
+[2024-03-16 13:32:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:33:14] [INFO] Recieved 
+[2024-03-16 13:33:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:33:14] [ERROR] ChannelLogs.create  
+[2024-03-16 13:33:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:35:09] [INFO] Recieved 
+[2024-03-16 13:35:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:35:09] [ERROR] ChannelLogs.create  
+[2024-03-16 13:35:09] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:35:16] [INFO] Recieved 
+[2024-03-16 13:35:16] [ERROR] skipping Duplicates
+[2024-03-16 13:35:16] [INFO] Recieved 
+[2024-03-16 13:35:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:35:16] [ERROR] ChannelLogs.create  
+[2024-03-16 13:35:17] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:35:53] [INFO] Recieved 
+[2024-03-16 13:35:53] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:35:53] [ERROR] ChannelLogs.create  
+[2024-03-16 13:35:53] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:35:56] [INFO] Recieved 
+[2024-03-16 13:35:56] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:35:56] [ERROR] ChannelLogs.create  
+[2024-03-16 13:35:56] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:42:13] [INFO] Recieved 
+[2024-03-16 13:42:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:42:13] [ERROR] ChannelLogs.create  
+[2024-03-16 13:42:13] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:42:16] [INFO] Recieved 
+[2024-03-16 13:42:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:42:16] [ERROR] ChannelLogs.create  
+[2024-03-16 13:42:16] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:43:05] [INFO] Recieved 
+[2024-03-16 13:43:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:43:05] [ERROR] ChannelLogs.create  
+[2024-03-16 13:43:05] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:43:06] [INFO] Recieved 
+[2024-03-16 13:43:06] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:43:06] [ERROR] ChannelLogs.create  
+[2024-03-16 13:43:06] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:43:13] [INFO] Recieved 
+[2024-03-16 13:43:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:43:13] [ERROR] ChannelLogs.create  
+[2024-03-16 13:43:13] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:43:44] [INFO] Recieved 
+[2024-03-16 13:43:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:43:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:43:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:43:47] [INFO] Recieved 
+[2024-03-16 13:43:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:43:47] [ERROR] ChannelLogs.create  
+[2024-03-16 13:43:47] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:49:44] [INFO] Recieved 
+[2024-03-16 13:49:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:49:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:49:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:50:16] [INFO] Recieved 
+[2024-03-16 13:50:16] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:50:16] [ERROR] ChannelLogs.create  
+[2024-03-16 13:50:16] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:50:18] [INFO] Recieved 
+[2024-03-16 13:50:18] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:50:18] [ERROR] ChannelLogs.create  
+[2024-03-16 13:50:18] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:50:42] [INFO] Recieved 
+[2024-03-16 13:50:42] [INFO] Recieved 
+[2024-03-16 13:50:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:50:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:50:42] [ERROR] ChannelLogs.create  
+[2024-03-16 13:50:42] [ERROR] ChannelLogs.create  
+[2024-03-16 13:50:42] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:50:42] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:50:43] [INFO] Recieved 
+[2024-03-16 13:50:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:50:43] [ERROR] ChannelLogs.create  
+[2024-03-16 13:50:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:51:49] [INFO] Recieved 
+[2024-03-16 13:51:49] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:51:49] [ERROR] ChannelLogs.create  
+[2024-03-16 13:51:49] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:53:45] [INFO] Recieved 
+[2024-03-16 13:53:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:53:45] [ERROR] ChannelLogs.create  
+[2024-03-16 13:53:45] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:53:46] [INFO] Recieved 
+[2024-03-16 13:53:46] [ERROR] skipping Duplicates
+[2024-03-16 13:54:12] [INFO] Recieved 
+[2024-03-16 13:54:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:54:12] [ERROR] ChannelLogs.create  
+[2024-03-16 13:54:13] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:54:15] [INFO] Recieved 
+[2024-03-16 13:54:15] [ERROR] skipping Duplicates
+[2024-03-16 13:54:33] [INFO] Recieved 
+[2024-03-16 13:54:33] [ERROR] skipping Duplicates
+[2024-03-16 13:54:43] [INFO] Recieved 
+[2024-03-16 13:54:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:54:44] [ERROR] ChannelLogs.create  
+[2024-03-16 13:54:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:55:01] [INFO] Recieved 
+[2024-03-16 13:55:01] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:55:01] [INFO] Recieved 
+[2024-03-16 13:55:01] [ERROR] ChannelLogs.create  
+[2024-03-16 13:55:01] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:55:01] [ERROR] ChannelLogs.create  
+[2024-03-16 13:55:01] [ERROR] O
+[2024-03-16 13:55:01] [ERROR] EDITED MESSAGE SENDING NOW 
+[2024-03-16 13:55:15] [INFO] Recieved 
+[2024-03-16 13:55:15] [INFO] Recieved 
+[2024-03-16 13:55:15] [ERROR] skipping Duplicates
+[2024-03-16 13:55:15] [ERROR] skipping Duplicates
+[2024-03-16 13:55:15] [INFO] Recieved 
+[2024-03-16 13:55:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:55:15] [ERROR] ChannelLogs.create  
+[2024-03-16 13:55:15] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:55:29] [INFO] Recieved 
+[2024-03-16 13:55:29] [ERROR] skipping Duplicates
+[2024-03-16 13:55:35] [INFO] Recieved 
+[2024-03-16 13:55:35] [ERROR] skipping Duplicates
+[2024-03-16 13:56:01] [INFO] Recieved 
+[2024-03-16 13:56:01] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:56:01] [ERROR] ChannelLogs.create  
+[2024-03-16 13:56:01] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:56:09] [INFO] Recieved 
+[2024-03-16 13:56:09] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:56:09] [ERROR] ChannelLogs.create  
+[2024-03-16 13:56:09] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 13:58:00] [INFO] Recieved 
+[2024-03-16 13:58:00] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:58:00] [ERROR] ChannelLogs.create  
+[2024-03-16 13:58:00] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 13:58:00] [INFO] Recieved 
+[2024-03-16 13:58:00] [ERROR] skipping Duplicates
+[2024-03-16 13:59:14] [INFO] Recieved 
+[2024-03-16 13:59:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 13:59:14] [ERROR] ChannelLogs.create  
+[2024-03-16 13:59:15] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:01:25] [INFO] Recieved 
+[2024-03-16 14:01:25] [ERROR] skipping Duplicates
+[2024-03-16 14:02:12] [INFO] Recieved 
+[2024-03-16 14:02:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:02:12] [ERROR] ChannelLogs.create  
+[2024-03-16 14:02:12] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:02:44] [INFO] Recieved 
+[2024-03-16 14:02:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:02:44] [ERROR] ChannelLogs.create  
+[2024-03-16 14:02:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:04:42] [INFO] Recieved 
+[2024-03-16 14:04:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:04:42] [ERROR] ChannelLogs.create  
+[2024-03-16 14:04:42] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:07:46] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 14:07:46] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 14:07:46] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 14:08:45] [INFO] Recieved 
+[2024-03-16 14:08:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:08:45] [ERROR] ChannelLogs.create  
+[2024-03-16 14:08:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:09:35] [INFO] Added Signal Repeater Server NEWSIGNAL listener.
+[2024-03-16 14:09:35] [INFO] Added Signal Repeater Server DISCONNECTED listener.
+[2024-03-16 14:09:35] [INFO] Added Signal Repeater Server 24HOURLYSTATS listener.
+[2024-03-16 14:11:42] [INFO] Recieved 
+[2024-03-16 14:11:42] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:11:42] [ERROR] ChannelLogs.create  
+[2024-03-16 14:11:43] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:16:05] [INFO] Recieved 
+[2024-03-16 14:16:05] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:16:05] [ERROR] ChannelLogs.create  
+[2024-03-16 14:16:06] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:17:35] [INFO] Recieved 
+[2024-03-16 14:17:35] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:17:35] [ERROR] ChannelLogs.create  
+[2024-03-16 14:17:36] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:18:43] [INFO] Recieved 
+[2024-03-16 14:18:43] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:18:43] [ERROR] ChannelLogs.create  
+[2024-03-16 14:18:43] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:22:13] [INFO] Recieved 
+[2024-03-16 14:22:13] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:22:13] [ERROR] ChannelLogs.create  
+[2024-03-16 14:22:13] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:23:14] [INFO] Recieved 
+[2024-03-16 14:23:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:23:14] [ERROR] ChannelLogs.create  
+[2024-03-16 14:23:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:24:14] [INFO] Recieved 
+[2024-03-16 14:24:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:24:14] [ERROR] ChannelLogs.create  
+[2024-03-16 14:24:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:25:39] [INFO] Recieved 
+[2024-03-16 14:25:39] [ERROR] skipping Duplicates
+[2024-03-16 14:28:45] [INFO] Recieved 
+[2024-03-16 14:28:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:28:45] [ERROR] ChannelLogs.create  
+[2024-03-16 14:28:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:29:27] [INFO] Recieved 
+[2024-03-16 14:29:27] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:29:27] [ERROR] ChannelLogs.create  
+[2024-03-16 14:29:28] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:29:28] [INFO] Recieved 
+[2024-03-16 14:29:28] [ERROR] skipping Duplicates
+[2024-03-16 14:31:14] [INFO] Recieved 
+[2024-03-16 14:31:14] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:31:14] [ERROR] ChannelLogs.create  
+[2024-03-16 14:31:14] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:33:17] [INFO] Recieved 
+[2024-03-16 14:33:17] [ERROR] skipping Duplicates
+[2024-03-16 14:34:19] [INFO] Recieved 
+[2024-03-16 14:34:19] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:34:19] [ERROR] ChannelLogs.create  
+[2024-03-16 14:34:19] [INFO] Recieved 
+[2024-03-16 14:34:19] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:34:19] [ERROR] skipping Duplicates
+[2024-03-16 14:38:55] [INFO] Recieved 
+[2024-03-16 14:38:55] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:38:55] [ERROR] ChannelLogs.create  
+[2024-03-16 14:38:55] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:38:56] [INFO] Recieved 
+[2024-03-16 14:38:56] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:38:56] [ERROR] ChannelLogs.create  
+[2024-03-16 14:38:56] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:39:12] [INFO] Recieved 
+[2024-03-16 14:39:12] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:39:12] [ERROR] ChannelLogs.create  
+[2024-03-16 14:39:12] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:40:44] [INFO] Recieved 
+[2024-03-16 14:40:44] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:40:44] [ERROR] ChannelLogs.create  
+[2024-03-16 14:40:44] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:43:45] [INFO] Recieved 
+[2024-03-16 14:43:45] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:43:45] [ERROR] ChannelLogs.create  
+[2024-03-16 14:43:45] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:44:07] [INFO] Recieved 
+[2024-03-16 14:44:07] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:44:07] [ERROR] ChannelLogs.create  
+[2024-03-16 14:44:07] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:44:10] [INFO] Recieved 
+[2024-03-16 14:44:10] [ERROR] skipping Duplicates
+[2024-03-16 14:44:23] [INFO] Recieved 
+[2024-03-16 14:44:23] [ERROR] skipping Duplicates
+[2024-03-16 14:50:15] [INFO] Recieved 
+[2024-03-16 14:50:15] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:50:15] [ERROR] ChannelLogs.create  
+[2024-03-16 14:50:15] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:50:34] [INFO] Recieved 
+[2024-03-16 14:50:34] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:50:34] [ERROR] ChannelLogs.create  
+[2024-03-16 14:50:34] [ERROR] NEW MESSAGE SENDING NOW 
+[2024-03-16 14:50:40] [INFO] Recieved 
+[2024-03-16 14:50:40] [ERROR] skipping Duplicates
+[2024-03-16 14:51:20] [INFO] Recieved 
+[2024-03-16 14:51:20] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:51:20] [ERROR] ChannelLogs.create  
+[2024-03-16 14:51:20] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:51:36] [INFO] Recieved 
+[2024-03-16 14:51:36] [ERROR] skipping Duplicates
+[2024-03-16 14:52:47] [INFO] Recieved 
+[2024-03-16 14:52:47] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:52:47] [ERROR] ChannelLogs.create  
+[2024-03-16 14:52:47] [ERROR] BOT CRASHED - SQL ERROR
+[2024-03-16 14:53:17] [INFO] Recieved 
+[2024-03-16 14:53:17] [ERROR] TokenCalls.upsert 
+[2024-03-16 14:53:17] [ERROR] ChannelLogs.create  
+[2024-03-16 14:53:17] [ERROR] BOT CRASHED - SQL ERROR

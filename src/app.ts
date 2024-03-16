@@ -19,129 +19,119 @@ async function start() {
     }
     config = JSON.parse(data);
 
-    const tsA = new TelegramAccountService(config, eventEmitter);
-
+    const tsA = new TelegramAccountService(config, eventEmitter); 
 
     eventEmitter.on('newListener', (event: string, listener: any) => {
       logger.info(`Added Signal Repeater Server ${event.toUpperCase()} listener.`);
     });
-
-    eventEmitter.on('updateSignal', async (tradeSignal: any) => {
-      logger.info('Recieved  updateSignal');
-      console.log(JSON.stringify(tradeSignal, null, 2));
-
-      const loggedSignal = await UpdateLogs.findOne({
-        where: {
-          tokenAddress: tradeSignal.tokenAddress,
-        }
-      })
-
-      try {
-
-        if (loggedSignal && loggedSignal.dataValues && loggedSignal.dataValues.tokenAddress) {
-          tsA.sendUpdatedMessageToChannel(JSON.stringify(tradeSignal), loggedSignal);
-        } else {
-          tsA.sendNewMessageToChannel(JSON.stringify(tradeSignal));
-        }
-
-      } catch (error) {
-        console.log(error)
-      }
-
-    });
+ 
     eventEmitter.on('newSignal', async (tradeSignal: any) => {
       logger.info('Recieved ');
       console.log(JSON.stringify(tradeSignal, null, 2));
-      const oldSignal = await ChannelLogs.findOne({
-        where: {
-          tokenAddress: tradeSignal.tokenAddress,
-          channelName: tradeSignal.channelName, 
-        }
-      })
-      const loggedSignal = await UpdateLogs.findOne({
-        where: {
-          tokenAddress: tradeSignal.tokenAddress,
-        }
-      })
 
-      if (oldSignal && oldSignal.dataValues && oldSignal.dataValues.tokenAddress) {
-        logger.error('skipping Duplicates')
-      } else {
+      try{
 
-        logger.error('TokenCalls.upsert ')
-        const oldTokenSignal = await TokenCalls.findOne({
+        const oldSignal = await ChannelLogs.findOne({
           where: {
-            tokenAddress: tradeSignal.tokenAddress 
+            tokenAddress: tradeSignal.tokenAddress,
+            channelName: tradeSignal.channelName, 
           }
-        }) 
-        if(!oldTokenSignal)
-        await TokenCalls.create(tradeSignal);
-
-        else 
-        await TokenCalls.upsert(tradeSignal);
-
-
-
-        logger.error('ChannelLogs.create  ')
-
-        await ChannelLogs.create(tradeSignal);
-        try {
-          if (tradeSignal.channelName == dexscreener_channel) {
-            TokenCalls.update({
-              dexUpdated: true
-            }, {
-                where: {
-                    tokenAddress: tradeSignal.tokenAddress,
-                },
-            })
-
-        } else
-            if (tradeSignal.channelName == safeguard_channel) {
-                TokenCalls.update({
-                    safeguarded: true
-                }, {
-                    where: {
-                        tokenAddress: tradeSignal.tokenAddress,
-                    },
-                })
-
-            } else
-                if (tradeSignal.channelName == lpburned_channel) {
-                    TokenCalls.update({
-                        lpBurned: true
-                    }, {
-                        where: {
-                            tokenAddress: tradeSignal.tokenAddress,
-                        },
-                    })
-
-                } else
-                    if (tradeSignal.channelName == soltrending_channel) {
-
-                        console.log('@@@@@@@@@@@@@@@@@@@@@@@soltrending_channel@@@@@@@@@@@@@@@@@@@@@@');
-
-                        TokenCalls.update({
-                            solTrending: true
-                        }, {
-                            where: {
-                                tokenAddress: tradeSignal.tokenAddress,
-                            },
-                        })
+        })
+        const loggedSignal = await UpdateLogs.findOne({
+          where: {
+            tokenAddress: tradeSignal.tokenAddress,
+          }
+        })
+  
+        if (oldSignal && oldSignal.dataValues && oldSignal.dataValues.tokenAddress) {
+          logger.error('skipping Duplicates')
+        } else {
+  
+          logger.error('TokenCalls.upsert ')
+          const oldTokenSignal = await TokenCalls.findOne({
+            where: {
+              tokenAddress: tradeSignal.tokenAddress 
+            }
+          }) 
+          if(!oldTokenSignal) 
+           await TokenCalls.create(tradeSignal);  
+          else 
+          await TokenCalls.upsert(tradeSignal); 
+          logger.error('ChannelLogs.create  ')
+  
+          const tradeCommand = await ChannelLogs.findAll({
+            where: {
+                tokenAddress: tradeSignal.tokenAddress, 
+                channelName: tradeSignal.channelName
+            }
+        })
+        console.log(tradeSignal); 
+        if (tradeCommand.length > 0) {
+            logger.error('O')
+             
+        }else{
+          await ChannelLogs.create(tradeSignal);}
+          try {
+            if (tradeSignal.channelName == dexscreener_channel) {
+              TokenCalls.update({
+                dexUpdated: true
+              }, {
+                  where: {
+                      tokenAddress: tradeSignal.tokenAddress,
+                  },
+              })
+  
+          } else
+              if (tradeSignal.channelName == safeguard_channel) {
+                  TokenCalls.update({
+                      safeguarded: true
+                  }, {
+                      where: {
+                          tokenAddress: tradeSignal.tokenAddress,
+                      },
+                  })
+  
+              } else
+                  if (tradeSignal.channelName == lpburned_channel) {
+                      TokenCalls.update({
+                          lpBurned: true
+                      }, {
+                          where: {
+                              tokenAddress: tradeSignal.tokenAddress,
+                          },
+                      })
+  
+                  } else
+                      if (tradeSignal.channelName == soltrending_channel) {
+  
+   
+                          TokenCalls.update({
+                              solTrending: true
+                          }, {
+                              where: {
+                                  tokenAddress: tradeSignal.tokenAddress,
+                              },
+                          })
+                      }
+  
+                     if (loggedSignal && loggedSignal.dataValues && loggedSignal.dataValues.tokenAddress) {
+                      tsA.sendUpdatedMessageToChannel(JSON.stringify(tradeSignal), loggedSignal);
+                    } else {
+                      tsA.sendNewMessageToChannel(JSON.stringify(tradeSignal));
                     }
-
-                   if (loggedSignal && loggedSignal.dataValues && loggedSignal.dataValues.tokenAddress) {
-                    tsA.sendUpdatedMessageToChannel(JSON.stringify(tradeSignal), loggedSignal);
-                  } else {
-                    tsA.sendNewMessageToChannel(JSON.stringify(tradeSignal));
-                  }
-              
-
-
-
-        } catch (error) {
-          console.log(error)
+                
+  
+  
+  
+          } catch (error) {
+            console.log(error)
+          }
         }
+        
+      }catch(error){
+        logger.error('BOT CRASHED - SQL ERROR')
       }
+  
 
     });
 
