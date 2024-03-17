@@ -28,4 +28,3 @@ archivefolder
 archivefolder.zip
 logs/errors.log
 logs/debug.log
-database.sqlite
