@@ -87,10 +87,14 @@ const kohlList = (kohlsStats) => {
     return ret;
 }
 
-export const UpdatedMessageFormat = (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
+export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, preMarketing: any, kohlsStats: any[]) => {
     let roi = isNaN(Number(maxRoi))? 0 : maxRoi;
     if(Number(roi) > Number.MAX_VALUE)roi='+0';
-
+    const oldSignal = await TokenCalls.findOne({
+        where: {
+          tokenAddress: commandDetail.tokenAddress 
+        }
+      })
 
     return `
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
@@ -100,8 +104,8 @@ ${preMarketingList(preMarketing)}
 
 <b>💳 BASICS</b>
 
-🌀 DexScreener Updated : ${commandDetail.dexUpdated ? '🟢':'🔴'}
-🎰 Sol Trending :  ${commandDetail.solTrending ? '🟢':'🔴'}
+🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
+🎰 Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
 
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 

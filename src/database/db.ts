@@ -113,8 +113,7 @@ TokenCalls.init({
     },
     callerTG: {
       type: DataTypes.STRING,
-      unique: true,
-      allowNull: true,
+       allowNull: true,
     },
     channelName: {
       type: DataTypes.STRING,

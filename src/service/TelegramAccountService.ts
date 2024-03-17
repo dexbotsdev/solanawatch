@@ -239,17 +239,16 @@ class TelegramAccountService {
 
         const maxRoi = await getMaxRoi(tokenAddress, tradingSignal);
         const preMarketing = await getPremarketingCalls(tokenAddress)
-        const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal);
+        const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal); 
 
-        
 
-        let message = UpdatedMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);
+        let message = await UpdatedMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);
 
         logger.error('EDITED MESSAGE SENDING NOW ')
         console.log(tradingSignal);
         console.log(preMarketing);
         console.log(kohlsStats);
-         const client = this.client;
+        const client = this.client;
         const resultLog = await sendModifiedMessage(client);
 
         if (resultLog) {

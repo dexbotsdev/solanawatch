@@ -53,10 +53,17 @@ async function start() {
               tokenAddress: tradeSignal.tokenAddress 
             }
           }) 
-          if(!oldTokenSignal) 
-           await TokenCalls.create(tradeSignal);  
+          if(oldTokenSignal == null) 
+           {
+            console.log('TOkenCalls create ',tradeSignal)
+
+            await TokenCalls.create(tradeSignal);  
+          }
           else 
-          await TokenCalls.upsert(tradeSignal); 
+          {
+            console.log('TOkenCalls upsert ',tradeSignal)
+            await TokenCalls.upsert(tradeSignal); 
+          }
           logger.error('ChannelLogs.create  ')
   
           const tradeCommand = await ChannelLogs.findAll({
@@ -129,6 +136,7 @@ async function start() {
         }
         
       }catch(error){
+        console.log(error)
         logger.error('BOT CRASHED - SQL ERROR')
       }
   
