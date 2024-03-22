@@ -78,6 +78,7 @@ async function start() {
              
         }else{
           await ChannelLogs.create(tradeSignal);}
+          let showNew=true;
           try {
             if (tradeSignal.channelName == dexscreener_channel) {
               TokenCalls.update({
@@ -87,7 +88,7 @@ async function start() {
                       tokenAddress: tradeSignal.tokenAddress,
                   },
               })
-  
+              showNew=false;
           } else
               if (tradeSignal.channelName == safeguard_channel) {
                   TokenCalls.update({
@@ -97,6 +98,7 @@ async function start() {
                           tokenAddress: tradeSignal.tokenAddress,
                       },
                   })
+                  showNew=false;
   
               } else
                   if (tradeSignal.channelName == lpburned_channel) {
@@ -107,6 +109,7 @@ async function start() {
                               tokenAddress: tradeSignal.tokenAddress,
                           },
                       })
+                      showNew=false;
   
                   } else
                       if (tradeSignal.channelName == soltrending_channel) {
@@ -119,11 +122,14 @@ async function start() {
                                   tokenAddress: tradeSignal.tokenAddress,
                               },
                           })
+                          showNew=false;
                       }
   
                      if (loggedSignal && loggedSignal.dataValues && loggedSignal.dataValues.tokenAddress) {
                       tsA.sendUpdatedMessageToChannel(JSON.stringify(tradeSignal), loggedSignal);
                     } else {
+
+                      if(showNew)
                       tsA.sendNewMessageToChannel(JSON.stringify(tradeSignal));
                     }
                 

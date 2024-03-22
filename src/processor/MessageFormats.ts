@@ -68,7 +68,7 @@ const preMarketingList = (premarketData) => {
     let i=1;
     premarketData.forEach((item, index) => {
         if(item.callerPostId) 
-        ret += `<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a>
+        ret += `<a href="https://t.me/${item.channelName}/${item.callerPostId}">${i++}. ${item.channelName}</a>
 `
     })
     return ret;
@@ -81,7 +81,7 @@ const kohlList = (kohlsStats) => {
 
     kohlsStats.forEach((item, index) => {
         if(item.tokenMC)
-        ret += `<a href="https://t.me/${item.channelName}">${i++}. ${item.channelName}</a> | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X
+        ret += `<a href="https://t.me/${item.channelName}/${item.callerPostId}">${i++}. ${item.channelName}</a> | ${formatNumber(item.tokenMC)} | ${Number(item.callROI).toFixed(0)}X
 `
     })
     return ret;
