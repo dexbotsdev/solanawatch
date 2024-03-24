@@ -54,10 +54,8 @@ ${preMarketingList(preMarketing)}
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
 
-📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
-
-<code>${commandDetail.tokenAddress}</code>  
-
+📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a> 
+<code>${commandDetail.tokenAddress}</code>   
 🎯<b>Ad-Buy</b> auto ads
 `;
 }
@@ -106,12 +104,10 @@ ${preMarketingList(preMarketing)}
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
 
-📈<b> TRADE</b> -- Links To bots
-
+📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
 <code>${commandDetail.tokenAddress}</code>  
-
 🎯<b>Ad</b> buy auto ads
-    `;
+`;
 }
 
 
