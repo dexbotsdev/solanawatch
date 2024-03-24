@@ -100,10 +100,8 @@ export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, p
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
 <b>💳 Pre-Marketing</b> 
-${preMarketingList(preMarketing)}
-
-<b>💳 BASICS</b>
-
+${preMarketingList(preMarketing)} 
+<b>💳 BASICS</b> 
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
 🎰 Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
 
