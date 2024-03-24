@@ -41,12 +41,12 @@ export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMa
           tokenAddress: commandDetail.tokenAddress 
         }
       })
-
+      let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':''; 
       
     return `
     <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
-<b>💳 Pre-Marketing</b> 
+${showpm}
 ${preMarketingList(preMarketing)}  
  <b>💳 BASICS</b> 
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
@@ -95,11 +95,11 @@ export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, p
           tokenAddress: commandDetail.tokenAddress 
         }
       })
-
+      let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':'';
     return `
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
 
-<b>💳 Pre-Marketing</b> 
+${showpm}
 ${preMarketingList(preMarketing)} 
 <b>💳 BASICS</b> 
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
