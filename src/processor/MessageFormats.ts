@@ -45,7 +45,6 @@ export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMa
       
     return `
     <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
-${showpm}
 ${preMarketingList(preMarketing)}  
  <b>💳 BASICS</b> 
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
@@ -54,8 +53,10 @@ ${preMarketingList(preMarketing)}
 💳<b> KOLS PUSH | Mcap | ROI </b>
 ${kohlList(kohlsStats)} 
 
-📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a> 
+📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
+
 <code>${commandDetail.tokenAddress}</code>   
+
 🎯<b>Ad-Buy</b> auto ads
 `;
 }
@@ -63,6 +64,9 @@ ${kohlList(kohlsStats)}
 const preMarketingList = (premarketData) => {
     let ret = '';
     let i=1;
+    ret = premarketData.length>0?`<b>💳 Pre-Marketing</b>
+    `:''; 
+
     premarketData.forEach((item, index) => {
         if(item.callerPostId) 
         ret += `<a href="https://t.me/${item.channelName}/${item.callerPostId}">${i++}. ${item.channelName}</a>
@@ -95,7 +99,6 @@ export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, p
       let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':'';
     return `
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
-${showpm}
 ${preMarketingList(preMarketing)} 
 <b>💳 BASICS</b> 
 🌀 DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
@@ -105,7 +108,9 @@ ${preMarketingList(preMarketing)}
 ${kohlList(kohlsStats)} 
 
 📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
+
 <code>${commandDetail.tokenAddress}</code>  
+
 🎯<b>Ad</b> buy auto ads
 `;
 }
