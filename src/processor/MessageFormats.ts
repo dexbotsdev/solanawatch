@@ -45,7 +45,6 @@ export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMa
       
     return `
     <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
-
 ${showpm}
 ${preMarketingList(preMarketing)}  
  <b>💳 BASICS</b> 
@@ -98,7 +97,6 @@ export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, p
       let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':'';
     return `
 <b>💳 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
-
 ${showpm}
 ${preMarketingList(preMarketing)} 
 <b>💳 BASICS</b> 
