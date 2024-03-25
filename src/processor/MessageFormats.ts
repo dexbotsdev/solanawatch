@@ -3,22 +3,7 @@ import moment from "moment";
 
 let formatter = Intl.NumberFormat('en', { notation: 'compact' });
 
-const postLaunchCalls = (commandDetail: any) => {
-
-    const result = `
-<a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">1. ${commandDetail.channelName} | ${formatNumber(commandDetail.tokenMC)} | ${Number(commandDetail.priceChange24 / 100).toFixed(0)}X</a>`
-
-    return result;
-}
-
-const premarketData = (commandDetail: any) => {
-
-    const result = `
-<b>💳 Pre-Marketing</b>
-<a href="https://t.me/${commandDetail.channelName}/${commandDetail.callerPostId}">1. ${commandDetail.channelName}</a>`
-
-    return result;
-}
+ 
 function formatNumber(num: number) {
     if (num >= 1000000) {
         return (num / 1000000).toFixed(3) + ' M';
@@ -65,7 +50,7 @@ const preMarketingList = (premarketData) => {
     let ret = '';
     let i=1;
     ret = premarketData.length>0?`<b>💳 Pre-Marketing</b>
-    `:''; 
+`:''; 
 
     premarketData.forEach((item, index) => {
         if(item.callerPostId) 
