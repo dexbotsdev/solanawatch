@@ -20,6 +20,6 @@ function extractSolanaAddresses(text: string): string {
         return "No Solana addresses found in the text.";
     }
 }
- 
+wss://thrilling-red-diamond.solana-mainnet.quiknode.pro/f724f7e7560b1c680b5b8a8c86e20371bbc4c5db/
 
 processMessage({message:text});

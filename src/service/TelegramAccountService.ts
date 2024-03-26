@@ -51,29 +51,55 @@ class TelegramAccountService {
         try {
             const dialogs = await this.client.getDialogs();
             dialogs.forEach((element: any) => {
-
-
-
                 if (element.entity?.className === 'Channel') {
-                    if (Number(element.dialog.peer?.channelId)
-                        && (this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title))
-                    ) {
-                        this.chatIds.push(Number(element.dialog?.peer?.channelId));
-                        this.channelMaps.push({
-                            name: element?.entity?.username,
-                            title: element?.entity?.title,
-                            id: Number(element.dialog.peer?.channelId),
-                        })
+                    if (Number(element.dialog.peer?.channelId)) {
+
+                        const c1 = this.channels.find((item) => item.telegramChannel == element?.entity?.title)
+                        const c2 = this.channels.find((item) => item.telegramChannel == element?.entity?.username)
+                        console.log('------------------------------------------------------');
+                        console.log(c1,c2);
+
+                        if (c2 ) {
+                            this.chatIds.push(Number(element.dialog?.peer?.channelId));
+                            this.channelMaps.push({
+                                name: element?.entity?.username,
+                                title: element?.entity?.title,
+                                id: Number(element.dialog.peer?.channelId),
+                                userId: c2.userId
+                        }) 
+                        } else if (c1 ) {
+                            this.channelMaps.push({
+                                name: element?.entity?.username,
+                                title: element?.entity?.title,
+                                id: Number(element.dialog.peer?.channelId),
+                                userId: c1.userId
+                        })  
+                        }
+                         
                     }
-                } else if (element.entity?.className === 'Chat' && (this.channels.includes(element?.entity?.username) || this.channels.includes(element?.entity?.title)
-                )
-                ) {
+                } else if (element.entity?.className === 'Chat') {
                     this.chatIds.push(Number(element.entity?.id));
-                    this.channelMaps.push({
-                        name: element?.entity?.title,
-                        title: element?.entity?.title,
-                        id: Number(element.entity?.id),
-                    })
+                    const c1 = this.channels.find((item) => item.telegramChannel == element?.entity?.title)
+                        const c2 = this.channels.find((item) => item.telegramChannel == element?.entity?.username)
+                        console.log('------------------------------------------------------');
+                        console.log(c1,c2);
+
+                        if (c2) {
+                            this.chatIds.push(Number(element.dialog?.peer?.channelId));
+                            this.channelMaps.push({
+                                name: element?.entity?.username,
+                                title: element?.entity?.title,
+                                id: Number(element.dialog.peer?.channelId),
+                                userId: c2.userId
+                        }) 
+                        } else if (c1) {
+                            this.channelMaps.push({
+                                name: element?.entity?.username,
+                                title: element?.entity?.title,
+                                id: Number(element.dialog.peer?.channelId),
+                                userId: c1.userId
+                        })  
+                        }
 
 
                 }
@@ -103,6 +129,7 @@ class TelegramAccountService {
                         channelId: Number(element.id),
                         channelName: element?.name,
                         channelTitle: element?.title,
+                        userId:element.userId,
                         enabled: true,
                     }
 
@@ -115,7 +142,7 @@ class TelegramAccountService {
 
 
         } catch (error) {
-            //console.log(error)
+             console.log(error)
             throw new Error(`Group not found.`);
 
         } finally {
@@ -156,26 +183,27 @@ class TelegramAccountService {
         this.client.addEventHandler(async (event: any) => {
             if (event?.message) {
                 // 
-                ////console.log(this.chatIds); 
 
                 const chatId = event.message?.peerId?.channelId ? event.message?.peerId?.channelId : event.message?.peerId?.chatId;
 
                 if (this.chatIds.includes(Number(chatId))) {
 
-                    //console.log('------------------------------------------------------');
                     //console.log(' Message from ' + this.channelMaps.find((item) => item.id === Number(chatId)).title);
+
                     let data = await processMessage(event.message);
                     let tradeSignal: any = {};
                     ////console.log(data);
-                    //console.log('------------------------------------------------------');
 
 
                     if (data && data.tokenAddress) {
+                        console.log('------------------------------------------------------');
+                        console.log(JSON.stringify(event, null, 2));
 
                         tradeSignal = {
                             callerPostId: event.message.id,
                             callerTG: this.channelMaps.find((item) => item.id === Number(chatId)).title,
                             channelName: this.channelMaps.find((item) => item.id === Number(chatId)).name,
+                            userId: this.channelMaps.find((item) => item.id === Number(chatId)).userId,
                             isAlpha: this.channelMaps.find((item) => item.id === Number(chatId)).isAlpha,
                             callTime: Date.now(),
                             tokenAddress: data.tokenAddress,
@@ -213,10 +241,10 @@ class TelegramAccountService {
         const maxRoi = await getMaxRoi(tokenAddress, tradingSignal);
         const preMarketing = await getPremarketingCalls(tokenAddress)
         logger.error('NEW MESSAGE SENDING NOW ')
-        console.log(tradingSignal);
-        console.log(preMarketing);
-        console.log(kohlsStats);
-        console.log(maxRoi);
+        // console.log(tradingSignal);
+        // console.log(preMarketing);
+        // console.log(kohlsStats);
+        // console.log(maxRoi);
 
         let message = await NewMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);
         const resultLog = await this.client.sendMessage(botlinkedchannel, { message: message, parseMode: 'html', linkPreview: false });
@@ -239,7 +267,7 @@ class TelegramAccountService {
 
         const maxRoi = await getMaxRoi(tokenAddress, tradingSignal);
         const preMarketing = await getPremarketingCalls(tokenAddress)
-        const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal); 
+        const kohlsStats = await getKohlsStats(tokenAddress, tradingSignal);
 
 
         let message = await UpdatedMessageFormat(tradingSignal, maxRoi, preMarketing, kohlsStats);

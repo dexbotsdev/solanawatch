@@ -34,7 +34,8 @@ async function start() {
         const oldSignal = await ChannelLogs.findOne({
           where: {
             tokenAddress: tradeSignal.tokenAddress,
-            channelName: tradeSignal.channelName, 
+            channelName: tradeSignal.channelName,  
+            userId: tradeSignal.userId, 
           }
         })
         const loggedSignal = await UpdateLogs.findOne({

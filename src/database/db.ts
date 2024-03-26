@@ -3,7 +3,7 @@ import { Sequelize, DataTypes, Model } from 'sequelize';
 export const sequelize = new Sequelize({
   dialect: 'sqlite',
   storage: './data/database.sqlite',
-  logging: true,
+  logging: false,
   pool: {
     max: 100,
     min: 5,
@@ -119,6 +119,10 @@ TokenCalls.init({
       type: DataTypes.STRING,
       allowNull: true,
     },
+    userId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
     callTime: {
       type: DataTypes.DATE,
       allowNull: false,
@@ -158,6 +162,10 @@ Channels.init({
   channelName: {
     type: DataTypes.STRING,
     allowNull: true
+  },
+  userId: {
+    type: DataTypes.STRING,
+    allowNull: true,
   },
   channelTitle: {
     type: DataTypes.STRING,

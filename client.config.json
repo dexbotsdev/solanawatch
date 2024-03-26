@@ -3,291 +3,1134 @@
   "telegram_api_hash": "234cdd3f30e0b5f7d5052209e3c10b31",
   "dataStoragePath": "./data/account",
   "followChannels": [
-    "TBGgambLes",
-    "moonshotcap",
-    "Insider_ECA",
-    "apecalls2023",
-    "eslamcrypto",
-    "joyboykingETH",
-    "PokeCallsCrypto",
-    "seizememe",
-    "shutupandprint",
-    "RIOGemsCalls",
-    "eyecrosschain",
-    "GabbensCalls",
-    "HouseAtreidesTG",
-    "Bullish_Signalz",
-    "mad_apes_gambles",
-    "TonGemsHunter",
-    "TonChainGems",
-    "SOL_AVAXChainCalls",
-    "EZMoneyCalls",
-    "dr_crypto_xs",
-    "mooneagle_call",
-    "MadeInChinaCalls",
-    "GEMsLikesATHs",
-    "ralverogems",
-    "Zorrogems",
-    "jakefam",
-    "multichain_madness",
-    "michacalls",
-    "Archerrgambles",
-    "PapasCall",
-    "spacemandifferentchaincallz",
-    "ExitLiquidity0x",
-    "nowisdeep",
-    "avrugs",
-    "PEPEgambleETH",
-    "ottergamble",
-    "guzzgems",
-    "SolanaHunter_Channel",
-    "cryptodegen_1000x",
-    "Crizalcallsx100",
-    "crypto_worker_call",
-    "doctoregems",
-    "degensgems",
-    "LionCALL",
-    "DoxxedChannel",
-    "CarnagecallzzGambles",
-    "DegenSeals",
-    "CharlesCalls",
-    "ryoshigamble",
-    "gubbinscalls",
-    "Maestrosdegen",
-    "cryptoprophetcalls",
-    "HellsingGamble",
-    "CryptachCalls",
-    "ProwerCalls",
-    "wechatcalls",
-    "solbangers",
-    "maxxplays",
-    "tylercallssol",
-    "SOLsonsol",
-    "zeroto1000sol",
-    "regaltosdefi",
-    "rugursol",
-    "teslasolgroup",
-    "solsmoon",
-    "solanastarsol",
-    "solsaver",
-    "solmemeeca",
-    "dexup00",
-    "ElonMuskCallz",
-    "ThatGuysGems",
-    "NdranghetaETHGems",
-    "bagcalls",
-    "BrodyCalls",
-    "CryptVillaCalls",
-    "Cryptic_Maestro",
-    "AlphaArbitrageCalls",
-    "luigiscalls",
-    "DaydreamersCryptoHub",
-    "HeliosGem",
-    "KnightCall",
-    "SapphireCalls",
-    "MhotCallsErc",
-    "degenalphacall",
-    "CharlesGamble",
-    "spidersjournal",
-    "LionJUNGLE",
-    "EthGambles",
-    "nomsgems",
-    "MadarasGambles",
-    "sugarydick",
-    "PhillipsCalls",
-    "MaybachCalls",
-    "batman_gem",
-    "Joe420Calls",
-    "Chadleycalls",
-    "KobesCalls",
-    "bunnycalls",
-    "peppercalls",
-    "archercallz",
-    "SIGcalls",
-    "PowsGemCalls",
-    "brookcalls",
-    "DogenManREAL",
-    "PEYOSDEGENHUB",
-    "wechatcalls",
-    "ChinapumpWXC",
-    "CryptoCartelCalls",
-    "doctoregems",
-    "Insider_ECA",
-    "AchillesGambles",
-    "TheIllestShills",
-    "Axe_calls",
-    "apecalls2023",
-    "ryoshigamble",
-    "Crizalcallsx100",
-    "prince_vegeta_call",
-    "NiksGambles",
-    "AnimeGems",
-    "BallCalls",
-    "crypt0coc0",
-    "SHYROSHIGAMBLES",
-    "BasedLaunches",
-    "LuffyChanCalls",
-    "EsPlays",
-    "shrimpycall",
-    "cryptomobscall",
-    "DoxxedGuy",
-    "Dr_Crypto_Chemist_Plays",
-    "CriptoGemas_Anuncios",
-    "JFRJ0x1",
-    "ZG136",
-    "XeroDarkCalls",
-    "sugarydick",
-    "MaybachCalls",
-    "joyboykingETH",
-    "PapasCall",
-    "CharlesCalls",
-    "degensgems",
-    "wechatcalls",
-    "spacemandifferentchaincallz",
-    "mad_apes_call",
-    "GodsCryptoReviews",
-    "GabbensCalls",
-    "cryptoprophetcalls",
-    "gogetacalls",
-    "ArcaneGems",
-    "Nicashootscall",
-    "CarnagecallzzGambles",
-    "Luffysgemcalls",
-    "Doraemon_Call",
-    "RobotGems",
-    "yooshicalls",
-    "Madaras_Alpha_Calls",
-    "testingsoltesting",
-    "JadenDegens",
-    "GDragonCalls",
-    "Lordcall",
-    "DegenSeals",
-    "Shuiyizuanshishou",
-    "Savascalls",
-    "Egocall",
-    "Perfect_callz",
-    "Aeshitcoinchannel",
-    "Mad_apes_gambles",
-    "UnicornCryptoX1000",
-    "CsDucks_MoveCall",
-    "Vip_leaks_public",
-    "Bullrun_titans_calls",
-    "FullofEth",
-    "GEMSCALLS_6868",
-    "Knightgamble",
-    "KnightCall",
-    "Duffyscalls",
-    "Whalevomitcalls",
-    "KhronosXCall",
-    "GEMCALLS_BSC_ERC",
-    "Kweensjournal",
-    "Michacalls",
-    "Baymaxcallsx",
-    "BBLaylaGAMBLE",
-    "Ethgemplay",
-    "CRYPTOSWEATSHOP",
-    "SamWifHatSol",
-    "Pugwifhatsol",
-    "Makemefomo",
-    "Tinder_Portal",
-    "RuneCaller",
-    "Spacemandifferentchaincallz",
-    "BitApesCalls",
-    "Blindercalls",
-    "Astrogemcalls",
-    "Smartmaxidegens",
-    "AlphaArtemissCall",
-    "DCACalls",
-    "AsianWhalesEthx",
-    "TidenEth",
-    "AlphaCallzz",
-    "Early_calls",
-    "Money_MakerMM",
-    "Peterplaydegen",
-    "LuffyChanGambles",
-    "Gemarcheologist",
-    "BOXCALLSS",
-    "Dextradegems",
-    "TrafalgarLawCalls",
-    "Ecasniper",
-    "YegiCALLs",
-    "Buteringems",
-    "CryptoPioneersHub",
-    "VitaIikCalls",
-    "GodOfEthereum1",
-    "Crewfirearmy",
-    "ShitCoinGemsCall",
-    "MadarasGambles",
-    "Bat_gamble",
-    "PhillipsCalls",
-    "Ryoshigamble",
-    "Mrcrypt100xcalls",
-    "FOMOApes",
-    "EasyIncomeHere",
-    "FunCouponsIO",
-    "Shibgems1000xcall",
-    "PossumsSpicybits",
-    "GintokiCalls",
-    "BD2Sol",
-    "AchichuOfficial",
-    "WhiskerzSol",
-    "BookOfSolanaMemes",
-    "Shredndogsol",
-    "CowPeSOL",
-    "NSFWAiBotChannel",
-    "TrogeSOL",
-    "DeadPepeSOL",
-    "GroyperGroup",
-    "Moodyalphaapes",
-    "GigaSignals",
-    "Metacaller",
-    "CryptoLaunchhunter",
-    "Kratosgemx100",
-    "Doctoregems",
-    "POSEIDON_DEGEN_CALLS",
-    "WideputinETH",
-    "Solmixer_cash",
-    "Shibaments",
-    "Chungsol",
-    "Catwifdonut",
-    "Ciphernakamotosol",
-    "Homefordegens",
-    "Piggiescall",
-    "CobraGems",
-    "Pipscalldegens",
-    "CryptoGemsKing",
-    "Thorshammergems",
-    "Monymachineprinter",
-    "Blackjesusol",
-    "KunCallX",
-    "BlockChainBrotherCalls",
-    "BronkInuSol",
-    "WIFBOXPORTAL",
-    "DogWifBandanaSOL",
-    "PengOnBase",
-    "Regaltosdefi",
-    "NatsuCryptoGems",
-    "TheSolitairePrestige",
-    "Houseofdegeneracy",
-    "DaydreamersCryptoHub",
-    "Curlycurrycalls",
-    "ForktIsPrintsAlpha",
-    "CrabsinBottle",
-    "DONDA_k",
-    "ArabCalls",
-    "Zombiecalls1",
-    "CapriCalls",
-    "Hazelaboratory",
-    "CryptoBossGem",
-    "ZG136",
-    "PrintwithSprotoAlphacalls",
-    "Moneymakers",
-    "Comet_calls",
-    "PokeChaosDegenPlateau",
-    "Aym",
-    "callerTG",
-    "soltrendingl",
-    "cryptogems555"
+    {
+      "telegramChannel": "moonshotcap",
+      "userId": "@moonshotcapceo"
+    },
+    {
+      "telegramChannel": "Insider_ECA",
+      "userId": "@Bobby_ECA"
+    },
+    {
+      "telegramChannel": "apecalls2023",
+      "userId": "@cryptospace2021"
+    },
+    {
+      "telegramChannel": "eslamcrypto",
+      "userId": "@eslam0123"
+    },
+    {
+      "telegramChannel": "joyboykingETH",
+      "userId": "@dnccuong"
+    },
+    {
+      "telegramChannel": "PokeCallsCrypto",
+      "userId": "@POKE_CALLS"
+    },
+    {
+      "telegramChannel": "seizememe",
+      "userId": "@improfessor6969"
+    },
+    {
+      "telegramChannel": "shutupandprint",
+      "userId": "@fiiyaaa26"
+    },
+    {
+      "telegramChannel": "RIOGemsCalls",
+      "userId": "@mrRIOHunter"
+    },
+    {
+      "telegramChannel": "eyecrosschain",
+      "userId": "@eye_eth"
+    },
+    {
+      "telegramChannel": "GabbensCalls",
+      "userId": "@Gabbens"
+    },
+    {
+      "telegramChannel": "HouseAtreidesTG",
+      "userId": "@tiu_xinh"
+    },
+    {
+      "telegramChannel": "Bullish_Signalz",
+      "userId": "@bofdebull"
+    },
+    {
+      "telegramChannel": "mad_apes_gambles",
+      "userId": "@theT1T4N"
+    },
+    {
+      "telegramChannel": "TonGemsHunter",
+      "userId": "@ThomasTonHunter"
+    },
+    {
+      "telegramChannel": "TonChainGems",
+      "userId": "@DashApesowner"
+    },
+    {
+      "telegramChannel": "SOL_AVAXChainCalls",
+      "userId": "@GENESIS_CHAI"
+    },
+    {
+      "telegramChannel": "EZMoneyCalls",
+      "userId": "@EzMoneyCalls"
+    },
+    {
+      "telegramChannel": "dr_crypto_xs",
+      "userId": "@@dr_crypto_calls"
+    },
+    {
+      "telegramChannel": "mooneagle_call",
+      "userId": "@moon_eagle"
+    },
+    {
+      "telegramChannel": "MadeInChinaCalls",
+      "userId": "@TraderChik"
+    },
+    {
+      "telegramChannel": "GEMsLikesATHs",
+      "userId": "@KeyATHsKnow"
+    },
+    {
+      "telegramChannel": "ralverogems",
+      "userId": "@ralvero"
+    },
+    {
+      "telegramChannel": "Zorrogems",
+      "userId": "@Rorronoadefi"
+    },
+    {
+      "telegramChannel": "jakefam",
+      "userId": "@kajakes1"
+    },
+    {
+      "telegramChannel": "multichain_madness",
+      "userId": "@Dave998877"
+    },
+    {
+      "telegramChannel": "michacalls",
+      "userId": "@micha211983"
+    },
+    {
+      "telegramChannel": "Archerrgambles",
+      "userId": "@archercallz"
+    },
+    {
+      "telegramChannel": "PapasCall",
+      "userId": "@miawasakiz"
+    },
+    {
+      "telegramChannel": "spacemandifferentchaincallz",
+      "userId": "@amsterrdam92"
+    },
+    {
+      "telegramChannel": "ExitLiquidity0x",
+      "userId": "@i_AM_PEPE"
+    },
+    {
+      "telegramChannel": "nowisdeep",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "avrugs",
+      "userId": "@Binzvn6"
+    },
+    {
+      "telegramChannel": "PEPEgambleETH",
+      "userId": "@Rhino_Pepe_233"
+    },
+    {
+      "telegramChannel": "ottergamble",
+      "userId": "@Otter_eth_7997"
+    },
+    {
+      "telegramChannel": "guzzgems",
+      "userId": "@Guzzt"
+    },
+    {
+      "telegramChannel": "SolanaHunter_Channel",
+      "userId": "@kenkenedy"
+    },
+    {
+      "telegramChannel": "cryptodegen_1000x",
+      "userId": "@Crypto_Degen_1000x"
+    },
+    {
+      "telegramChannel": "Crizalcallsx100",
+      "userId": "@Crizalcalls"
+    },
+    {
+      "telegramChannel": "crypto_worker_call",
+      "userId": "@NT_service999"
+    },
+    {
+      "telegramChannel": "doctoregems",
+      "userId": "@EduardoTradingList"
+    },
+    {
+      "telegramChannel": "degensgems",
+      "userId": "@thedonshiller"
+    },
+    {
+      "telegramChannel": "LionCALL",
+      "userId": "@LionJUNGLE"
+    },
+    {
+      "telegramChannel": "DoxxedChannel",
+      "userId": "@DoxxedGamble"
+    },
+    {
+      "telegramChannel": "CarnagecallzzGambles",
+      "userId": "@Exp1c1tDev"
+    },
+    {
+      "telegramChannel": "DegenSeals",
+      "userId": "DegenSeals"
+    },
+    {
+      "telegramChannel": "CharlesCalls",
+      "userId": "@CHARLES289"
+    },
+    {
+      "telegramChannel": "ryoshigamble",
+      "userId": "@ryoshikushama"
+    },
+    {
+      "telegramChannel": "gubbinscalls",
+      "userId": "@DannyLovespizza"
+    },
+    {
+      "telegramChannel": "Maestrosdegen",
+      "userId": "@CrypticMaestro"
+    },
+    {
+      "telegramChannel": "cryptoprophetcalls",
+      "userId": "@cryptoprophetone"
+    },
+    {
+      "telegramChannel": "HellsingGamble",
+      "userId": "@Avengers147"
+    },
+    {
+      "telegramChannel": "CryptachCalls",
+      "userId": "@TokenX100"
+    },
+    {
+      "telegramChannel": "ProwerCalls",
+      "userId": "@TokenX100"
+    },
+    {
+      "telegramChannel": "wechatcalls",
+      "userId": "@Spideyman911"
+    },
+    {
+      "telegramChannel": "solbangers",
+      "userId": "@ashleeebba"
+    },
+    {
+      "telegramChannel": "maxxplays",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "tylercallssol",
+      "userId": "@tyler_durden0078"
+    },
+    {
+      "telegramChannel": "SOLsonsol",
+      "userId": "@tdevunhinged"
+    },
+    {
+      "telegramChannel": "zeroto1000sol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "regaltosdefi",
+      "userId": "@septterc"
+    },
+    {
+      "telegramChannel": "rugursol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "teslasolgroup",
+      "userId": "@soltesla"
+    },
+    {
+      "telegramChannel": "solsmoon",
+      "userId": "solsmoon"
+    },
+    {
+      "telegramChannel": "solanastarsol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "solsaver",
+      "userId": "@maxdcml"
+    },
+    {
+      "telegramChannel": "solmemeeca",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "dexup00",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "ElonMuskCallz",
+      "userId": "@Elonnnmusk1"
+    },
+    {
+      "telegramChannel": "ThatGuysGems",
+      "userId": "ThatGuysGems"
+    },
+    {
+      "telegramChannel": "NdranghetaETHGems",
+      "userId": "@CryptoApelord10"
+    },
+    {
+      "telegramChannel": "bagcalls",
+      "userId": "@Bagscall"
+    },
+    {
+      "telegramChannel": "BrodyCalls",
+      "userId": "@BrodyCallsAdmin"
+    },
+    {
+      "telegramChannel": "CryptVillaCalls",
+      "userId": "CryptVillaCalls"
+    },
+    {
+      "telegramChannel": "Cryptic_Maestro",
+      "userId": "@CrypticMaestro"
+    },
+    {
+      "telegramChannel": "AlphaArbitrageCalls",
+      "userId": "@Avengers147"
+    },
+    {
+      "telegramChannel": "luigiscalls",
+      "userId": "@yormanv1"
+    },
+    {
+      "telegramChannel": "DaydreamersCryptoHub",
+      "userId": "@artxdream"
+    },
+    {
+      "telegramChannel": "HeliosGem",
+      "userId": "@Ethhelios"
+    },
+    {
+      "telegramChannel": "KnightCall",
+      "userId": "@Ezkriptoknight"
+    },
+    {
+      "telegramChannel": "SapphireCalls",
+      "userId": "@SapphireERC"
+    },
+    {
+      "telegramChannel": "MhotCallsErc",
+      "userId": "@PhantomDegen"
+    },
+    {
+      "telegramChannel": "degenalphacall",
+      "userId": "@kingmeanz"
+    },
+    {
+      "telegramChannel": "CharlesGamble",
+      "userId": "@CHARLES289"
+    },
+    {
+      "telegramChannel": "spidersjournal",
+      "userId": "@spidercrypto0x"
+    },
+    {
+      "telegramChannel": "LionJUNGLE",
+      "userId": "@LionCALLsSimba"
+    },
+    {
+      "telegramChannel": "EthGambles",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "nomsgems",
+      "userId": "@nommy44"
+    },
+    {
+      "telegramChannel": "MadarasGambles",
+      "userId": "@TheAlphaMadara"
+    },
+    {
+      "telegramChannel": "sugarydick",
+      "userId": "@Suganarium"
+    },
+    {
+      "telegramChannel": "PhillipsCalls",
+      "userId": "@Phillipk0"
+    },
+    {
+      "telegramChannel": "MaybachCalls",
+      "userId": "@MaybachCallsOwner"
+    },
+    {
+      "telegramChannel": "batman_gem",
+      "userId": "@Mr_Bat3"
+    },
+    {
+      "telegramChannel": "Joe420Calls",
+      "userId": "@joegrower420"
+    },
+    {
+      "telegramChannel": "Chadleycalls",
+      "userId": "@Chad019"
+    },
+    {
+      "telegramChannel": "KobesCalls",
+      "userId": "@NickMoonshotz"
+    },
+    {
+      "telegramChannel": "bunnycalls",
+      "userId": "@bunnyowner"
+    },
+    {
+      "telegramChannel": "peppercalls",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "archercallz",
+      "userId": "@Archherrr"
+    },
+    {
+      "telegramChannel": "SIGcalls",
+      "userId": "@roLdwin"
+    },
+    {
+      "telegramChannel": "PowsGemCalls",
+      "userId": "@PowsGemCallsBot"
+    },
+    {
+      "telegramChannel": "brookcalls",
+      "userId": "@Brook_O1"
+    },
+    {
+      "telegramChannel": "DogenManREAL",
+      "userId": "@DogenGCB"
+    },
+    {
+      "telegramChannel": "PEYOSDEGENHUB",
+      "userId": "@ICC_ANNOUNCEMENT"
+    },
+    {
+      "telegramChannel": "wechatcalls",
+      "userId": "@cryptowangzi"
+    },
+    {
+      "telegramChannel": "ChinapumpWXC",
+      "userId": "@sangzao_cn"
+    },
+    {
+      "telegramChannel": "CryptoCartelCalls",
+      "userId": "@ThomasS94"
+    },
+    {
+      "telegramChannel": "doctoregems",
+      "userId": "@EduardoTradingList"
+    },
+    {
+      "telegramChannel": "Insider_ECA",
+      "userId": "@Bobby_ECA"
+    },
+    {
+      "telegramChannel": "AchillesGambles",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "TheIllestShills",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Axe_calls",
+      "userId": "@HelloCrypto123"
+    },
+    {
+      "telegramChannel": "apecalls2023",
+      "userId": "@cryptospace2021"
+    },
+    {
+      "telegramChannel": "ryoshigamble",
+      "userId": "@ryoshikushama"
+    },
+    {
+      "telegramChannel": "Crizalcallsx100",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "prince_vegeta_call",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "NiksGambles",
+      "userId": "@PatrickBaitman"
+    },
+    {
+      "telegramChannel": "AnimeGems",
+      "userId": "@crypt0maniac94"
+    },
+    {
+      "telegramChannel": "BallCalls",
+      "userId": "@Curry_Shot"
+    },
+    {
+      "telegramChannel": "crypt0coc0",
+      "userId": "@smithjcoco"
+    },
+    {
+      "telegramChannel": "SHYROSHIGAMBLES",
+      "userId": "@Shyrosh"
+    },
+    {
+      "telegramChannel": "BasedLaunches",
+      "userId": "@BASED_LAUNCHES"
+    },
+    {
+      "telegramChannel": "LuffyChanCalls",
+      "userId": "LuffyChanCalls"
+    },
+    {
+      "telegramChannel": "EsPlays",
+      "userId": "@xxekxxek"
+    },
+    {
+      "telegramChannel": "shrimpycall",
+      "userId": "@goodshrimp"
+    },
+    {
+      "telegramChannel": "cryptomobscall",
+      "userId": "@Cryptomob_eth"
+    },
+    {
+      "telegramChannel": "DoxxedGuy",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Dr_Crypto_Chemist_Plays",
+      "userId": "@DrCryptoChemistPlays"
+    },
+    {
+      "telegramChannel": "CriptoGemas_Anuncios",
+      "userId": "@angelfcc"
+    },
+    {
+      "telegramChannel": "JFRJ0x1",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "ZG136",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "XeroDarkCalls",
+      "userId": "@XeroDarkCrypto"
+    },
+    {
+      "telegramChannel": "sugarydick",
+      "userId": "@Suganarium"
+    },
+    {
+      "telegramChannel": "MaybachCalls",
+      "userId": "@MaybachCallsOwner"
+    },
+    {
+      "telegramChannel": "joyboykingETH",
+      "userId": "@dnccuong"
+    },
+    {
+      "telegramChannel": "PapasCall",
+      "userId": "@miawasakiz"
+    },
+    {
+      "telegramChannel": "CharlesCalls",
+      "userId": "@CHARLES289"
+    },
+    {
+      "telegramChannel": "degensgems",
+      "userId": "@thedonshiller"
+    },
+    {
+      "telegramChannel": "wechatcalls",
+      "userId": "@cryptowangzi"
+    },
+    {
+      "telegramChannel": "spacemandifferentchaincallz",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "mad_apes_call",
+      "userId": "@theT1T4N"
+    },
+    {
+      "telegramChannel": "GodsCryptoReviews",
+      "userId": "@CRYPTOGODOFFICIAL7"
+    },
+    {
+      "telegramChannel": "GabbensCalls",
+      "userId": "@Gabbens"
+    },
+    {
+      "telegramChannel": "cryptoprophetcalls",
+      "userId": "@cryptoprophetone"
+    },
+    {
+      "telegramChannel": "gogetacalls",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "ArcaneGems",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Nicashootscall",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "CarnagecallzzGambles",
+      "userId": "@Exp1c1tDev"
+    },
+    {
+      "telegramChannel": "Luffysgemcalls",
+      "userId": "@TheLuffygems"
+    },
+    {
+      "telegramChannel": "Doraemon_Call",
+      "userId": "@DDMAOO"
+    },
+    {
+      "telegramChannel": "RobotGems",
+      "userId": "@Robot786"
+    },
+    {
+      "telegramChannel": "yooshicalls",
+      "userId": "@Yoooshl"
+    },
+    {
+      "telegramChannel": "Madaras_Alpha_Calls",
+      "userId": "@TheAlphaMadara"
+    },
+    {
+      "telegramChannel": "testingsoltesting",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "JadenDegens",
+      "userId": "@jadencalls"
+    },
+    {
+      "telegramChannel": "GDragonCalls",
+      "userId": "@Rudyus02"
+    },
+    {
+      "telegramChannel": "Lordcall",
+      "userId": "@FKTG6"
+    },
+    {
+      "telegramChannel": "DegenSeals",
+      "userId": "@Wakame8"
+    },
+    {
+      "telegramChannel": "Shuiyizuanshishou",
+      "userId": "@Crypto_Shuiyi"
+    },
+    {
+      "telegramChannel": "Savascalls",
+      "userId": "@Savas7777"
+    },
+    {
+      "telegramChannel": "Egocall",
+      "userId": "@savascalls"
+    },
+    {
+      "telegramChannel": "Perfect_callz",
+      "userId": "@AlphaPerfectCalls"
+    },
+    {
+      "telegramChannel": "Aeshitcoinchannel",
+      "userId": "@AECat1102"
+    },
+    {
+      "telegramChannel": "Mad_apes_gambles",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "UnicornCryptoX1000",
+      "userId": "@AndrewAlpha9999"
+    },
+    {
+      "telegramChannel": "CsDucks_MoveCall",
+      "userId": "@CSDucksECA"
+    },
+    {
+      "telegramChannel": "Vip_leaks_public",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Bullrun_titans_calls",
+      "userId": "@manolis1821"
+    },
+    {
+      "telegramChannel": "FullofEth",
+      "userId": "@StewieEth"
+    },
+    {
+      "telegramChannel": "GEMSCALLS_6868",
+      "userId": "@ChrisHan_ETH_1328"
+    },
+    {
+      "telegramChannel": "Knightgamble",
+      "userId": "@EzKriptoKnight"
+    },
+    {
+      "telegramChannel": "KnightCall",
+      "userId": "@Ezkriptoknight"
+    },
+    {
+      "telegramChannel": "Duffyscalls",
+      "userId": "@zikoyr"
+    },
+    {
+      "telegramChannel": "Whalevomitcalls",
+      "userId": "@Vomit1B"
+    },
+    {
+      "telegramChannel": "KhronosXCall",
+      "userId": "@Luffy_CryptoETH"
+    },
+    {
+      "telegramChannel": "GEMCALLS_BSC_ERC",
+      "userId": "@GEMCALLsMarketing"
+    },
+    {
+      "telegramChannel": "Kweensjournal",
+      "userId": "@XrpKween28"
+    },
+    {
+      "telegramChannel": "Michacalls",
+      "userId": "@micha211983"
+    },
+    {
+      "telegramChannel": "Baymaxcallsx",
+      "userId": "@Jackrc_eth"
+    },
+    {
+      "telegramChannel": "BBLaylaGAMBLE",
+      "userId": "@princessja24"
+    },
+    {
+      "telegramChannel": "Ethgemplay",
+      "userId": "@alfredcrypto"
+    },
+    {
+      "telegramChannel": "CRYPTOSWEATSHOP",
+      "userId": "@Yusvfx"
+    },
+    {
+      "telegramChannel": "SamWifHatSol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Pugwifhatsol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Makemefomo",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Tinder_Portal",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "RuneCaller",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Spacemandifferentchaincallz",
+      "userId": "@amsterrdam92"
+    },
+    {
+      "telegramChannel": "BitApesCalls",
+      "userId": "@ApeBoss"
+    },
+    {
+      "telegramChannel": "Blindercalls",
+      "userId": "@Shelbycallz"
+    },
+    {
+      "telegramChannel": "Astrogemcalls",
+      "userId": "@KryptoAstro"
+    },
+    {
+      "telegramChannel": "Smartmaxidegens",
+      "userId": "@smartmaxii"
+    },
+    {
+      "telegramChannel": "AlphaArtemissCall",
+      "userId": "@Artemiss330"
+    },
+    {
+      "telegramChannel": "DCACalls",
+      "userId": "@Dcaownerrr"
+    },
+    {
+      "telegramChannel": "AsianWhalesEthx",
+      "userId": "@MrWhales24"
+    },
+    {
+      "telegramChannel": "TidenEth",
+      "userId": "@Solanapad_TG"
+    },
+    {
+      "telegramChannel": "AlphaCallzz",
+      "userId": "@Shilling_Queen"
+    },
+    {
+      "telegramChannel": "Early_calls",
+      "userId": "@VIEN2526"
+    },
+    {
+      "telegramChannel": "Money_MakerMM",
+      "userId": "@CaptainMoneyMaker"
+    },
+    {
+      "telegramChannel": "Peterplaydegen",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "LuffyChanGambles",
+      "userId": "@Gotothetop1"
+    },
+    {
+      "telegramChannel": "Gemarcheologist",
+      "userId": "@XenoCrystalys"
+    },
+    {
+      "telegramChannel": "BOXCALLSS",
+      "userId": "@BOXCALLSMKT"
+    },
+    {
+      "telegramChannel": "Dextradegems",
+      "userId": "@ojasbird"
+    },
+    {
+      "telegramChannel": "TrafalgarLawCalls",
+      "userId": "@Lawzxc"
+    },
+    {
+      "telegramChannel": "Ecasniper",
+      "userId": "@urstruley"
+    },
+    {
+      "telegramChannel": "YegiCAL",
+      "userId": "@whale_yegi1"
+    },
+    {
+      "telegramChannel": "Buteringems",
+      "userId": "@Buterin9585"
+    },
+    {
+      "telegramChannel": "CryptoPioneersHub",
+      "userId": "@SlayerCryptoPioneersHub"
+    },
+    {
+      "telegramChannel": "VitaIikCalls",
+      "userId": "@BasedTalik"
+    },
+    {
+      "telegramChannel": "GodOfEthereum1",
+      "userId": "@Xerxes_100"
+    },
+    {
+      "telegramChannel": "Crewfirearmy",
+      "userId": "@bigboy45"
+    },
+    {
+      "telegramChannel": "ShitCoinGemsCall",
+      "userId": "@DavidSHIT07"
+    },
+    {
+      "telegramChannel": "MadarasGambles",
+      "userId": "@TheAlphaMadara"
+    },
+    {
+      "telegramChannel": "Bat_gamble",
+      "userId": "@Batman_gem"
+    },
+    {
+      "telegramChannel": "PhillipsCalls",
+      "userId": "@Phillipk0"
+    },
+    {
+      "telegramChannel": "Ryoshigamble",
+      "userId": "@ryoshikushama"
+    },
+    {
+      "telegramChannel": "Mrcrypt100xcalls",
+      "userId": "@mrcrypt100x"
+    },
+    {
+      "telegramChannel": "FOMOApes",
+      "userId": "@FOMOLounge"
+    },
+    {
+      "telegramChannel": "EasyIncomeHere",
+      "userId": "@GokuETH"
+    },
+    {
+      "telegramChannel": "FunCouponsIO",
+      "userId": "@SathishETH"
+    },
+    {
+      "telegramChannel": "Shibgems1000xcall",
+      "userId": "@shibgems1000x"
+    },
+    {
+      "telegramChannel": "PossumsSpicybits",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "GintokiCalls",
+      "userId": "@SakataGI"
+    },
+    {
+      "telegramChannel": "BD2Sol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "AchichuOfficial",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "WhiskerzSol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "BookOfSolanaMemes",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Shredndogsol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "CowPeSOL",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "NSFWAiBotChannel",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "TrogeSOL",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "DeadPepeSOL",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "GroyperGroup",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Moodyalphaapes",
+      "userId": "@moodyinthemood"
+    },
+    {
+      "telegramChannel": "GigaSignals",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Metacaller",
+      "userId": "@moontoshii"
+    },
+    {
+      "telegramChannel": "CryptoLaunchhunter",
+      "userId": "@Launchhunt"
+    },
+    {
+      "telegramChannel": "Kratosgemx100",
+      "userId": "@DyanTruongKWP"
+    },
+    {
+      "telegramChannel": "Doctoregems",
+      "userId": "@EduardoTradingList"
+    },
+    {
+      "telegramChannel": "POSEIDON_DEGEN_CALLS",
+      "userId": "@Min_MinsETH"
+    },
+    {
+      "telegramChannel": "WideputinETH",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Solmixer_cash",
+      "userId": "@SolMixerBot"
+    },
+    {
+      "telegramChannel": "Shibaments",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Chungsol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Catwifdonut",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Ciphernakamotosol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Homefordegens",
+      "userId": "@dacostern"
+    },
+    {
+      "telegramChannel": "Piggiescall",
+      "userId": "@piggieschads"
+    },
+    {
+      "telegramChannel": "CobraGems",
+      "userId": "@Nataliacalls"
+    },
+    {
+      "telegramChannel": "Pipscalldegens",
+      "userId": "@Pipstune"
+    },
+    {
+      "telegramChannel": "CryptoGemsKing",
+      "userId": "@AlbaKraggg"
+    },
+    {
+      "telegramChannel": "Thorshammergems",
+      "userId": "@kiritoprince"
+    },
+    {
+      "telegramChannel": "Monymachineprinter",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Blackjesusol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "KunCallX",
+      "userId": "@Kun29321"
+    },
+    {
+      "telegramChannel": "BlockChainBrotherCalls",
+      "userId": "@KremlinAragornoshi"
+    },
+    {
+      "telegramChannel": "BronkInuSol",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "WIFBOXPORTAL",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "DogWifBandanaSOL",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "PengOnBase",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Regaltosdefi",
+      "userId": "@septterc"
+    },
+    {
+      "telegramChannel": "NatsuCryptoGems",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "TheSolitairePrestige",
+      "userId": "@Omz19"
+    },
+    {
+      "telegramChannel": "Houseofdegeneracy",
+      "userId": "@icedknife"
+    }, 
+    {
+      "telegramChannel": "Curlycurrycalls",
+      "userId": "@curlycurry"
+    },
+    {
+      "telegramChannel": "ForktIsPrintsAlpha",
+      "userId": "@imFolktisPrints"
+    },
+    {
+      "telegramChannel": "CrabsinBottle",
+      "userId": "@TwoCrabsinABottle"
+    },
+    {
+      "telegramChannel": "DONDA_k",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "ArabCalls",
+      "userId": "@ArabCalls"
+    },
+    {
+      "telegramChannel": "Zombiecalls1",
+      "userId": "@Sahilzombie"
+    },
+    {
+      "telegramChannel": "CapriCalls",
+      "userId": "@Jones_Parker1"
+    },
+    {
+      "telegramChannel": "Hazelaboratory",
+      "userId": "@HAZE89"
+    },
+    {
+      "telegramChannel": "CryptoBossGem",
+      "userId": "@FxForexETH"
+    },
+    {
+      "telegramChannel": "ZG136",
+      "userId": "@tangrenlaodi"
+    },
+    {
+      "telegramChannel": "PrintwithSprotoAlphacalls",
+      "userId": "@Shakitaoo1"
+    },
+    {
+      "telegramChannel": "Moneymakers",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "Comet_calls",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "PokeChaosDegenPlateau",
+      "userId": "@PokeCallsCrypto"
+    },
+    {
+      "telegramChannel": "Aym",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "soltrendingl",
+      "userId": ""
+    },
+    {
+      "telegramChannel": "cryptogems555",
+      "userId": "@cryptoman2030"
+    }
   ],
   "publishChannel": "projectmarketingstats"
 }
