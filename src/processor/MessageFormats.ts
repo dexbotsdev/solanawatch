@@ -30,7 +30,7 @@ export const NewMessageFormat = async (commandDetail: any, maxRoi: string, preMa
       let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':''; 
       
     return `
-    <b>🪙 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
+    <b>🪼 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🧚 ${roi}% </b>
 ${preMarketingList(preMarketing)}  
  DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
  Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
@@ -42,7 +42,7 @@ ${kohlList(kohlsStats)}
 
 <code>${commandDetail.tokenAddress}</code>   
 
-⚡<a href="https://t.me/devinsolana">Promo</a> | ⚡<a href="https://t.me/devinsolana">Ads</a>  |   🪂<a href="https://t.me/devinsolana">Listing</a>
+🎟️ <a href="https://t.me/devinsolana">Promo</a> | 🎟️ <a href="https://t.me/devinsolana">Ads</a>  | 🎤 <a href="https://t.me/devinsolana">Listing</a>
 `;
 }
  
@@ -81,21 +81,20 @@ export const UpdatedMessageFormat = async (commandDetail: any, maxRoi: string, p
           tokenAddress: commandDetail.tokenAddress 
         }
       })
-      let showpm = preMarketing.length>0?'<b>💳 Pre-Marketing</b> ':'';
+       
     return `
-<b>🪙 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🚀${roi}% </b>
+<b>🪼 <a href="https://dexscreener.com/solana/${commandDetail.tokenAddress}">$${commandDetail.tokenSymbol}</a> 🧚 ${roi}% </b>
 ${preMarketingList(preMarketing)} 
  DexScreener Updated : ${oldSignal.dataValues.dexUpdated ? '🟢':'🔴'}
  Sol Trending :  ${oldSignal.dataValues.solTrending ? '🟢':'🔴'}
 
- <b>⚡KOLS PUSH | Mcap | Owner</b>
+ <b>❄️ KOHLS PUSH | Mcap | Owner</b>
  ${kohlList(kohlsStats)} 
-
 📈<b> TRADE</b> -- <a href="https://t.me/SolTradingBot?start=w7XyTrwMT">SolTrading</a>
 
 <code>${commandDetail.tokenAddress}</code>  
 
-⚡<a href="https://t.me/devinsolana">Promo</a> | ⚡<a href="https://t.me/devinsolana">Ads</a>  |   🪂<a href="https://t.me/devinsolana">Listing</a>
+🎟️ <a href="https://t.me/devinsolana">Promo</a> | 🎟️ <a href="https://t.me/devinsolana">Ads</a>  | 🎤 <a href="https://t.me/devinsolana">Listing</a>
 `;
 }
 

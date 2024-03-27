@@ -73,11 +73,11 @@
     },
     {
       "telegramChannel": "EZMoneyCalls",
-      "userId": "@EzMoneyCalls"
+      "userId": "@EzmoneyInquiries"
     },
     {
       "telegramChannel": "dr_crypto_xs",
-      "userId": "@@dr_crypto_calls"
+      "userId": "@dr_crypto_calls"
     },
     {
       "telegramChannel": "mooneagle_call",
@@ -173,11 +173,11 @@
     },
     {
       "telegramChannel": "LionCALL",
-      "userId": "@LionJUNGLE"
+      "userId": "@LionCALLsSimba"
     },
     {
       "telegramChannel": "DoxxedChannel",
-      "userId": "@DoxxedGamble"
+      "userId": "@DoxxedLeo"
     },
     {
       "telegramChannel": "CarnagecallzzGambles",
@@ -185,7 +185,7 @@
     },
     {
       "telegramChannel": "DegenSeals",
-      "userId": "DegenSeals"
+      "userId": "@tqsully"
     },
     {
       "telegramChannel": "CharlesCalls",
@@ -217,7 +217,7 @@
     },
     {
       "telegramChannel": "ProwerCalls",
-      "userId": "@TokenX100"
+      "userId": "@@CryptoPrower"
     },
     {
       "telegramChannel": "wechatcalls",
@@ -229,7 +229,7 @@
     },
     {
       "telegramChannel": "maxxplays",
-      "userId": ""
+      "userId": "@MRDominic9"
     },
     {
       "telegramChannel": "tylercallssol",
@@ -257,7 +257,7 @@
     },
     {
       "telegramChannel": "solsmoon",
-      "userId": "solsmoon"
+      "userId": ""
     },
     {
       "telegramChannel": "solanastarsol",
@@ -265,7 +265,7 @@
     },
     {
       "telegramChannel": "solsaver",
-      "userId": "@maxdcml"
+      "userId": ""
     },
     {
       "telegramChannel": "solmemeeca",
@@ -281,7 +281,7 @@
     },
     {
       "telegramChannel": "ThatGuysGems",
-      "userId": "ThatGuysGems"
+      "userId": "@Thattguy"
     },
     {
       "telegramChannel": "NdranghetaETHGems",
@@ -289,7 +289,7 @@
     },
     {
       "telegramChannel": "bagcalls",
-      "userId": "@Bagscall"
+      "userId": "@Bagscasino"
     },
     {
       "telegramChannel": "BrodyCalls",
@@ -297,11 +297,11 @@
     },
     {
       "telegramChannel": "CryptVillaCalls",
-      "userId": "CryptVillaCalls"
+      "userId": "@cryptodefilord02"
     },
     {
       "telegramChannel": "Cryptic_Maestro",
-      "userId": "@CrypticMaestro"
+      "userId": "@Zizzle"
     },
     {
       "telegramChannel": "AlphaArbitrageCalls",
@@ -325,7 +325,7 @@
     },
     {
       "telegramChannel": "SapphireCalls",
-      "userId": "@SapphireERC"
+      "userId": "@@thedonshiller"
     },
     {
       "telegramChannel": "MhotCallsErc",
@@ -393,7 +393,7 @@
     },
     {
       "telegramChannel": "peppercalls",
-      "userId": ""
+      "userId": "@PepperPetey"
     },
     {
       "telegramChannel": "archercallz",
@@ -493,7 +493,7 @@
     },
     {
       "telegramChannel": "LuffyChanCalls",
-      "userId": "LuffyChanCalls"
+      "userId": "@Gotothetop1"
     },
     {
       "telegramChannel": "EsPlays",
@@ -1132,5 +1132,5 @@
       "userId": "@cryptoman2030"
     }
   ],
-  "publishChannel": "projectmarketingstats"
+  "publishChannel": "happytracking"
 }
